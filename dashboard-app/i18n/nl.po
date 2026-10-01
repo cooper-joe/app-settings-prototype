@@ -1,0 +1,788 @@
+# Translators:
+# Cherise Beek <cherise.beek@gmail.com>, 2021
+# Rica, 2025
+# Enzo Nicolas Rossi <enzo@dhis2.org>, 2025
+# Charel van den Elsen <zobeadzorg@gmail.com>, 2026
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"POT-Creation-Date: 2026-05-07T22:45:54.825Z\n"
+"PO-Revision-Date: 2019-06-25 12:37+0000\n"
+"Last-Translator: Charel van den Elsen <zobeadzorg@gmail.com>, 2026\n"
+"Language-Team: Dutch (https://app.transifex.com/hisp-uio/teams/100509/nl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Untitled dashboard"
+msgstr "Naamloos dashboard"
+
+msgid "Could not get info from Superset gateway endpoint"
+msgstr ""
+
+msgid "Dashboard with ID \"{{dashboardId}}\" not found or not accessible"
+msgstr ""
+
+msgid "Dashboard with ID \"{{dashboardId}}\" is not embedded"
+msgstr ""
+
+msgid "Embedded provider must be \"SUPERSET\" for dashboard ID \"{{dashboardId}}\""
+msgstr ""
+
+msgid "Superset Embed UUID not found for dashboard ID \"{{dashboardId}}\""
+msgstr ""
+
+msgid "Dashboard with ID \"{{dashboardId}}\" not found on the Superset service"
+msgstr ""
+
+msgid ""
+"Could not get guest token from Superset Gateway for dashboard ID "
+"\"{{dashboardId}}\""
+msgstr ""
+
+msgid "Network error"
+msgstr "Netwerkfout"
+
+msgid "Could not load app data"
+msgstr ""
+
+msgid "New dashboard: external"
+msgstr ""
+
+msgid "Could not create dashboard"
+msgstr ""
+
+msgid "An unknown error occurred"
+msgstr ""
+
+msgid "Save dashboard"
+msgstr ""
+
+msgid "Back"
+msgstr "Terug"
+
+msgid "Title"
+msgstr ""
+
+msgid "Code"
+msgstr "Code"
+
+msgid ""
+"A unique code to reference this dashboard in other apps and services. Max 50"
+" characters."
+msgstr ""
+
+msgid "Code can't be longer than 50 characters"
+msgstr "De code mag niet langer zijn dan 50 tekens"
+
+msgid "Description"
+msgstr "Beschrijving"
+
+msgid "Superset Embed ID"
+msgstr ""
+
+msgid "Invalid UUID"
+msgstr ""
+
+msgid "Options"
+msgstr "Opties"
+
+msgid "Show chart controls on dashboard items"
+msgstr ""
+
+msgid "Expand filters"
+msgstr ""
+
+msgid "Delete dashboard"
+msgstr "Dashboard verwijderen"
+
+msgid ""
+"Deleting dashboard \"{{ dashboardName }}\" will remove it for all users. "
+"This action cannot be undone. Are you sure you want to permanently delete "
+"this dashboard?"
+msgstr ""
+"Als u dashboard \"{{ dashboardName }}\" verwijdert, wordt het voor alle "
+"gebruikers verwijderd. Deze actie kan niet ongedaan gemaakt worden. Weet u "
+"zeker dat u dit dashboard definitief wilt verwijderen?"
+
+msgid ""
+"Note: the source dashboard embedded by this external dashboard will not be "
+"deleted."
+msgstr ""
+
+msgid "Delete"
+msgstr "Verwijderen"
+
+msgid "Cancel"
+msgstr "Annuleer"
+
+msgid "Edit external dashboard"
+msgstr ""
+
+msgid "New dashboard: choose type"
+msgstr ""
+
+msgid "Internal"
+msgstr ""
+
+msgid "Show data and visualizations from this DHIS2 instance."
+msgstr ""
+
+msgid "External"
+msgstr ""
+
+msgid "Embed a Superset dashboard"
+msgstr ""
+
+msgid "Continue"
+msgstr "Doorgaan"
+
+msgid "Not available for embedded dashboards"
+msgstr ""
+
+msgid "The dashboard couldn't be made available offline. Try again."
+msgstr ""
+"Het dashboard kon niet offline beschikbaar worden gemaakt. Probeer het nog "
+"eens."
+
+msgid "Remove from offline storage"
+msgstr "Verwijderen uit offline opslag"
+
+msgid "Make available offline"
+msgstr "Offline beschikbaar maken"
+
+msgid "Sync offline data now"
+msgstr "Synchroniseer nu offline gegevens"
+
+msgid "Unstar dashboard"
+msgstr "Dashboard ongedaan maken"
+
+msgid "Star dashboard"
+msgstr "Sterrendashboard"
+
+msgid "Hide description"
+msgstr "Beschrijving verbergen"
+
+msgid "Show description"
+msgstr "Laat beschrijving zien"
+
+msgid "Print"
+msgstr "Afdrukken"
+
+msgid "Dashboard layout"
+msgstr "Dashboard-indeling"
+
+msgid "One item per page"
+msgstr "Eén item per pagina"
+
+msgid "Close dashboard"
+msgstr "Dashboard sluiten"
+
+msgid "No dashboard items to show in slideshow"
+msgstr ""
+
+msgid "Not available offline"
+msgstr "Niet beschikbaar offline"
+
+msgid "Edit"
+msgstr "Bewerk"
+
+msgid "Share"
+msgstr "Deel"
+
+msgid "Slideshow"
+msgstr ""
+
+msgid "Clear dashboard filters?"
+msgstr "Dashboardfilters wissen?"
+
+msgid ""
+"A dashboard's filters can’t be saved offline. Do you want to remove the "
+"filters and make this dashboard available offline?"
+msgstr ""
+"De filters van een dashboard kunnen niet offline worden opgeslagen. Wil je "
+"de filters verwijderen en dit dashboard offline beschikbaar maken?"
+
+msgid "No, cancel"
+msgstr "Nee, annuleer"
+
+msgid "Yes, clear filters and sync"
+msgstr "Ja, filters wissen en synchroniseren"
+
+msgid "This dashboard is showing data from outside this system"
+msgstr ""
+
+msgid "External source"
+msgstr ""
+
+msgid "Confirm"
+msgstr "Bevestigen"
+
+msgid "Filter"
+msgstr "Filter"
+
+msgid "Failed to unstar the dashboard"
+msgstr "Kan het dashboard niet ongedaan maken"
+
+msgid "Failed to star the dashboard"
+msgstr "Sterren geven aan het dashboard mislukt"
+
+msgid "Offline data last updated {{timeAgo}}"
+msgstr "Offline gegevens voor het laatst bijgewerkt {{timeAgo}}"
+
+msgid "Synced {{timeAgo}}"
+msgstr ""
+
+msgid "Cannot unstar this dashboard while offline"
+msgstr ""
+"Kan de ster van dit dashboard niet ongedaan maken terwijl het offline is"
+
+msgid "Cannot star this dashboard while offline"
+msgstr "Kan geen ster geven aan dit dashboard terwijl het offline is"
+
+msgid "No dashboards available."
+msgstr ""
+
+msgid "Create a new dashboard using the + button."
+msgstr ""
+
+msgid "Search for a dashboard"
+msgstr "Zoek een dashboard"
+
+msgid "No dashboards found for \"{{- filterText}}\""
+msgstr ""
+
+msgid "Dashboards"
+msgstr ""
+
+msgid "There was a problem loading this dashboard item"
+msgstr "Er is een probleem opgetreden bij het laden van dit dashboarditem"
+
+msgid "Open menu"
+msgstr ""
+
+msgid "Open in {{appName}}"
+msgstr ""
+
+msgid "View fullscreen"
+msgstr "Bekijk volledig scherm"
+
+msgid "Remove this item"
+msgstr "Verwijder dit item"
+
+msgid "This item has been shortened to fit on one page"
+msgstr "Dit item is ingekort om op één pagina te passen"
+
+msgid "The plugin needed to display this item is not available"
+msgstr ""
+
+msgid "Install the {{pluginName}} plugin from the App Hub"
+msgstr ""
+
+msgid "There was an error loading data for this item"
+msgstr "Er is een fout opgetreden bij het laden van gegevens voor dit item"
+
+msgid "Open this item in {{appName}}"
+msgstr "Open dit item in {{appName}}"
+
+msgid "Remove"
+msgstr "Verwijderen"
+
+msgid "Messages"
+msgstr "Berichten"
+
+msgid "See all messages"
+msgstr "Bekijk alle berichten"
+
+msgid "Item type \"{{type}}\" is not supported"
+msgstr "Itemtype \"{{type}}\" wordt niet ondersteund"
+
+msgid "The item type is missing"
+msgstr "Het artikeltype ontbreekt"
+
+msgid "Filters applied"
+msgstr "Filters toegepast"
+
+msgid "Spacer"
+msgstr "Afstandshouder"
+
+msgid ""
+"Use a spacer to create empty vertical space between other dashboard items."
+msgstr ""
+"Gebruik een afstandshouder om lege verticale ruimte tussen andere "
+"dashboarditems te creëren."
+
+msgid "Text box"
+msgstr "Tekstvak"
+
+msgid "Add text here"
+msgstr "Voeg hier tekst toe"
+
+msgid "Filters are not applied to line list dashboard items"
+msgstr "Filters worden niet toegepast op dashboarditems van de regellijst"
+
+msgid "Filters not applied"
+msgstr "Filters niet toegepast"
+
+msgid "Only Period and Organisation unit filters can be applied to this item"
+msgstr ""
+"Alleen filters voor Periodes en Organisatie-eenheden kunnen tot dit artikel "
+"toegepast worden"
+
+msgid "Some filters not applied"
+msgstr "Sommige filters niet toegepast"
+
+msgid "Hide details and interpretations"
+msgstr "Details en interpretaties verbergen"
+
+msgid "Show details and interpretations"
+msgstr "Toon details en interpretaties"
+
+msgid "Open in {{appName}} app"
+msgstr "Openen in {{appName}}-app"
+
+msgid "This map can't be displayed as a chart"
+msgstr "Deze kaart kan niet als grafiek worden weergegeven"
+
+msgid "This map can't be displayed as a pivot table"
+msgstr "Deze kaart kan niet weergegeven worden als draaitabel"
+
+msgid "This visualization can't be displayed as a pivot table"
+msgstr "Deze visualisatie kan niet weergegeven worden als een draaitabel"
+
+msgid "This visualization can't be displayed as a map"
+msgstr "Deze visualisatie kan niet weergegeven worden als een kaart"
+
+msgid "View as Chart"
+msgstr "Bekijk als grafiek"
+
+msgid "View as Pivot table"
+msgstr "Bekijk als Draaitabel"
+
+msgid "View as Map"
+msgstr "Bekijk als kaart"
+
+msgid "There was a problem loading details for this item"
+msgstr ""
+
+msgid "No data to display"
+msgstr "geen gegevens om weer te geven"
+
+msgid ""
+"Install Data Visualizer app ${minDVVersion.join(\n"
+"                            '.'\n"
+"                        )} or higher in order to display this item."
+msgstr ""
+
+msgid "Show without filters"
+msgstr "Toon zonder filters"
+
+msgid ""
+"Install Line Listing app ${minLLVersion.join(\n"
+"                            '.'\n"
+"                        )} or higher in order to display this item."
+msgstr ""
+
+msgid "Maps with Earth Engine layers cannot be displayed when offline"
+msgstr "Kaarten met Earth Engine-lagen kunnen offline niet worden weergegeven"
+
+msgid ""
+"Install Maps app ${minMapsVersion.join(\n"
+"                            '.'\n"
+"                        )} or higher in order to display this item."
+msgstr ""
+
+msgid "Unable to load the plugin for this item"
+msgstr "Kan de plug-in voor dit item niet laden"
+
+msgid "Resources"
+msgstr "Bronnen"
+
+msgid "Reports"
+msgstr "rapporten"
+
+msgid "Visualizations"
+msgstr "visualisaties"
+
+msgid "Pivot tables"
+msgstr "Draaitabellen"
+
+msgid "Charts"
+msgstr "Grafieken"
+
+msgid "Maps"
+msgstr "Kaarten"
+
+msgid "Event reports"
+msgstr "Evenement rapporten"
+
+msgid "Event charts"
+msgstr "Evenementen grafiek"
+
+msgid "Line lists"
+msgstr "Lijn -lijsten"
+
+msgid "Apps"
+msgstr "Apps"
+
+msgid "Users"
+msgstr "Gebruikers"
+
+msgid "Could not update dashboard {{name}}"
+msgstr ""
+
+msgid "Could not delete dashboard {{name}}"
+msgstr ""
+
+msgid "Could not load dashboard details"
+msgstr ""
+
+msgid ""
+"Failed to save dashboard. You might be offline or not have access to edit "
+"this dashboard."
+msgstr ""
+"Kan dashboard niet opslaan. Mogelijk bent u offline of heeft u geen toegang "
+"om dit dashboard te bewerken."
+
+msgid ""
+"Failed to save dashboard. This code is already being used on another "
+"dashboard."
+msgstr ""
+"Kan dashboard niet opslaan. Deze code wordt al gebruikt op een ander "
+"dashboard."
+
+msgid ""
+"Failed to delete dashboard. You might be offline or not have access to edit "
+"this dashboard."
+msgstr ""
+"Kan dashboard niet verwijderen. Mogelijk bent u offline of heeft u geen "
+"toegang om dit dashboard te bewerken."
+
+msgid "Cannot save this dashboard while offline"
+msgstr "Kan dit dashboard niet offline opslaan"
+
+msgid "Save changes"
+msgstr "Wijzigingen opslaan"
+
+msgid "Exit print preview"
+msgstr "Afdrukvoorbeeld afsluiten"
+
+msgid "Print preview"
+msgstr "Afdrukvoorbeeld"
+
+msgid "Filter settings"
+msgstr "Filter instellingen"
+
+msgid "Translate"
+msgstr "Vertaal"
+
+msgid "Cannot delete this dashboard while offline"
+msgstr "Kan dit dashboard niet offline verwijderen"
+
+msgid "Exit without saving"
+msgstr "Afsluiten zonder op te slaan"
+
+msgid "Go to dashboards"
+msgstr "Ga naar dashboards"
+
+msgid ""
+"Deleting dashboard \"{{- dashboardName }}\" will remove it for all users. "
+"This action cannot be undone. Are you sure you want to permanently delete "
+"this dashboard?"
+msgstr ""
+
+msgid "Discard changes"
+msgstr "Veranderingen ongedaan maken"
+
+msgid ""
+"This dashboard has unsaved changes. Are you sure you want to leave and "
+"discard these unsaved changes?"
+msgstr ""
+"Dit dashboard bevat niet-opgeslagen wijzigingen. Weet u zeker dat u deze "
+"niet-opgeslagen wijzigingen wilt verlaten en negeren?"
+
+msgid "No, stay here"
+msgstr "Nee, blijf hier"
+
+msgid "Yes, discard changes"
+msgstr "Ja, wijzigingen negeren"
+
+msgid "No access"
+msgstr "Geen toegang"
+
+msgid "Not supported"
+msgstr "Niet ondersteund"
+
+msgid ""
+"Editing dashboards on small screens is not supported. Resize your screen to "
+"return to edit mode."
+msgstr ""
+"Het bewerken van dashboards op kleine schermen wordt niet ondersteund. "
+"Wijzig het formaat van uw scherm om terug te keren naar de bewerkingsmodus."
+
+msgid "Allow filtering by all dimensions"
+msgstr "Filteren op alle dimensies toestaan"
+
+msgid "Only allow filtering by selected dimensions"
+msgstr "Alleen filteren op geselecteerde dimensies toestaan"
+
+msgid "Dashboard filter settings"
+msgstr "Dashboardfilterinstellingen"
+
+msgid ""
+"Dashboards can be filtered by dimensions to change\n"
+"                                         the data shown. By default, all dimensions are available\n"
+"                                         as filters. Alternatively, only selected dimensions can\n"
+"                                         be made available on a dashboard."
+msgstr ""
+"Dashboards kunnen worden gefilterd op dimensies om te wijzigen\n"
+"                                         de getoonde gegevens. Standaard zijn alle afmetingen beschikbaar\n"
+"                                         als filters. Als alternatief kunnen alleen geselecteerde afmetingen\n"
+"                                         beschikbaar worden gesteld op een dashboard."
+
+msgid "Available Filters"
+msgstr "Beschikbare filters"
+
+msgid "Selected Filters"
+msgstr "geselecteerde filters"
+
+msgid "There are no items on this dashboard"
+msgstr "Er zijn geen items op dit dashboard"
+
+msgid "Show fewer"
+msgstr "Laat minder zien"
+
+msgid "Show more"
+msgstr "Laat meer zien"
+
+msgid "Open visualization in new tab"
+msgstr ""
+
+msgid "Insert"
+msgstr "Invoegen"
+
+msgid "Search for items to add to this dashboard"
+msgstr "Zoek naar items om toe te voegen aan dit dashboard"
+
+msgid "Search for visualizations, reports and more"
+msgstr "Zoek naar visualisaties, rapporten en meer"
+
+msgid "Cannot search for dashboard items while offline"
+msgstr "Kan offline niet zoeken naar dashboarditems"
+
+msgid "Additional items"
+msgstr "Aanvullende items"
+
+msgid "Freeflow"
+msgstr "Vrije doorstroming"
+
+msgid "Dashboard items can be placed anywhere, at any size."
+msgstr "Dashboard-items kunnen overal worden geplaatst, op elk formaat."
+
+msgid "Fixed columns"
+msgstr "Vaste kolommen"
+
+msgid ""
+"Dashboard items are automatically placed within fixed, horizontal columns. "
+"The number of columns can be adjusted."
+msgstr ""
+"Dashboarditems worden automatisch binnen vaste, horizontale kolommen "
+"geplaatst. Het aantal kolommen kan worden aangepast."
+
+msgid "Number of columns"
+msgstr "Aantal kolommen"
+
+msgid "Save layout"
+msgstr "Lay-out opslaan"
+
+msgid "Dashboard title"
+msgstr "Dashboard-titel"
+
+msgid "Dashboard code"
+msgstr "Dashboardcode"
+
+msgid "Dashboard description"
+msgstr "Dashboardbeschrijving"
+
+msgid "Layout"
+msgstr "Lay-out"
+
+msgid "{{count}} columns"
+msgid_plural "{{count}} columns"
+msgstr[0] "{{count}} kolom"
+msgstr[1] "{{count}} kolommen"
+
+msgid "Change layout"
+msgstr "Opmaak veranderen"
+
+msgid "Add new items to"
+msgstr "Voeg nieuwe items toe aan"
+
+msgid "End of dashboard"
+msgstr "Einde dashboard"
+
+msgid "Start of dashboard"
+msgstr "Begin dashboard"
+
+msgid "dashboard layout"
+msgstr "dashboardindeling"
+
+msgid "one item per page"
+msgstr "één item per pagina"
+
+msgid "Print Preview"
+msgstr "Afdrukvoorbeeld"
+
+msgid "For best print results"
+msgstr "Voor de beste afdrukresultaten"
+
+msgid "Use Chrome or Edge web browser"
+msgstr "Gebruik de Chrome- of Edge-webbrowser"
+
+msgid "Wait for all dashboard items to load before printing"
+msgstr "Wacht tot alle dashboarditems zijn geladen voordat u gaat afdrukken"
+
+msgid ""
+"Use A4 landscape paper size, default margin settings and turn on background "
+"graphics in the browser print dialog"
+msgstr ""
+"Gebruik liggend A4-papierformaat, standaardmarge-instellingen en schakel "
+"achtergrondafbeeldingen in het afdrukdialoogvenster van de browser in"
+
+msgid "Getting started"
+msgstr "Aan de slag"
+
+msgid "Search for and open saved dashboards from the top bar."
+msgstr "Zoek en open opgeslagen dashboards vanuit de bovenste balk."
+
+msgid ""
+"Click a dashboard chip to open it. Get back to this screen from the \"More\""
+" menu."
+msgstr ""
+"Klik op een dashboardchip om deze te openen. Ga terug naar dit scherm vanuit"
+" het menu \"Meer\"."
+
+msgid "Create a new dashboard with the + button."
+msgstr "Maak een nieuw dashboard aan met de + knop."
+
+msgid "Your most viewed dashboards"
+msgstr "Uw meest bekeken dashboards"
+
+msgid "No dashboards found. Use the + button to create a new dashboard."
+msgstr ""
+"Geen dashboards gevonden. Gebruik de + knop om een nieuw dashboard aan te "
+"maken."
+
+msgid "Requested dashboard not found"
+msgstr "Gevraagd dashboard niet gevonden"
+
+msgid "No description"
+msgstr "Geen beschrijving"
+
+msgid "{{count}} selected"
+msgid_plural "{{count}} selected"
+msgstr[0] "{{count}} geselecteerd"
+msgstr[1] "{{count}} geselecteerd"
+
+msgid "Cannot edit filters while offline"
+msgstr ""
+
+msgid "Cannot edit filters on a small screen"
+msgstr ""
+
+msgid "Removing filters while offline"
+msgstr "Filters verwijderen terwijl u offline bent"
+
+msgid ""
+"Removing this filter while offline will remove all other filters. Do you "
+"want to remove all filters on this dashboard?"
+msgstr ""
+"Als je deze filter offline verwijdert, worden alle andere filters "
+"verwijderd. Wil je alle filters op dit dashboard verwijderen?"
+
+msgid "Yes, remove filters"
+msgstr "Ja, filters verwijderen"
+
+msgid ""
+"There was a problem loading the embedded dashboard content from an external "
+"service"
+msgstr ""
+
+msgid "Fetching external dashboard"
+msgstr ""
+
+msgid "Error"
+msgstr "Fout"
+
+msgid "Could not load Superset dashboard"
+msgstr ""
+
+msgid "Retry"
+msgstr ""
+
+msgid "Loading dashboard – {{name}}"
+msgstr "Dashboard laden – {{name}}"
+
+msgid "Loading dashboard"
+msgstr "Dashboard laden"
+
+msgid "Load dashboard failed"
+msgstr "Dashboard laden mislukt"
+
+msgid "This dashboard could not be loaded. Please try again later."
+msgstr "Dit dashboard kan niet worden geladen. Probeer het later opnieuw."
+
+msgid "Offline"
+msgstr "offline"
+
+msgid "This dashboard cannot be loaded while offline."
+msgstr "Dit dashboard kan niet offline worden geladen."
+
+msgid "Go to start page"
+msgstr "Ga naar startpagina"
+
+msgid "Slideshow started over 24 hours ago"
+msgstr ""
+
+msgid "Exit slideshow"
+msgstr ""
+
+msgid "Previous item"
+msgstr ""
+
+msgid "Next item"
+msgstr ""
+
+msgid "{{name}}: {{filter}}"
+msgstr ""
+
+msgid "{{count}} filters active"
+msgid_plural "{{count}} filters active"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "10 seconds per slide"
+msgstr ""
+
+msgid "20 seconds per slide"
+msgstr ""
+
+msgid "30 seconds per slide"
+msgstr ""
+
+msgid "1 minute per slide"
+msgstr ""
+
+msgid "2 minutes per slide"
+msgstr ""
+
+msgctxt "Application title"
+msgid "__MANIFEST_APP_TITLE"
+msgstr "Dashboard"
+
+msgctxt "Application description"
+msgid "__MANIFEST_APP_DESCRIPTION"
+msgstr ""

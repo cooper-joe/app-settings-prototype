@@ -1,0 +1,11 @@
+.flexGrow {
+    flex-grow: 1;
+}
+
+.marginBottom {
+    margin-block-end: 8px;
+}
+
+.link {
+    color: var(--colors-grey800);
+}

@@ -1,0 +1,78 @@
+diff --git a/node_modules/@dhis2/app-service-offline/build/cjs/lib/dhis2-connection-status/dhis2-connection-status.js b/node_modules/@dhis2/app-service-offline/build/cjs/lib/dhis2-connection-status/dhis2-connection-status.js
+index afd68e7..5eed154 100644
+--- a/node_modules/@dhis2/app-service-offline/build/cjs/lib/dhis2-connection-status/dhis2-connection-status.js
++++ b/node_modules/@dhis2/app-service-offline/build/cjs/lib/dhis2-connection-status/dhis2-connection-status.js
+@@ -136,21 +136,28 @@ const Dhis2ConnectionStatusProvider = _ref => {
+       callback: pingAndHandleStatus
+     });
+     smartIntervalRef.current = smartInterval;
+-    const handleBlur = () => smartInterval.pause();
+-    const handleFocus = () => smartInterval.resume();
++
++    // Use visibility change instead of focus/blur to continue while focus
++    // might be in iframes
++    const handleVisibilityChange = () => {
++      if (document.visibilityState === 'hidden') {
++        smartInterval.pause();
++      } else {
++        // visibilityState === 'visible'
++        smartInterval.resume();
++      }
++    };
+     // Pinging when going offline should be low/no-cost in both online and
+     // local servers
+     const handleOffline = () => smartInterval.invokeCallbackImmediately();
+     // Pinging when going online has a cost but improves responsiveness of
+     // the connection status -- only do it once every 15 seconds at most
+     const handleOnline = (0, _lodash.throttle)(() => smartInterval.invokeCallbackImmediately(), 15000);
+-    window.addEventListener('blur', handleBlur);
+-    window.addEventListener('focus', handleFocus);
++    document.addEventListener('visibilitychange', handleVisibilityChange);
+     window.addEventListener('offline', handleOffline);
+     window.addEventListener('online', handleOnline);
+     return () => {
+-      window.removeEventListener('blur', handleBlur);
+-      window.removeEventListener('focus', handleFocus);
++      document.removeEventListener('visibilitychange', handleVisibilityChange);
+       window.removeEventListener('offline', handleOffline);
+       window.removeEventListener('online', handleOnline);
+ 
+diff --git a/node_modules/@dhis2/app-service-offline/build/es/lib/dhis2-connection-status/dhis2-connection-status.js b/node_modules/@dhis2/app-service-offline/build/es/lib/dhis2-connection-status/dhis2-connection-status.js
+index a7646bf..f7328b4 100644
+--- a/node_modules/@dhis2/app-service-offline/build/es/lib/dhis2-connection-status/dhis2-connection-status.js
++++ b/node_modules/@dhis2/app-service-offline/build/es/lib/dhis2-connection-status/dhis2-connection-status.js
+@@ -127,21 +127,28 @@ export const Dhis2ConnectionStatusProvider = _ref => {
+       callback: pingAndHandleStatus
+     });
+     smartIntervalRef.current = smartInterval;
+-    const handleBlur = () => smartInterval.pause();
+-    const handleFocus = () => smartInterval.resume();
++
++    // Use visibility change instead of focus/blur to continue while focus
++    // might be in iframes
++    const handleVisibilityChange = () => {
++      if (document.visibilityState === 'hidden') {
++        smartInterval.pause();
++      } else {
++        // visibilityState === 'visible'
++        smartInterval.resume();
++      }
++    };
+     // Pinging when going offline should be low/no-cost in both online and
+     // local servers
+     const handleOffline = () => smartInterval.invokeCallbackImmediately();
+     // Pinging when going online has a cost but improves responsiveness of
+     // the connection status -- only do it once every 15 seconds at most
+     const handleOnline = throttle(() => smartInterval.invokeCallbackImmediately(), 15000);
+-    window.addEventListener('blur', handleBlur);
+-    window.addEventListener('focus', handleFocus);
++    document.addEventListener('visibilitychange', handleVisibilityChange);
+     window.addEventListener('offline', handleOffline);
+     window.addEventListener('online', handleOnline);
+     return () => {
+-      window.removeEventListener('blur', handleBlur);
+-      window.removeEventListener('focus', handleFocus);
++      document.removeEventListener('visibilitychange', handleVisibilityChange);
+       window.removeEventListener('offline', handleOffline);
+       window.removeEventListener('online', handleOnline);
+ 

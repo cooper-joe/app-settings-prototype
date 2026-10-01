@@ -1,0 +1,45 @@
+@media print {
+    .react-grid-layout.print {
+        display: block !important;
+    }
+
+    .react-grid-item.oipp.PAGEBREAK {
+        block-size: 20px !important;
+        visibility: hidden;
+    }
+
+    .react-grid-item.oipp:not(.PAGEBREAK) {
+        margin-block-start: 0px !important;
+    }
+}
+
+.react-grid-layout.print {
+    display: flex;
+    flex-direction: column;
+}
+
+.react-grid-item.oipp {
+    transform: none !important;
+}
+.react-grid-item.oipp:not(.PAGEBREAK) {
+    break-inside: avoid;
+    break-after: page;
+}
+
+.react-grid-item.oipp:not(.PAGEBREAK) {
+    position: static !important;
+    margin-block-end: 20px;
+    margin-inline-start: 30px;
+    margin-block-start: 30px;
+}
+
+.react-grid-item.oipp.PAGEBREAK {
+    position: relative !important;
+    margin-inline-start: -14px;
+    min-block-size: 50px !important;
+    block-size: 50px !important;
+}
+
+.react-grid-item.oipp.SPACER {
+    display: none;
+}

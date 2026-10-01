@@ -1,0 +1,112 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2026-09-29T11:27:49.564Z\n"
+"PO-Revision-Date: 2026-09-29T11:27:49.564Z\n"
+
+msgid "Could not load the settings"
+msgstr "Could not load the settings"
+
+msgid "Settings Catalogue"
+msgstr "Settings Catalogue"
+
+msgid ""
+"This app has no features. Its settings.json uses every setting type an app "
+"can describe, and this table shows the values it reads back. Change them in "
+"System Settings › Apps › Settings Catalogue."
+msgstr ""
+"This app has no features. Its settings.json uses every setting type an app "
+"can describe, and this table shows the values it reads back. Change them in "
+"System Settings › Apps › Settings Catalogue."
+
+msgid "Setting"
+msgstr "Setting"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Value"
+msgstr "Value"
+
+msgid "Source"
+msgstr "Source"
+
+msgid "Open in {{app}}"
+msgstr "Open in {{app}}"
+
+msgid "Could not load the list"
+msgstr "Could not load the list"
+
+msgid "Could not load organisation units"
+msgstr "Could not load organisation units"
+
+msgid "Not found: {{ids}}"
+msgstr "Not found: {{ids}}"
+
+msgid "Could not load the period types"
+msgstr "Could not load the period types"
+
+msgid "This setting needs a newer version of System Settings."
+msgstr "This setting needs a newer version of System Settings."
+
+msgid "{{id}} (not found)"
+msgstr "{{id}} (not found)"
+
+msgid "This value is not valid"
+msgstr "This value is not valid"
+
+msgid "Choose one of the options"
+msgstr "Choose one of the options"
+
+msgid "Enter a number"
+msgstr "Enter a number"
+
+msgid "Enter a whole number"
+msgstr "Enter a whole number"
+
+msgid "Enter {{min}} or more"
+msgstr "Enter {{min}} or more"
+
+msgid "Enter {{max}} or less"
+msgstr "Enter {{max}} or less"
+
+msgid "This setting is required"
+msgstr "This setting is required"
+
+msgid "Use {{max}} characters or fewer"
+msgstr "Use {{max}} characters or fewer"
+
+msgid "This value cannot be saved"
+msgstr "This value cannot be saved"
+
+msgid "(none)"
+msgstr "(none)"
+
+msgid "On"
+msgstr "On"
+
+msgid "Off"
+msgstr "Off"
+
+msgid "Saved in System Settings"
+msgstr "Saved in System Settings"
+
+msgid "Old system setting"
+msgstr "Old system setting"
+
+msgid "Default"
+msgstr "Default"
+
+msgctxt "Application title"
+msgid "__MANIFEST_APP_TITLE"
+msgstr "Settings Catalogue"
+
+msgctxt "Application description"
+msgid "__MANIFEST_APP_DESCRIPTION"
+msgstr ""
+"App settings prototype: every setting type an app can describe in "
+"settings.json."

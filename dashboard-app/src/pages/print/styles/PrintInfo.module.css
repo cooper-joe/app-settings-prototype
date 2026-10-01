@@ -1,0 +1,43 @@
+.container {
+    margin-block-end: var(--spacers-dp16);
+    inline-size: 100%;
+    color: #3e4a59;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-block-start: var(--spacers-dp16);
+    margin-block-end: var(--spacers-dp16);
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+.printSuggestions {
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+.printSuggestions li {
+    padding-block-start: var(--spacers-dp4);
+    padding-block-end: var(--spacers-dp4);
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+}
+
+.divider {
+    inline-size: var(--a4-landscape-width-px);
+    block-size: 1px;
+    margin-block-start: var(--spacers-dp16);
+    margin-block-end: var(--spacers-dp16);
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    border: 0;
+    background-color: var(--colors-grey400);
+}
+
+@media print {
+    .container {
+        display: none;
+    }
+}

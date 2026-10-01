@@ -1,0 +1,136 @@
+diff --git a/node_modules/@dhis2/app-service-data/build/cjs/links/RestAPILink/queryToResourcePath.js b/node_modules/@dhis2/app-service-data/build/cjs/links/RestAPILink/queryToResourcePath.js
+index e74eb1b..5f3fdac 100644
+--- a/node_modules/@dhis2/app-service-data/build/cjs/links/RestAPILink/queryToResourcePath.js
++++ b/node_modules/@dhis2/app-service-data/build/cjs/links/RestAPILink/queryToResourcePath.js
+@@ -51,6 +51,22 @@ const queryParametersToQueryString = params => {
+ const actionPrefix = 'action::';
+ const isAction = resource => resource.startsWith(actionPrefix);
+ const makeActionPath = resource => (0, _path.joinPath)('dhis-web-commons', `${resource.substr(actionPrefix.length)}.action`);
++const legacyPrefix = 'legacy::';
++const isLegacy = resource => resource.startsWith(legacyPrefix);
++const makeLegacyPath = resource => {
++  switch (resource) {
++    case 'legacy::bundledApps':
++      {
++        return 'dhis-web-apps/apps-bundle.json';
++      }
++    // Not necessary here, but brainstorming:
++    // you can use whatever path you want 🤷
++    default:
++      {
++        return resource.replace(legacyPrefix, '');
++      }
++  }
++};
+ const skipApiVersion = (resource, config) => {
+   if (resource === 'tracker' || resource.startsWith('tracker/')) {
+     var _config$serverVersion, _config$serverVersion2;
+@@ -72,7 +88,7 @@ const queryToResourcePath = (link, query, type) => {
+     params = {}
+   } = query;
+   const apiBase = skipApiVersion(resource, link.config) ? link.unversionedApiPath : link.versionedApiPath;
+-  const base = isAction(resource) ? makeActionPath(resource) : (0, _path.joinPath)(apiBase, resource, id);
++  const base = isAction(resource) ? makeActionPath(resource) : isLegacy(resource) ? makeLegacyPath(resource) : (0, _path.joinPath)(apiBase, resource, id);
+   (0, _validateQuery.validateResourceQuery)(query, type);
+   if (Object.keys(params).length) {
+     return `${base}?${queryParametersToQueryString(params)}`;
+diff --git a/node_modules/@dhis2/app-service-data/build/cjs/links/RestAPILink/queryToResourcePath.test.js b/node_modules/@dhis2/app-service-data/build/cjs/links/RestAPILink/queryToResourcePath.test.js
+index 36485f5..2daa102 100644
+--- a/node_modules/@dhis2/app-service-data/build/cjs/links/RestAPILink/queryToResourcePath.test.js
++++ b/node_modules/@dhis2/app-service-data/build/cjs/links/RestAPILink/queryToResourcePath.test.js
+@@ -34,6 +34,27 @@ describe('queryToResourcePath', () => {
+       expect((0, _queryToResourcePath.queryToResourcePath)(link, query, 'read')).toBe(`${actionPrefix}test${actionPostfix}?key=value`);
+     });
+   });
++  // todo: here
++  describe('legacy', () => {
++    it('should return the apps bundle url if using `legacy::bundledApps`', () => {
++      const query = {
++        resource: 'legacy::bundledApps'
++      };
++      expect((0, _queryToResourcePath.queryToResourcePath)(link, query, 'read')).toBe('dhis-web-apps/apps-bundle.json');
++      console.log({
++        apiPath
++      });
++    });
++    it('should return the specified path if using `legacy::<customPath>`', () => {
++      const query = {
++        resource: 'legacy::dhis-web-apps'
++      };
++      expect((0, _queryToResourcePath.queryToResourcePath)(link, query, 'read')).toBe('dhis-web-apps');
++      console.log({
++        apiPath
++      });
++    });
++  });
+   describe('resource with dot', () => {
+     it('should leave dots in resources', () => {
+       const query = {
+diff --git a/node_modules/@dhis2/app-service-data/build/es/links/RestAPILink/queryToResourcePath.js b/node_modules/@dhis2/app-service-data/build/es/links/RestAPILink/queryToResourcePath.js
+index eb37240..ec5af69 100644
+--- a/node_modules/@dhis2/app-service-data/build/es/links/RestAPILink/queryToResourcePath.js
++++ b/node_modules/@dhis2/app-service-data/build/es/links/RestAPILink/queryToResourcePath.js
+@@ -45,6 +45,22 @@ const queryParametersToQueryString = params => {
+ const actionPrefix = 'action::';
+ const isAction = resource => resource.startsWith(actionPrefix);
+ const makeActionPath = resource => joinPath('dhis-web-commons', `${resource.substr(actionPrefix.length)}.action`);
++const legacyPrefix = 'legacy::';
++const isLegacy = resource => resource.startsWith(legacyPrefix);
++const makeLegacyPath = resource => {
++  switch (resource) {
++    case 'legacy::bundledApps':
++      {
++        return 'dhis-web-apps/apps-bundle.json';
++      }
++    // Not necessary here, but brainstorming:
++    // you can use whatever path you want 🤷
++    default:
++      {
++        return resource.replace(legacyPrefix, '');
++      }
++  }
++};
+ const skipApiVersion = (resource, config) => {
+   if (resource === 'tracker' || resource.startsWith('tracker/')) {
+     var _config$serverVersion, _config$serverVersion2;
+@@ -66,7 +82,7 @@ export const queryToResourcePath = (link, query, type) => {
+     params = {}
+   } = query;
+   const apiBase = skipApiVersion(resource, link.config) ? link.unversionedApiPath : link.versionedApiPath;
+-  const base = isAction(resource) ? makeActionPath(resource) : joinPath(apiBase, resource, id);
++  const base = isAction(resource) ? makeActionPath(resource) : isLegacy(resource) ? makeLegacyPath(resource) : joinPath(apiBase, resource, id);
+   validateResourceQuery(query, type);
+   if (Object.keys(params).length) {
+     return `${base}?${queryParametersToQueryString(params)}`;
+diff --git a/node_modules/@dhis2/app-service-data/build/es/links/RestAPILink/queryToResourcePath.test.js b/node_modules/@dhis2/app-service-data/build/es/links/RestAPILink/queryToResourcePath.test.js
+index 9a44849..689cde1 100644
+--- a/node_modules/@dhis2/app-service-data/build/es/links/RestAPILink/queryToResourcePath.test.js
++++ b/node_modules/@dhis2/app-service-data/build/es/links/RestAPILink/queryToResourcePath.test.js
+@@ -32,6 +32,27 @@ describe('queryToResourcePath', () => {
+       expect(queryToResourcePath(link, query, 'read')).toBe(`${actionPrefix}test${actionPostfix}?key=value`);
+     });
+   });
++  // todo: here
++  describe('legacy', () => {
++    it('should return the apps bundle url if using `legacy::bundledApps`', () => {
++      const query = {
++        resource: 'legacy::bundledApps'
++      };
++      expect(queryToResourcePath(link, query, 'read')).toBe('dhis-web-apps/apps-bundle.json');
++      console.log({
++        apiPath
++      });
++    });
++    it('should return the specified path if using `legacy::<customPath>`', () => {
++      const query = {
++        resource: 'legacy::dhis-web-apps'
++      };
++      expect(queryToResourcePath(link, query, 'read')).toBe('dhis-web-apps');
++      console.log({
++        apiPath
++      });
++    });
++  });
+   describe('resource with dot', () => {
+     it('should leave dots in resources', () => {
+       const query = {

@@ -1,0 +1,6 @@
+.center {
+    display: flex;
+    justify-content: center;
+    block-size: 100%;
+    margin-block-start: var(--spacers-dp8);
+}

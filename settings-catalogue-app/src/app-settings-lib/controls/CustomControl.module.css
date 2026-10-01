@@ -1,0 +1,10 @@
+.custom {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacers-dp8);
+}
+
+.link {
+    font-size: 14px;
+    color: var(--colors-blue700);
+}

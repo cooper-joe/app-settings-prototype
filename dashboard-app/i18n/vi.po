@@ -1,0 +1,806 @@
+# Translators:
+# Mai Nguyen <thanhmai.jica@gmail.com>, 2021
+# Viktor Varland <viktor@dhis2.org>, 2025
+# Thuy Nguyen <thuynguyen@hispvietnam.org>, 2025
+# Philip Larsen Donnelly, 2025
+# Em Le <em.hispvietnam@gmail.com>, 2026
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"POT-Creation-Date: 2026-05-07T22:45:54.825Z\n"
+"PO-Revision-Date: 2019-06-25 12:37+0000\n"
+"Last-Translator: Em Le <em.hispvietnam@gmail.com>, 2026\n"
+"Language-Team: Vietnamese (https://app.transifex.com/hisp-uio/teams/100509/vi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Untitled dashboard"
+msgstr "Bảng thông tin không có tiêu đề"
+
+msgid "Could not get info from Superset gateway endpoint"
+msgstr "Không thể lấy thông tin từ cổng Superset"
+
+msgid "Dashboard with ID \"{{dashboardId}}\" not found or not accessible"
+msgstr ""
+"Không tìm thấy hoặc không thể truy cập vào Bảng thông tin với ID "
+"\"{{dashboardId}}\""
+
+msgid "Dashboard with ID \"{{dashboardId}}\" is not embedded"
+msgstr "Bảng thông tin có ID \"{{dashboardId}}\" không được nhúng vào"
+
+msgid "Embedded provider must be \"SUPERSET\" for dashboard ID \"{{dashboardId}}\""
+msgstr ""
+"Nhà cung cấp nhúng phải là \"SUPERSET\" cho Bảng thông tin có mã ID "
+"\"{{dashboardId}}\""
+
+msgid "Superset Embed UUID not found for dashboard ID \"{{dashboardId}}\""
+msgstr ""
+"Không tìm thấy UUID nhúng Superset cho Bảng thông tin có ID "
+"\"{{dashboardId}}\""
+
+msgid "Dashboard with ID \"{{dashboardId}}\" not found on the Superset service"
+msgstr ""
+"Không tìm thấy bảng điều khiển có ID \"{{dashboardId}}\" trên dịch vụ "
+"Superset"
+
+msgid ""
+"Could not get guest token from Superset Gateway for dashboard ID "
+"\"{{dashboardId}}\""
+msgstr ""
+"Không thể lấy mã thông báo khách từ Superset Gateway cho Bảng thông tin có "
+"ID \"{{dashboardId}}\""
+
+msgid "Network error"
+msgstr "Lỗi mạng"
+
+msgid "Could not load app data"
+msgstr "Không thể tải dữ liệu của ứng dụng"
+
+msgid "New dashboard: external"
+msgstr "Bảng thông tin mới: ngoại bộ"
+
+msgid "Could not create dashboard"
+msgstr "Không thể tạo bảng thông tin"
+
+msgid "An unknown error occurred"
+msgstr "Xảy ra lỗi không xác định"
+
+msgid "Save dashboard"
+msgstr "Lưu bảng thông tin"
+
+msgid "Back"
+msgstr "Quay lại"
+
+msgid "Title"
+msgstr "Tiêu đề"
+
+msgid "Code"
+msgstr "Mã"
+
+msgid ""
+"A unique code to reference this dashboard in other apps and services. Max 50"
+" characters."
+msgstr ""
+"Mã duy nhất để tham chiếu bảng thông tin này trong các ứng dụng và dịch vụ "
+"khác. Tối đa 50 ký tự."
+
+msgid "Code can't be longer than 50 characters"
+msgstr "Mã không được dài hơn 50 ký tự"
+
+msgid "Description"
+msgstr "Mô tả"
+
+msgid "Superset Embed ID"
+msgstr "Mã ID nhúng Superset"
+
+msgid "Invalid UUID"
+msgstr "UUID không hợp lệ"
+
+msgid "Options"
+msgstr "Tùy chọn"
+
+msgid "Show chart controls on dashboard items"
+msgstr "Hiển thị các điều khiển biểu đồ trên các mục bảng thông tin"
+
+msgid "Expand filters"
+msgstr "Mở rộng bộ lọc"
+
+msgid "Delete dashboard"
+msgstr "Xóa bảng thông tin"
+
+msgid ""
+"Deleting dashboard \"{{ dashboardName }}\" will remove it for all users. "
+"This action cannot be undone. Are you sure you want to permanently delete "
+"this dashboard?"
+msgstr ""
+"Xóa bảng thông tin \"{{ dashboardName }}\" sẽ xóa cho tất cả người dùng. "
+"Hành động này không thể được hoàn tác. Bạn có chắc chắn muốn xóa vĩnh viễn "
+"bảng thông tin này không?"
+
+msgid ""
+"Note: the source dashboard embedded by this external dashboard will not be "
+"deleted."
+msgstr ""
+"Lưu ý: bảng thông tin nguồn được nhúng bởi bảng thông tin bên ngoài này sẽ "
+"không bị xóa."
+
+msgid "Delete"
+msgstr "Xoá"
+
+msgid "Cancel"
+msgstr "Hủy"
+
+msgid "Edit external dashboard"
+msgstr "Chỉnh sửa bảng thông tin ngoại bộ"
+
+msgid "New dashboard: choose type"
+msgstr "Bảng thông tin mới: chọn loại"
+
+msgid "Internal"
+msgstr "Nội bộ"
+
+msgid "Show data and visualizations from this DHIS2 instance."
+msgstr "Hiển thị dữ liệu và hình ảnh trực quan từ cơ sở dữ liệu DHIS2 này."
+
+msgid "External"
+msgstr "Ngoại bộ"
+
+msgid "Embed a Superset dashboard"
+msgstr "Nhúng bảng điều khiển Superset"
+
+msgid "Continue"
+msgstr "Tiếp tục"
+
+msgid "Not available for embedded dashboards"
+msgstr "Không khả dụng cho bảng thông tin nhúng"
+
+msgid "The dashboard couldn't be made available offline. Try again."
+msgstr "Bảng thông tin này không thể chuyển sang ngoại tuyến. Hãy thử lại."
+
+msgid "Remove from offline storage"
+msgstr "Bỏ lưu trữ ngoại tuyến"
+
+msgid "Make available offline"
+msgstr "Bật hỗ trợ ngoại tuyến"
+
+msgid "Sync offline data now"
+msgstr "Đồng bộ dữ liệu ngoại tuyến ngay bây giờ"
+
+msgid "Unstar dashboard"
+msgstr "Không gắn dấu sao bảng thông tin "
+
+msgid "Star dashboard"
+msgstr "Gán dấu sao bảng thông tin"
+
+msgid "Hide description"
+msgstr "Ẩn mô tả"
+
+msgid "Show description"
+msgstr "Hiển thị mô tả"
+
+msgid "Print"
+msgstr "In"
+
+msgid "Dashboard layout"
+msgstr "Bố cục bảng thông tin"
+
+msgid "One item per page"
+msgstr "Một mục trên mỗi trang"
+
+msgid "Close dashboard"
+msgstr "Đóng bảng thông tin"
+
+msgid "No dashboard items to show in slideshow"
+msgstr "Không có mục bảng thông tin nào để hiển thị trong trình chiếu"
+
+msgid "Not available offline"
+msgstr "Không có cho ngoại tuyến"
+
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+msgid "Share"
+msgstr "Chia sẻ"
+
+msgid "Slideshow"
+msgstr "Trình chiếu"
+
+msgid "Clear dashboard filters?"
+msgstr "Bỏ bộ lọc bảng thông tin?"
+
+msgid ""
+"A dashboard's filters can’t be saved offline. Do you want to remove the "
+"filters and make this dashboard available offline?"
+msgstr ""
+"Bộ lọc bảng thông tin không thể lưu khi đang ngoại tuyến. Bạn có muốn xóa bộ"
+" lọc và bật chế độ ngoại tuyến cho bảng thông tin này?"
+
+msgid "No, cancel"
+msgstr "Không, hủy bỏ"
+
+msgid "Yes, clear filters and sync"
+msgstr "Vâng, đồng ý xóa bộ lọc và đồng bộ"
+
+msgid "This dashboard is showing data from outside this system"
+msgstr "Bảng thông tin này đang hiển thị dữ liệu từ bên ngoài hệ thống này"
+
+msgid "External source"
+msgstr "Nguồn dữ liệu bên ngoài"
+
+msgid "Confirm"
+msgstr "Xác nhận"
+
+msgid "Filter"
+msgstr "Bộ lọc"
+
+msgid "Failed to unstar the dashboard"
+msgstr "Không thể bỏ đánh sao bảng thông tin"
+
+msgid "Failed to star the dashboard"
+msgstr "Không thể đánh sao bảng thông tin"
+
+msgid "Offline data last updated {{timeAgo}}"
+msgstr "Dữ liệu ngoại tuyến được cập nhật lần cuối {{timeAgo}}"
+
+msgid "Synced {{timeAgo}}"
+msgstr "Đã đồng bộ {{timeAgo}}"
+
+msgid "Cannot unstar this dashboard while offline"
+msgstr "Không thể bỏ đánh sao bảng thông tin khi đang ngoại tuyến"
+
+msgid "Cannot star this dashboard while offline"
+msgstr "Không thể đánh sao bảng thông tin khi đang ngoại tuyến"
+
+msgid "No dashboards available."
+msgstr "Không có bảng thông tin nào"
+
+msgid "Create a new dashboard using the + button."
+msgstr "Sử dụng dấu + để tạo một bảng thông tin"
+
+msgid "Search for a dashboard"
+msgstr "Tìm kiếm bảng thông tin"
+
+msgid "No dashboards found for \"{{- filterText}}\""
+msgstr "Không có bảng thông tin nào được tìm thấy cho \"{{- filterText}}\""
+
+msgid "Dashboards"
+msgstr "Bảng thông tin"
+
+msgid "There was a problem loading this dashboard item"
+msgstr "Đã xảy ra sự cố khi tải mục bảng thông tin này"
+
+msgid "Open menu"
+msgstr "Mở danh mục"
+
+msgid "Open in {{appName}}"
+msgstr "Mở trong {{appName}}"
+
+msgid "View fullscreen"
+msgstr "Xem toàn màn hình"
+
+msgid "Remove this item"
+msgstr "Xóa mục này"
+
+msgid "This item has been shortened to fit on one page"
+msgstr "Mục này đã được rút ngắn để vừa với một trang"
+
+msgid "The plugin needed to display this item is not available"
+msgstr "Plugin cần thiết để hiển thị mục này không khả dụng"
+
+msgid "Install the {{pluginName}} plugin from the App Hub"
+msgstr "Cài đặt ứng dụng {{pluginName}} từ App Hub"
+
+msgid "There was an error loading data for this item"
+msgstr "Có lỗi khi tải dữ liệu cho mục này"
+
+msgid "Open this item in {{appName}}"
+msgstr "Mở mục này trong 1{{appName}}"
+
+msgid "Remove"
+msgstr "Bỏ ra"
+
+msgid "Messages"
+msgstr "Hộp thư"
+
+msgid "See all messages"
+msgstr "Xem tất cả tin nhắn"
+
+msgid "Item type \"{{type}}\" is not supported"
+msgstr "Mục này \" {{type}}\" không được hỗ trợ"
+
+msgid "The item type is missing"
+msgstr "Thiếu kiểu cho mục item"
+
+msgid "Filters applied"
+msgstr "Bộ lọc được áp dụng"
+
+msgid "Spacer"
+msgstr "Dấu cách"
+
+msgid ""
+"Use a spacer to create empty vertical space between other dashboard items."
+msgstr ""
+"Sử dụng dấu cách để tạo không gian dọc trống giữa các mục bảng điều khiển "
+"khác."
+
+msgid "Text box"
+msgstr "Hộp văn bản"
+
+msgid "Add text here"
+msgstr "Thêm văn bản tại đây"
+
+msgid "Filters are not applied to line list dashboard items"
+msgstr "Bộ lọc không được áp dụng cho các mục thông tin dạng danh sách"
+
+msgid "Filters not applied"
+msgstr "Bộ lọc không được áp dụng"
+
+msgid "Only Period and Organisation unit filters can be applied to this item"
+msgstr "Chỉ thời điểm và đơn vị được áp dụng cho mục này"
+
+msgid "Some filters not applied"
+msgstr "Vài bộ lọc không được áp dụng"
+
+msgid "Hide details and interpretations"
+msgstr "Ẩn chi tiết và diễn giải"
+
+msgid "Show details and interpretations"
+msgstr "Hiện chi tiết và diễn giải"
+
+msgid "Open in {{appName}} app"
+msgstr "Mở trong ứng dụng {{appName}}"
+
+msgid "This map can't be displayed as a chart"
+msgstr "Bản đồ này không thể hiển thị thành một biểu đồ"
+
+msgid "This map can't be displayed as a pivot table"
+msgstr "Bản đồ này không thể hiển thị thành một bảng xoay"
+
+msgid "This visualization can't be displayed as a pivot table"
+msgstr "Biểu đồ này không thể hiển thị thành một bảng xoay"
+
+msgid "This visualization can't be displayed as a map"
+msgstr "Biểu đồ này không thể hiển thị thành bản đồ"
+
+msgid "View as Chart"
+msgstr "Xem dưới dạng biểu đồ"
+
+msgid "View as Pivot table"
+msgstr "Xem dạng Bảng xoay"
+
+msgid "View as Map"
+msgstr "Xem dưới dạng bản đồ"
+
+msgid "There was a problem loading details for this item"
+msgstr "Đã xảy ra lỗi khi tải thông tin chi tiết cho mục này."
+
+msgid "No data to display"
+msgstr "Không có dữ liệu hiển thị"
+
+msgid ""
+"Install Data Visualizer app ${minDVVersion.join(\n"
+"                            '.'\n"
+"                        )} or higher in order to display this item."
+msgstr ""
+"Cài đặt ứng dụng Trực Quan Hóa Dữ Liệu phiên bản ${minDVVersion.join(\n"
+"'.'\n"
+")} hoặc cao hơn để hiển thị mục này."
+
+msgid "Show without filters"
+msgstr "Hiển thị không có bộ lọc"
+
+msgid ""
+"Install Line Listing app ${minLLVersion.join(\n"
+"                            '.'\n"
+"                        )} or higher in order to display this item."
+msgstr ""
+"Cài đặt Line Listing phiên bản ${minLLVersion.join(\n"
+"'.'\n"
+")}  hoặc cao hơn để hiển thị mục này."
+
+msgid "Maps with Earth Engine layers cannot be displayed when offline"
+msgstr "Bản đồ với lớp Earth Engine không hiển thị được khi đang ngoại tuyến"
+
+msgid ""
+"Install Maps app ${minMapsVersion.join(\n"
+"                            '.'\n"
+"                        )} or higher in order to display this item."
+msgstr ""
+"Cài đặt ứng dụng Bản đồ phiên bản ${minMapsVersion.join(\n"
+"                            '.'\n"
+"                        )} hoặc cao hơn để hiển thị mục này."
+
+msgid "Unable to load the plugin for this item"
+msgstr "Không thể tải plugin cho mục này"
+
+msgid "Resources"
+msgstr "Tài Nguyên"
+
+msgid "Reports"
+msgstr "Báo Cáo"
+
+msgid "Visualizations"
+msgstr "Trực quan hóa"
+
+msgid "Pivot tables"
+msgstr "Bảng Xoay"
+
+msgid "Charts"
+msgstr "Biểu Đồ"
+
+msgid "Maps"
+msgstr "Bản Đồ"
+
+msgid "Event reports"
+msgstr "Báo Cáo Sự Kiện"
+
+msgid "Event charts"
+msgstr "Biểu Đồ Sự Kiện"
+
+msgid "Line lists"
+msgstr "Báo Cáo Dòng"
+
+msgid "Apps"
+msgstr "Ứng dụng"
+
+msgid "Users"
+msgstr "Người dùng"
+
+msgid "Could not update dashboard {{name}}"
+msgstr "Không thể cập nhật bảng thông tin {{name}}"
+
+msgid "Could not delete dashboard {{name}}"
+msgstr "Không thể xóa bảng thông tin {{name}}"
+
+msgid "Could not load dashboard details"
+msgstr "Không thể tải chi tiết bảng thông tin"
+
+msgid ""
+"Failed to save dashboard. You might be offline or not have access to edit "
+"this dashboard."
+msgstr ""
+"Lưu bảng thông tin không thành công. Có thể bạn đang ngoại tuyến hoặc không "
+"có quyền chỉnh sửa bảng thông tin này."
+
+msgid ""
+"Failed to save dashboard. This code is already being used on another "
+"dashboard."
+msgstr ""
+"Lưu bảng thông tin không thành công. Mã này đã được sử dụng cho một bảng "
+"thông tin khác."
+
+msgid ""
+"Failed to delete dashboard. You might be offline or not have access to edit "
+"this dashboard."
+msgstr ""
+"Xóa bảng thông tin không thành công. Có thể bạn đang ngoại tuyến hoặc không "
+"có quyền chỉnh sửa bảng thông tin này."
+
+msgid "Cannot save this dashboard while offline"
+msgstr "Không thể lưu khi đang ngoại tuyến."
+
+msgid "Save changes"
+msgstr "Lưu các thay đổi"
+
+msgid "Exit print preview"
+msgstr "Thoát xem trước bản in"
+
+msgid "Print preview"
+msgstr "Xem thử bản in"
+
+msgid "Filter settings"
+msgstr "Cài đặt bộ lọc"
+
+msgid "Translate"
+msgstr "Dịch"
+
+msgid "Cannot delete this dashboard while offline"
+msgstr "Không thể xóa bảng thông tin này khi đang ngoại tuyến"
+
+msgid "Exit without saving"
+msgstr "Thoát ra và không lưu"
+
+msgid "Go to dashboards"
+msgstr "Di chuyển tới bảng thông tin"
+
+msgid ""
+"Deleting dashboard \"{{- dashboardName }}\" will remove it for all users. "
+"This action cannot be undone. Are you sure you want to permanently delete "
+"this dashboard?"
+msgstr ""
+"Xóa bảng thông tin \"{{- dashboardName }}\" sẽ xóa cho tất cả người dùng. "
+"Hành động này không thể được hoàn tác. Bạn có chắc chắn muốn xóa vĩnh viễn "
+"bảng thông tin này không?"
+
+msgid "Discard changes"
+msgstr "Hủy bỏ các thay đổi"
+
+msgid ""
+"This dashboard has unsaved changes. Are you sure you want to leave and "
+"discard these unsaved changes?"
+msgstr ""
+"Bảng thông tin này không được lưu. Bạn có chắc muốn hủy bỏ các thay đổi và "
+"rời đi?"
+
+msgid "No, stay here"
+msgstr "Không, ở lại đây"
+
+msgid "Yes, discard changes"
+msgstr "Có, hủy các thay đổi"
+
+msgid "No access"
+msgstr "Không truy cập"
+
+msgid "Not supported"
+msgstr "Không được hỗ trợ"
+
+msgid ""
+"Editing dashboards on small screens is not supported. Resize your screen to "
+"return to edit mode."
+msgstr ""
+"Chỉnh sửa bảng thông tin trên màn hình nhỏ không được hỗ trợ. Thay đổi kích "
+"cỡ màn hình của bạn trước khi quay lại chế độ chỉnh sửa."
+
+msgid "Allow filtering by all dimensions"
+msgstr "Cho phép lọc với tất cả các chiều"
+
+msgid "Only allow filtering by selected dimensions"
+msgstr "Chỉ cho phép lọc với chiều được chọn"
+
+msgid "Dashboard filter settings"
+msgstr "Cài đặt bộ lọc cho bảng thông tin"
+
+msgid ""
+"Dashboards can be filtered by dimensions to change\n"
+"                                         the data shown. By default, all dimensions are available\n"
+"                                         as filters. Alternatively, only selected dimensions can\n"
+"                                         be made available on a dashboard."
+msgstr ""
+"Bảng thông tin có thể được lọc bởi các chiều để thay đổi dữ liệu hiển thị. "
+"Mặc định, tất cả các chiều được lọc. Ngoài ra, chỉ có các chiều được chọn có"
+" thể được sử dụng trên một bảng thông tin."
+
+msgid "Available Filters"
+msgstr "Bộ lọc hiện có"
+
+msgid "Selected Filters"
+msgstr "Bộ lọc được chọn"
+
+msgid "There are no items on this dashboard"
+msgstr "Không có mục nào trong bảng thông tin này"
+
+msgid "Show fewer"
+msgstr "Hiển thị ít hơn"
+
+msgid "Show more"
+msgstr "Hiện thêm"
+
+msgid "Open visualization in new tab"
+msgstr "Mở bảng trực quan trên tab mới"
+
+msgid "Insert"
+msgstr "Chèn vào"
+
+msgid "Search for items to add to this dashboard"
+msgstr "Tìm mục để thêm vào bảng thông tin này"
+
+msgid "Search for visualizations, reports and more"
+msgstr "Tìm kiếm biểu đồ, báo cáo và mọi thứ"
+
+msgid "Cannot search for dashboard items while offline"
+msgstr "Không thể tìm kiếm danh mục bảng tin khi ngoại tuyến"
+
+msgid "Additional items"
+msgstr "Hạng mục bổ sung"
+
+msgid "Freeflow"
+msgstr "Sắp xếp tự do"
+
+msgid "Dashboard items can be placed anywhere, at any size."
+msgstr "Danh mục bảng thông tin có thể bố cục ở mọi nơi, mọi kích cỡ."
+
+msgid "Fixed columns"
+msgstr "Cố định cột"
+
+msgid ""
+"Dashboard items are automatically placed within fixed, horizontal columns. "
+"The number of columns can be adjusted."
+msgstr ""
+"Danh mục bảng thông tin được sắp xếp tự động theo các cột. Có thể thay đổi "
+"số lượng cột."
+
+msgid "Number of columns"
+msgstr "Số lượng cột"
+
+msgid "Save layout"
+msgstr "Lưu bố cục"
+
+msgid "Dashboard title"
+msgstr "Tiêu đề bảng thông tin"
+
+msgid "Dashboard code"
+msgstr "Mã bảng thông tin"
+
+msgid "Dashboard description"
+msgstr "Mô tả bảng thông tin"
+
+msgid "Layout"
+msgstr "Bố cục"
+
+msgid "{{count}} columns"
+msgid_plural "{{count}} columns"
+msgstr[0] "{{count}}cột"
+
+msgid "Change layout"
+msgstr "Đổi bố cục"
+
+msgid "Add new items to"
+msgstr "Thêm danh mục vào"
+
+msgid "End of dashboard"
+msgstr "Kết thúc bảng thông tin"
+
+msgid "Start of dashboard"
+msgstr "Bắt đầu bảng thông tin"
+
+msgid "dashboard layout"
+msgstr "bố cục bảng thông tin"
+
+msgid "one item per page"
+msgstr "một mục trên mỗi trang"
+
+msgid "Print Preview"
+msgstr "Xem trước bản in"
+
+msgid "For best print results"
+msgstr "Để có bản in tốt nhất"
+
+msgid "Use Chrome or Edge web browser"
+msgstr "Sử dụng trình duyệt Chrome hoặc Edge"
+
+msgid "Wait for all dashboard items to load before printing"
+msgstr "Chờ tải tất cả các mục trên bảng thông tin trước khi in"
+
+msgid ""
+"Use A4 landscape paper size, default margin settings and turn on background "
+"graphics in the browser print dialog"
+msgstr ""
+"Sử dụng khổ giấy ngang A4, cài đặt lề mặc định và bật đồ họa nền trong hộp "
+"thoại in của trình duyệt"
+
+msgid "Getting started"
+msgstr "Bắt đầu"
+
+msgid "Search for and open saved dashboards from the top bar."
+msgstr "Tìm kiếm hoặc mở các bảng thông tin đã lưu từ thanh trên cùng"
+
+msgid ""
+"Click a dashboard chip to open it. Get back to this screen from the \"More\""
+" menu."
+msgstr ""
+"Bấm vào biểu tượng bảng thông tin để mở. Quay lại màn hình này từ menu "
+"\"Thêm\"."
+
+msgid "Create a new dashboard with the + button."
+msgstr "Tạo mới bảng thông tin với biểu tượng dấu +"
+
+msgid "Your most viewed dashboards"
+msgstr "Những bảng thông tin được bạn xem nhiều nhất"
+
+msgid "No dashboards found. Use the + button to create a new dashboard."
+msgstr ""
+"Không thấy bảng thông tin. Nhấn vào dấu cộng để tạo bảng thông tin mới"
+
+msgid "Requested dashboard not found"
+msgstr "Không tìm thấy bảng thông tin được yêu cầu"
+
+msgid "No description"
+msgstr "Không có mô tả"
+
+msgid "{{count}} selected"
+msgid_plural "{{count}} selected"
+msgstr[0] "Đã chọn {{count}}"
+
+msgid "Cannot edit filters while offline"
+msgstr "Không thể chỉnh sửa bộ lọc khi đang ngoại tuyến"
+
+msgid "Cannot edit filters on a small screen"
+msgstr "Không thể chỉnh sửa bộ lọc ở màn hình bé"
+
+msgid "Removing filters while offline"
+msgstr "Bỏ bộ lọc khi đang ngoại tuyến"
+
+msgid ""
+"Removing this filter while offline will remove all other filters. Do you "
+"want to remove all filters on this dashboard?"
+msgstr ""
+"Bỏ bộ lọc này khi đang ngoại tuyến đồng thời bỏ các bộ lọc khác. Bạn có muốn"
+" bỏ tất cả bộ lọc trên bảng thông tin này?"
+
+msgid "Yes, remove filters"
+msgstr "Có, bỏ lọc"
+
+msgid ""
+"There was a problem loading the embedded dashboard content from an external "
+"service"
+msgstr ""
+"Đã xảy ra sự cố khi tải nội dung bảng thông tin nhúng từ dịch vụ bên ngoài"
+
+msgid "Fetching external dashboard"
+msgstr "Đang tải bảng thông tin bên ngoài"
+
+msgid "Error"
+msgstr "Lỗi"
+
+msgid "Could not load Superset dashboard"
+msgstr "Không thể tải bảng thông tin Superset"
+
+msgid "Retry"
+msgstr "Thử lại"
+
+msgid "Loading dashboard – {{name}}"
+msgstr "Đang bảng thông tin - {{name}}"
+
+msgid "Loading dashboard"
+msgstr "Đang tải bảng thông tin"
+
+msgid "Load dashboard failed"
+msgstr "Tải bảng thông tin thất bại"
+
+msgid "This dashboard could not be loaded. Please try again later."
+msgstr "Bảng thông tin này không thể tải. Hãy thử lại sau."
+
+msgid "Offline"
+msgstr "Ngoại tuyến"
+
+msgid "This dashboard cannot be loaded while offline."
+msgstr "Bảng thông tin này không thể tải khi đang ngoại tuyến"
+
+msgid "Go to start page"
+msgstr "Chuyển đến trang bắt đầu"
+
+msgid "Slideshow started over 24 hours ago"
+msgstr "Trình chiếu bắt đầu cách đây hơn 24 giờ"
+
+msgid "Exit slideshow"
+msgstr "Thoát chình chiếu"
+
+msgid "Previous item"
+msgstr "Mục trước"
+
+msgid "Next item"
+msgstr "Mục kế tiếp"
+
+msgid "{{name}}: {{filter}}"
+msgstr "{{name}}: {{filter}}"
+
+msgid "{{count}} filters active"
+msgid_plural "{{count}} filters active"
+msgstr[0] "{{count}} bộ lọc đang lọc"
+
+msgid "10 seconds per slide"
+msgstr "10 giây cho mỗi slide"
+
+msgid "20 seconds per slide"
+msgstr "20 giây cho mỗi slide"
+
+msgid "30 seconds per slide"
+msgstr "30 giây cho mỗi slide"
+
+msgid "1 minute per slide"
+msgstr "1 phút cho mỗi slide"
+
+msgid "2 minutes per slide"
+msgstr "2 phút cho mỗi slide"
+
+msgctxt "Application title"
+msgid "__MANIFEST_APP_TITLE"
+msgstr "Bảng thông tin"
+
+msgctxt "Application description"
+msgid "__MANIFEST_APP_DESCRIPTION"
+msgstr ""

@@ -1,0 +1,17 @@
+.descContainer {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-block-end: var(--spacers-dp16);
+    color: var(--colors-grey700);
+}
+
+.radioButton {
+    margin-block-end: var(--spacers-dp16);
+}
+
+.transferHeader {
+    font-size: 14px;
+    font-weight: bold;
+    padding-block-start: 10px;
+    padding-block-end: 10px;
+}

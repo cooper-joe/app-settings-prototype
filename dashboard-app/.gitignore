@@ -1,0 +1,34 @@
+# testing
+/coverage
+
+# misc
+.DS_Store
+.env*.local
+.env
+.idea
+*.iml
+.vscode
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.project
+manifest.webapp
+
+# maven
+/target
+
+# generated localization files
+src/locales/
+
+# DHIS2 Platform
+node_modules
+.d2
+src/locales
+build
+
+# test
+cypress.env.json
+cypress/screenshots
+cypress/videos
+cypress/downloads
+.aider*

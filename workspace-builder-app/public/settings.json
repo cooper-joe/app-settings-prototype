@@ -1,0 +1,33 @@
+{
+    "version": 1,
+    "app": "workspace-builder",
+    "title": "Workspace Builder",
+    "namespace": "workspace-builder-settings",
+    "adminAuthority": "WORKSPACE_BUILDER_SETTINGS_ADMIN",
+    "sections": [
+        {
+            "id": "home",
+            "label": "Home screen",
+            "description": "Choose which tiles everyone sees in the workspace, and in what order."
+        }
+    ],
+    "settings": [
+        {
+            "key": "homeLayout",
+            "section": "home",
+            "type": "custom",
+            "plugin": "plugin.html",
+            "appPath": "#/edit-layout",
+            "label": "Home screen layout",
+            "help": "Drag tiles to reorder them. Changes save straight away.",
+            "default": {
+                "tiles": [
+                    { "id": "visits", "size": "wide" },
+                    { "id": "stock", "size": "normal" },
+                    { "id": "reports", "size": "normal" },
+                    { "id": "messages", "size": "normal" }
+                ]
+            }
+        }
+    ]
+}

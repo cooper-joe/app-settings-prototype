@@ -1,0 +1,138 @@
+{
+    "version": 1,
+    "app": "settings-catalogue",
+    "title": "Settings Catalogue",
+    "namespace": "settings-catalogue-settings",
+    "adminAuthority": "SETTINGS_CATALOGUE_ADMIN",
+    "sections": [
+        {
+            "id": "choices",
+            "label": "Switches and choices",
+            "description": "Level 1: plain JSON, no app code."
+        },
+        {
+            "id": "text",
+            "label": "Text and numbers",
+            "description": "Level 1, with validation: required, length, whole numbers and ranges."
+        },
+        {
+            "id": "pickers",
+            "label": "DHIS2 pickers",
+            "description": "Level 2: DHIS2 metadata, still plain JSON."
+        },
+        {
+            "id": "future",
+            "label": "Not supported yet",
+            "description": "A type this version of System Settings doesn't know."
+        }
+    ],
+    "settings": [
+        {
+            "key": "showWelcome",
+            "section": "choices",
+            "type": "boolean",
+            "default": true,
+            "label": "Show a welcome message"
+        },
+        {
+            "key": "theme",
+            "section": "choices",
+            "type": "select",
+            "default": "system",
+            "label": "Colour theme",
+            "options": [
+                { "value": "light", "label": "Light" },
+                { "value": "dark", "label": "Dark" },
+                { "value": "system", "label": "Follow the device" }
+            ]
+        },
+        {
+            "key": "visibleColumns",
+            "section": "choices",
+            "type": "multiSelect",
+            "required": true,
+            "default": ["name", "code"],
+            "label": "Columns to show",
+            "options": [
+                { "value": "name", "label": "Name" },
+                { "value": "code", "label": "Code" },
+                { "value": "created", "label": "Created" },
+                { "value": "lastUpdated", "label": "Last updated" }
+            ]
+        },
+        {
+            "key": "bannerText",
+            "section": "text",
+            "type": "text",
+            "required": true,
+            "maxLength": 80,
+            "default": "Welcome to the catalogue",
+            "label": "Banner text"
+        },
+        {
+            "key": "footerNote",
+            "section": "text",
+            "type": "text",
+            "multiline": true,
+            "maxLength": 280,
+            "label": "Footer note",
+            "help": "Up to 280 characters. Leave empty for no note."
+        },
+        {
+            "key": "retentionDays",
+            "section": "text",
+            "type": "number",
+            "integer": true,
+            "min": 1,
+            "max": 365,
+            "default": 30,
+            "label": "Keep drafts for (days)"
+        },
+        {
+            "key": "homeOrgUnit",
+            "section": "pickers",
+            "type": "orgUnit",
+            "default": null,
+            "label": "Default organisation unit"
+        },
+        {
+            "key": "regions",
+            "section": "pickers",
+            "type": "orgUnit",
+            "multiple": true,
+            "default": [],
+            "label": "Regions to highlight"
+        },
+        {
+            "key": "reviewers",
+            "section": "pickers",
+            "type": "metadata",
+            "resource": "userGroups",
+            "default": null,
+            "label": "Reviewer group"
+        },
+        {
+            "key": "featuredDataSets",
+            "section": "pickers",
+            "type": "metadata",
+            "resource": "dataSets",
+            "multiple": true,
+            "default": [],
+            "label": "Featured data sets"
+        },
+        {
+            "key": "reportingPeriod",
+            "section": "pickers",
+            "type": "periodType",
+            "default": "Monthly",
+            "label": "Reporting period type"
+        },
+        {
+            "key": "quietHours",
+            "section": "future",
+            "type": "schedule",
+            "default": null,
+            "label": "Quiet hours"
+        }
+    ]
+}

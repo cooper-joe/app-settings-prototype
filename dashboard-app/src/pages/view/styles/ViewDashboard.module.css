@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    block-size: 100%;
+    position: relative;
+}
+.cover {
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-end: 0;
+    inset-block-end: 0;
+    inset-inline-start: 0;
+    z-index: 1998;
+    background: rgba(33, 43, 54, 0.4);
+    display: none;
+}
+
+@media only screen and (max-height: 480px), only screen and (max-width: 480px) {
+    .cover {
+        display: block;
+    }
+}
+
+@media only screen and (max-height: 480px) {
+    .container {
+        overflow-y: auto;
+    }
+}
+
+.link {
+    color: var(--colors-grey900);
+}

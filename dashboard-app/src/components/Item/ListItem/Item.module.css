@@ -1,0 +1,49 @@
+.content {
+    composes: content from '../styles/Item.module.css';
+    flex: 1;
+    overflow: auto;
+}
+
+.fullscreen {
+    composes: fullscreen from '../styles/Item.module.css';
+}
+
+.fullscreen .list {
+    padding-inline: 24px;
+}
+.list {
+    margin-block-start: 10px;
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.item {
+    margin-block-end: var(--spacers-dp8);
+}
+
+.itemContent {
+    display: inline-flex;
+}
+
+.link {
+    font-size: 14px;
+    margin-inline-start: var(--spacers-dp4);
+    text-decoration: underline;
+}
+
+.removeButton {
+    border: none;
+    cursor: pointer;
+    margin-inline-start: var(--spacers-dp8);
+    color: var(--colors-red600);
+    font-size: 12px;
+    text-decoration: underline;
+    background-color: transparent;
+    vertical-align: text-bottom;
+}
+
+.removeButton:hover,
+.removeButton:focus {
+    outline: none;
+    color: var(--colors-red800);
+}

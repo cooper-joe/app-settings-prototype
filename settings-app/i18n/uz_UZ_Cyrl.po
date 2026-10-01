@@ -1,0 +1,891 @@
+# 
+# Translators:
+# Ibatov <ibatovk@who.int>, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"POT-Creation-Date: 2024-06-28T11:48:52.681Z\n"
+"PO-Revision-Date: 2021-03-18 19:32+0000\n"
+"Last-Translator: Ibatov <ibatovk@who.int>, 2024\n"
+"Language-Team: Uzbek (Cyrillic) (https://app.transifex.com/hisp-uio/teams/100509/uz@Cyrl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uz@Cyrl\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Failed to load: {{error}}"
+msgstr "Юклаб бўлмади: {{error}}"
+
+msgid "No flag"
+msgstr "Байроқ йўқ"
+
+msgid "Search settings"
+msgstr "Қидирув созламалари"
+
+msgid "Replace image"
+msgstr "Расмни алмаштириш"
+
+msgid "Preview image"
+msgstr "Расмни олдиндан кўздан кечириш"
+
+msgid "Preview of image"
+msgstr "Расмни олдиндан кўриш"
+
+msgid "Upload image"
+msgstr "Расмни юклаш"
+
+msgid "Error uploading file: {{error}}"
+msgstr "Файлни юклашда хатолик юз берди: {{error}}"
+
+msgid "Cancel upload"
+msgstr "Юкланишни бекор қилиш"
+
+msgid "System default ({{language}})"
+msgstr "Стандарт тизим ({{language}})"
+
+msgid "Set the main field value before adding a translation"
+msgstr "Таржимани қўшишдан олдин асосий майдон қийматини ўрнатинг"
+
+msgid "Could not fetch localized settings"
+msgstr "Маҳаллий созламалар олинмади"
+
+msgid "Select language"
+msgstr "Тилни танланг"
+
+msgid "Version created"
+msgstr "Версия яратилди"
+
+msgid "Failed to create version"
+msgstr "Версия яратиш амалга ошмади"
+
+msgid "Error fetching settings"
+msgstr "Созламаларни юклаб олишда хатолик юз берди"
+
+msgid "Create new version"
+msgstr "Янги вариантни яратинг"
+
+msgid "Best effort"
+msgstr "Яхши ҳаракат"
+
+msgid "Atomic"
+msgstr "Атомик"
+
+msgid "Master version:"
+msgstr "Асосий вариант:"
+
+msgid "None"
+msgstr "Йўқ"
+
+msgid "Last sync attempt"
+msgstr "Охирги синхронизация"
+
+msgid "Failed"
+msgstr "Амалга ошмади"
+
+msgid "No versions exist"
+msgstr "Ҳеч қандай вариант мавжуд эмас"
+
+msgid "Enable Versioning for metadata sync"
+msgstr "Синхронлар учун метамаълумотлар вариантини ёқиб қўйинг"
+
+msgid "Don't sync metadata if DHIS versions differ"
+msgstr ""
+"DHIS вариантлари  бир-биридан фарқ қиладиган бўлса, метамаълумотларни "
+"синхронлаштирманг"
+
+msgid "Metadata Versioning"
+msgstr "МетаМаълумотлар вариантларини бошқариш"
+
+msgid "This client ID is already taken"
+msgstr "Ушбу мижоз идентификатори аллақачон олинган"
+
+msgid "Name"
+msgstr "Исми"
+
+msgid "Required"
+msgstr "Мажбурий"
+
+msgid "Client ID"
+msgstr "Клиент ID"
+
+msgid "Client Secret"
+msgstr "Мижоз сирлари"
+
+msgid "Grant Types"
+msgstr "Грант турлари"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Refresh token"
+msgstr "Токенни янгилаш"
+
+msgid "Authorization code"
+msgstr "Авторизация коди"
+
+msgid "One URL per line"
+msgstr "Ҳар бир қатор учун битта URL"
+
+msgid "Redirect URIs"
+msgstr "URLларни қайта йўналтириш"
+
+msgid "This field should contain a list of URLs"
+msgstr "Ушбу майдон URL манзиллар рўйхатини ўз ичига олиши керак"
+
+msgid "Create new OAuth2 Client"
+msgstr "Янги OAuth2 ни яратиш"
+
+msgid "Edit OAuth2 Client"
+msgstr "OAuth2 ни таҳрирлаш"
+
+msgid "Save"
+msgstr "Сақлаш"
+
+msgid "Cancel"
+msgstr "Бекор қилиш"
+
+msgid "There are currently no OAuth2 clients registered"
+msgstr "Ҳозирда OAuth2 мижозлари рўйхатдан ўтказилмаган"
+
+msgid "Edit"
+msgstr "Таҳрирлаш"
+
+msgid "Delete"
+msgstr "Ўчириб ташлаш"
+
+msgid "OAuth2 client saved"
+msgstr "OAuth2 мижоз сақланди"
+
+msgid "Failed to save OAuth2 client"
+msgstr "OAuth2 мижоз сақланиши амалга ошмади"
+
+msgid "Add OAuth2 client"
+msgstr "OAuth2 клиентини қўшиш"
+
+msgid "Yes"
+msgstr "Ҳа"
+
+msgid "No"
+msgstr "Йўқ"
+
+msgid "OAuth2 client deleted"
+msgstr "OAuth2 мижоз ўчирилди"
+
+msgid "Failed to delete OAuth2 client"
+msgstr "OAuth2 клиентини ўчириш амалга ошмади"
+
+msgid "Settings updated"
+msgstr "Созламалар янгиланди"
+
+msgid "There was a problem updating settings. Changes have not been saved."
+msgstr ""
+
+msgid "General"
+msgstr "Умумий"
+
+msgid "General settings"
+msgstr "Умумий созламалар"
+
+msgid "Analytics"
+msgstr "Аналитика"
+
+msgid "Analytics settings"
+msgstr "Аналитика созламалари"
+
+msgid "Server"
+msgstr "Сервер"
+
+msgid "Server settings"
+msgstr "Сервер созламалари"
+
+msgid "Appearance"
+msgstr "Ташқи кўриниш"
+
+msgid "Appearance settings"
+msgstr "Ташқи кўриниш созламалари"
+
+msgid "Email"
+msgstr "е-Почта"
+
+msgid "Email settings"
+msgstr "Электрон почта созламалари"
+
+msgid "Access"
+msgstr "Кириш"
+
+msgid "Access settings"
+msgstr "Кириш ҳуқуқи созламалари"
+
+msgid "Calendar"
+msgstr "Календар"
+
+msgid "Calendar settings"
+msgstr "Тақвим созламалари"
+
+msgid "Data Import"
+msgstr "Маълумотлар импорти"
+
+msgid "Data import settings"
+msgstr "Маълумотларни импорт қилиш созламалари"
+
+msgid "Synchronization"
+msgstr "Синхронизация"
+
+msgid "Synchronization settings"
+msgstr "Синхронизация созламалари"
+
+msgid "Scheduled jobs"
+msgstr "Вазифалар режалаштирилган"
+
+msgid "OAuth2 Clients"
+msgstr "OAuth2 клиентлари"
+
+msgid "This field is required"
+msgstr "Ушбу қатор тўлдирилиши шарт"
+
+msgid "This field should be a URL"
+msgstr "Ушбу сатрда URL бўлиши лозим"
+
+msgid "This field should be a number"
+msgstr "Ушбу майдонда рақам бўлиши лозим"
+
+msgid "This field should be a positive number"
+msgstr "Ушбу майдонда мусбат рақам бўлиши лозим"
+
+msgid "This field should be an email"
+msgstr "Ушбу сатрда email бўлиши лозим"
+
+msgid ""
+"This setting will be overridden by the current user setting: {{settingName}}"
+msgstr ""
+"Ушбу параметр жорий фойдаланувчи параметрлари юзасидан қайта кўриб чиқилади:"
+" {{settingName}}"
+
+msgid "This setting can be overridden by user settings"
+msgstr "Ушбу параметр фойдаланувчи созламалари билан бекор қилиниши мумкин"
+
+msgid "No options"
+msgstr "Вариант йўқ"
+
+msgid "No settings matched the search term"
+msgstr "Қидирув сўзига ҳеч қандай ахборот топилмади"
+
+msgid "Search results"
+msgstr "Қидирув натижалари"
+
+msgid "Maximum number of analytics records"
+msgstr "Аналитика қайдларини максимал сони"
+
+msgid "Unlimited"
+msgstr "Лимитсиз"
+
+msgid "Maximum number of SQL view records"
+msgstr "SQL ни кўздан кечиришда максимал ёзувлар сони"
+
+msgid "Infrastructural indicators"
+msgstr "Инфратузилма индикаторлари"
+
+msgid "Infrastructural data elements"
+msgstr "Инфраструктуравий маълумотлар элементлари"
+
+msgid "Infrastructural period type"
+msgstr "Инфраструктуравий давр тури"
+
+msgid "Daily"
+msgstr "Кунлик"
+
+msgid "Weekly"
+msgstr "Ҳафталик"
+
+msgid "Monthly"
+msgstr "Ойлик"
+
+msgid "Bi-monthly"
+msgstr "Жуфт ойлик"
+
+msgid "Quarterly"
+msgstr "Ҳар квартал"
+
+msgid "Six-monthly"
+msgstr "Ярим йиллик"
+
+msgid "Six-monthly April"
+msgstr "Ярим йиллик Апрель"
+
+msgid "Yearly"
+msgstr "Йиллик"
+
+msgid "Financial-April"
+msgstr "Молиявий-Апрель"
+
+msgid "Financial-July"
+msgstr "Молиявий-Июль"
+
+msgid "Financial-Oct"
+msgstr "Молиявий-Октябрь"
+
+msgid "Feedback recipients"
+msgstr "Қайта алоқа хабарларини қабул қилувчилар"
+
+msgid "No message recipients"
+msgstr "Хабарларни қабул қилувчилар йўқ"
+
+msgid "System update notification recipients"
+msgstr "Тизим янгиланиши ҳақида билдиришнома олувчилар"
+
+msgid "No update notification recipients"
+msgstr "Тизим янгиланиши ҳақида билдиришнома олмайдиганлар"
+
+msgid "Max offline organisation unit levels"
+msgstr "Автоном ташкилий бўлимлар максимал поғоналари сони"
+
+msgid "Data analysis std dev factor"
+msgstr "Маълумотларни таҳлил қилиш Стандарт Оғиз омили"
+
+msgid "Phone number area code"
+msgstr "Телефон рақамининг минтақавий коди"
+
+msgid "Enable multi-organisation unit forms"
+msgstr "Мульти ташкилотлар учун шаклни ёқиб қўйиш "
+
+msgid "Acceptance required before approval"
+msgstr "Тасдиқлашдан олдин қабул қилиш керак"
+
+msgid "Gather analytical object statistics in dashboard views"
+msgstr "Аналитик статистикани объектлар кўринишида мониторинг панелида йиғинг"
+
+msgid "Include passive dashboard views in usage analytics statistics"
+msgstr ""
+"Фойдаланиш статистикасига асбоблар панелининг пассив кўринишини қўшинг "
+
+msgid "Default relative period for analysis"
+msgstr "Таҳлил қилиш учун стандарт боғлиқ давр"
+
+msgid "This week"
+msgstr "Ушбу ҳафта"
+
+msgid "Last week"
+msgstr "Охирги ҳафта"
+
+msgid "Last 4 weeks"
+msgstr "Охирги 4 ҳафта"
+
+msgid "Last 12 weeks"
+msgstr "Охирги 12 ҳафта"
+
+msgid "Last 52 weeks"
+msgstr "Охирги 52 ҳафта"
+
+msgid "This month"
+msgstr "Ушбу ой"
+
+msgid "Last month"
+msgstr "Охирги ой"
+
+msgid "Months this year"
+msgstr "Ойлар ушбу йилда"
+
+msgid "Months last year"
+msgstr "Ўтган йилдаги ойлар"
+
+msgid "Last 3 months"
+msgstr "Охирги 3 ой"
+
+msgid "Last 6 months"
+msgstr "Охирги ярим йиллик"
+
+msgid "Last 12 months"
+msgstr "Охирги 12 ой"
+
+msgid "This bi-month"
+msgstr "Ушбу жуфт ой"
+
+msgid "Last bi-month"
+msgstr "Охирги жуфт ой"
+
+msgid "Last 6 bi-months"
+msgstr "Охирги ярим йиллик жуфт ойлар"
+
+msgid "This quarter"
+msgstr "Ушбу квартал"
+
+msgid "Last quarter"
+msgstr "Охирги квартал"
+
+msgid "Quarters this year"
+msgstr "Ушбу йилдаги кварталлар"
+
+msgid "Quarters last year"
+msgstr "Ўтган йилдаги чораклар"
+
+msgid "Last 4 quarters"
+msgstr "Охирги 4 квартал"
+
+msgid "This six-month"
+msgstr "Ушбу ярим йиллик"
+
+msgid "Last six-month"
+msgstr "Охирги ярим йиллик"
+
+msgid "Last 2 six-months"
+msgstr "Охирги 2 та ярим йиллик"
+
+msgid "This year"
+msgstr "Ушбу йил"
+
+msgid "Last year"
+msgstr "Охирги йил"
+
+msgid "Last 5 years"
+msgstr "Охирги 5 йил"
+
+msgid "Last 10 years"
+msgstr "Охирги 10 йил"
+
+msgid "This financial year"
+msgstr "Ушбу молиявий йил"
+
+msgid "Last financial year"
+msgstr "Охирги молиявий йил"
+
+msgid "Last 5 financial years"
+msgstr "Охирги 5 молиявий йиллар"
+
+msgid "Hide daily periods"
+msgstr "Кундалик даврларни беркитиш"
+
+msgid "Hidden period types in analytics apps"
+msgstr "Аналитика иловасиларида давр турларини беркитиш"
+
+msgid "Hide weekly periods"
+msgstr "Ҳафталик даврларни беркитиш"
+
+msgid "Hide biweekly periods"
+msgstr "Икки ҳафталик даврни беркитиш"
+
+msgid "Hide monthly periods"
+msgstr "Ойлик даврларни беркитиш"
+
+msgid "Hide bimonthly periods"
+msgstr "Икки ойлик даврларни беркитиш"
+
+msgid "Financial year relative period start month"
+msgstr "Молиявий йилнинг нисбий даври бошланган ой"
+
+msgid "April"
+msgstr "Апрель"
+
+msgid "July"
+msgstr "Июль"
+
+msgid "October"
+msgstr "Октябрь"
+
+msgid "Cache strategy"
+msgstr "Кешлаш стратегияси"
+
+msgid "No cache"
+msgstr "Кеш йўқ"
+
+msgid "Cache for 15 minutes"
+msgstr "15 дақиқа давомида Кешлаш"
+
+msgid "Cache for 30 minutes"
+msgstr "30 дақиқа давомида Кешлаш"
+
+msgid "Cache for one hour"
+msgstr "Бир соат давомида кешлаш"
+
+msgid "Cache until 6AM tomorrow"
+msgstr "Кеш сақланиши эрталабги соат 6:00 гача"
+
+msgid "Cache for two weeks"
+msgstr "Икки ҳафтага кешлаш"
+
+msgid "Cacheability"
+msgstr "Кешлаш қобилияти"
+
+msgid "Public"
+msgstr "Оммавий"
+
+msgid "Private"
+msgstr "Хусусий"
+
+msgid "Analytics cache mode"
+msgstr "Аналитик Кеш режими"
+
+msgid "Progressive"
+msgstr "Прогрессив"
+
+msgid "Fixed"
+msgstr "Русхсат этилган"
+
+msgid "Max number of years to hide unapproved data in analytics"
+msgstr "Тасдиқланмаган маълумотларни аналитикадан беркитиш учун максимал йил"
+
+msgid "Never check approval"
+msgstr "Тасдиқланганлар текширилмасин"
+
+msgid "Check approval for all data"
+msgstr "барча маълумотлар тасдиқланганлигини текшириш"
+
+msgid "Current year only"
+msgstr "Фақат жорий йил"
+
+msgid "Last 2 years"
+msgstr "Охирги 2 йил"
+
+msgid "Last 3 years"
+msgstr "Охирги 3 йил"
+
+msgid "Last 4 years"
+msgstr "Охирги 4 йил"
+
+msgid "Last 6 years"
+msgstr "Охирги 6 йил"
+
+msgid "Last 7 years"
+msgstr "Охирги 7 йил"
+
+msgid "Last 8 years"
+msgstr "Охирги 8 йил"
+
+msgid "Last 9 years"
+msgstr "Охирги 9 йил"
+
+msgid "Respect category option start and end date in analytics table export"
+msgstr ""
+"Аналитик жадвал экспортида категория вариантининг бошланиш ва тугаш санасига"
+" эътибор қилинг"
+
+msgid "Include zero data values in analytics tables"
+msgstr "Аналитик жадвалга 0 қийматларни ҳам киритиш"
+
+msgid "Caching factor"
+msgstr "Кешлаш омили"
+
+msgid "Org unit group set in facility map layers"
+msgstr "Ташкилот харитаси қатламларида ташкилий бирлик гуруҳи бириктирилади"
+
+msgid "Org unit level in facility map layers"
+msgstr "Ташкилот харитаси қатламида ташкилий бирлик даражаси"
+
+msgid "Default basemap"
+msgstr "Стандарт базавий харита"
+
+msgid "OSM Light (default)"
+msgstr "OSM ёритувчи (стандарт)"
+
+msgid "OSM Detailed"
+msgstr "OSM Батафсил"
+
+msgid "Bing Road"
+msgstr "Йўл"
+
+msgid "Bing Dark"
+msgstr "Тўқ рангли мўйқалам"
+
+msgid "Bing Aerial"
+msgstr "Гибрид кўриниш"
+
+msgid "Bing Aerial Labels"
+msgstr "Қатлам белгилари"
+
+msgid "Number of database server CPUs"
+msgstr "Маълумотлар базаси серверида жараёнлар сони"
+
+msgid "Automatic (detect based on web server)"
+msgstr "Автоматик (веб-сервер асосида аниқлаш)"
+
+msgid "System notifications email address"
+msgstr "Тизим хабарномалари электрон почта манзили"
+
+msgid "Google Analytics (Universal Analytics) key"
+msgstr "Google  таҳлилчи (Универсал таҳлилчи) калити"
+
+msgid "Google Maps API key"
+msgstr "Google харита иловаси калитини қидириш"
+
+msgid "Bing Maps API key"
+msgstr "Bing хариталари API калити"
+
+msgid "Application title"
+msgstr "Илова номи"
+
+msgid "Application introduction"
+msgstr "Иловага кириш"
+
+msgid "Application notification"
+msgstr "Илова ҳақида билдиришнома"
+
+msgid "Application left-side footer"
+msgstr "Илованинг чап пастки колонтитули"
+
+msgid "Application right-side footer"
+msgstr "Илованинг ўнг пастки колонтитули"
+
+msgid "Style"
+msgstr "Услуб"
+
+msgid "Start page"
+msgstr "Бош саҳифа"
+
+msgid "Enable light-weight start page"
+msgstr "Дастлабки саҳифани ёқинг"
+
+msgid "Help page link"
+msgstr "Ёрдамчи саҳифага ҳавола"
+
+msgid "Flag"
+msgstr "Байроқ"
+
+msgid "Interface language"
+msgstr "Интерфейс тили"
+
+msgid "Database language"
+msgstr "Маълумотлар базаси тили"
+
+msgid "Property to display in analysis modules"
+msgstr "Таҳлил модулларини намойиш этиш хислати"
+
+msgid "Short name"
+msgstr "Қисқача номи"
+
+msgid "Default digit group separator to display in analysis modules"
+msgstr "Аналитика модулида стандарт рақамли гуруҳни кўрсатиш"
+
+msgid "Space"
+msgstr "Оралиқ (майдон)"
+
+msgid "Comma"
+msgstr "Вергул"
+
+msgid "Require authority to add to view object lists"
+msgstr "Объектлар рўйхатини кўришни қўшиш учун кириш ваколатини талаб қилиш"
+
+msgid "Login page theme"
+msgstr ""
+
+msgid "Default"
+msgstr "Стандарт"
+
+msgid "Sidebar"
+msgstr ""
+
+msgid "Custom"
+msgstr "Одатий"
+
+msgid "Login page template"
+msgstr ""
+
+msgid "Custom login page logo"
+msgstr "Кириш саҳифасида ишлатиладиган логотип"
+
+msgid "Custom top menu logo"
+msgstr "Юқори менюда ишлатиладиган логотип"
+
+msgid "Allow users to switch dashboard items view type"
+msgstr ""
+"Фойдаланувчиларга бошқарув панели элементлари кўриниши турини алмаштиришга "
+"рухсат беринг"
+
+msgid "Allow users to open dashboard items in relevant app"
+msgstr ""
+"Фойдаланувчиларгатегишли иловада бошқарув панели элементларини очишга рухсат"
+" бериш"
+
+msgid "Allow users to show dashboard items interpretations and details"
+msgstr ""
+"Фойдаланувчиларга асбоблар панели элементларининг талқинлари ва "
+"тафсилотларини кўрсатишга рухсат беринг"
+
+msgid "Allow users to view dashboard items in fullscreen"
+msgstr ""
+"Фойдаланувчиларга бошқарув панелидаги нарсаларни тўлиқ экрандда кўришга "
+"рухсат беринг"
+
+msgid "Host name"
+msgstr "Хост номи"
+
+msgid "Port"
+msgstr "Порт"
+
+msgid "Username"
+msgstr "Фойдаланувчи исми"
+
+msgid "TLS"
+msgstr "TLS"
+
+msgid "Email sender"
+msgstr "Электрон хабар жўнатувчиси"
+
+msgid "The address that outgoing messages are sent from."
+msgstr "Чиқувчи хабарлар юборадиган манзиллар."
+
+msgid "Send me a test email"
+msgstr "Менга электрон почта хабарини тест сифатида юборинг"
+
+msgid "Self registration account user role"
+msgstr "Ўз-ўзини рўйхатдан ўтказиш аккаунтининг фойдаланувчи роли"
+
+msgid "Disable self registration"
+msgstr "Ўз-ўзини рўйхатдан ўтказишни ўчириб қўйиш"
+
+msgid "Self registration account organisation unit"
+msgstr "Ўз-ўзини рўйхатдан ўтказишни ташкил этиш бўлими"
+
+msgid "Do not require recaptcha for self registration"
+msgstr "Ўз-ўзини рўйхатдан ўтказиш учун қайта жўнатишни талаб қилманг"
+
+msgid "Enable user account recovery"
+msgstr "Фойдаланувчи аккаунтини тиклашни ёқиш"
+
+msgid "Lock user account temporarily after multiple failed login attempts"
+msgstr ""
+"Бир неча бор муваффақиятсиз кириш уринишлари бўлгандан сўнг, фойдаланувчи "
+"аккаунтини вақтинча блокланг "
+
+msgid "Allow users to grant own user roles"
+msgstr "Фойдаланувчиларга ўз ролини кўрсатишга рухсат бериш"
+
+msgid "Allow assigning object to related objects during add or update"
+msgstr ""
+"Қўшиш ёки янгилаш пайтида тегишли объектларга боғлиқ объектни тайинлашда "
+"рухсат бериш"
+
+msgid "Require user account password change"
+msgstr "Фойдаланувчи аккаунтидан паролини алмаштиришни талаб қилиш"
+
+msgid "Never"
+msgstr "Ҳеч қачон"
+
+msgid "3 months"
+msgstr "3 ой"
+
+msgid "6 months"
+msgstr "6 ой"
+
+msgid "12 months"
+msgstr "12 ой"
+
+msgid "Send reminders to users before their password expires"
+msgstr "Пароль муддати тугашидан олдин эслатмаларини юборинг"
+
+msgid "Number of days before password expiry to send reminder (1–28)"
+msgstr ""
+"эслатма юбориш учун пароль муддати тугашидан олдинги кунлар сони  (1–28)"
+
+msgid "Minimum characters in password"
+msgstr "Паролда минимал талаблар"
+
+msgid "CORS allowlist"
+msgstr ""
+
+msgid "reCAPTCHA Site Key"
+msgstr "reCAPTCHA Сайт Калити"
+
+msgid "reCAPTCHA Secret Key"
+msgstr "reCAPTCHA Махфий Калит"
+
+msgid "Coptic"
+msgstr "Копт тили"
+
+msgid "Ethiopian"
+msgstr "Эфиопия тили"
+
+msgid "Gregorian"
+msgstr "Григориан тили"
+
+msgid "Islamic"
+msgstr "Ислом"
+
+msgid "ISO 8601"
+msgstr "ISO 8601"
+
+msgid "Julian"
+msgstr "Жулиан тили"
+
+msgid "Nepali"
+msgstr "Непал тили"
+
+msgid "Thai"
+msgstr "Таи тили"
+
+msgid "Persian"
+msgstr "Форс тили"
+
+msgid "Change calendar setting"
+msgstr "Календарни созламаларини танланг"
+
+msgid ""
+"Changing your calendar setting after you have entered data can make your "
+"system unusable. If you have entered data, it is strongly recommended that "
+"you do not change your calendar setting."
+msgstr ""
+"Маълумотларни киритганингиздан сўнг календар созламаларини ўзгартириш "
+"тизимни яроқсиз ҳолга олиб келиши мумкин. Агар сиз маълумотларни киритган "
+"бўлсангиз, календар созламаларини ўзгартирмаслик тавсия этилади."
+
+msgid "Yes, change calendar"
+msgstr "Ҳа, календарни танланг"
+
+msgid "Date format"
+msgstr "Сана формати"
+
+msgid "Require periods to match period type of data set"
+msgstr ""
+"Маълумотлар тўпламининг давр турига мос келадиган даврларни талаб қилиш"
+
+msgid "Require data elements to be part of data set"
+msgstr ""
+"Маълумотлар элементларини маълумотлар тўпламининг бир қисми бўлишини талаб "
+"қилиш"
+
+msgid "Require category option combos to match category combo of data element"
+msgstr ""
+"Маълумотлар элементларининг тоифалар комбинациясига мос келадиган тоифадаги "
+"параметрларни талаб қилинг"
+
+msgid "Require organisation units to match assignment of data set"
+msgstr ""
+"Ташкилий бўлимлар маълумотлар тўпламининг тайинланига мос келишини талаб "
+"қилинг"
+
+msgid "Require attribute option combos to match category combo of data set"
+msgstr ""
+"Категория комбинациялари мос келиши учун атрибут параметрлари "
+"комбинацияларини талаб қилинг"
+
+msgid "Require category option combo to be specified"
+msgstr "Белгиланган тоифадаги параметрларининг комбинациясини талаб қилиш"
+
+msgid "Require attribute option combo to be specified"
+msgstr "Белгиланган атрибутлар параметрларининг комбинациясини талаб қилиш"
+
+msgid "Remote server URL"
+msgstr "Масофавий сервер URLи"
+
+msgid "Remote server username"
+msgstr "Масофавий сервер фойдалувчи номи"
+
+msgid "Remote server password"
+msgstr "Масофавий сервер пароли"
+
+msgid ""
+"Number of minutes after which a stale job is reset to scheduled state (1-60)"
+msgstr ""
+
+msgid "Number of minutes after which a completed ad-hoc job is deleted (1+)"
+msgstr ""
+
+msgid ""
+"Maximum number of hours a job may trigger after its intended time if job has"
+" not yet run (1-24)"
+msgstr ""
+
+msgid ""
+"Job execution interval (seconds) below which a job will be logged at debug "
+"(rather than info) level (20+)"
+msgstr ""

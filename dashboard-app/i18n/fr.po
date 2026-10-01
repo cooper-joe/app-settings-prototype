@@ -1,0 +1,850 @@
+# Translators:
+# Matthieu Pinard <matthieu@dhis2.org>, 2019
+# a270031086f2a0d3514bc0cb507b48f6, 2019
+# Yayra Gomado <ygomado@hispwca.org>, 2021
+# Gabriela Rodriguez <grodriguezcoronado@gmail.com>, 2021
+# Edem Kossi <ekossi@hispwca.org>, 2022
+# Viktor Varland <viktor@dhis2.org>, 2025
+# Karoline Tufte Lien <karoline@dhis2.org>, 2025
+# Yao Selom SAKA (HISP WCA) <ysaka@hispwca.org>, 2025
+# Cyrille Kabrane, 2025
+# Esther Tokouli, 2025
+# Philip Larsen Donnelly, 2026
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"POT-Creation-Date: 2026-05-07T22:45:54.825Z\n"
+"PO-Revision-Date: 2019-06-25 12:37+0000\n"
+"Last-Translator: Philip Larsen Donnelly, 2026\n"
+"Language-Team: French (https://app.transifex.com/hisp-uio/teams/100509/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+msgid "Untitled dashboard"
+msgstr "Tableau de bord sans titre"
+
+msgid "Could not get info from Superset gateway endpoint"
+msgstr ""
+"Impossible d'obtenir des informations du endpoint de la passerelle Superset"
+
+msgid "Dashboard with ID \"{{dashboardId}}\" not found or not accessible"
+msgstr ""
+"Tableau de bord avec identifiant \"{{dashboardId}}\" non trouvé ou non "
+"accessible"
+
+msgid "Dashboard with ID \"{{dashboardId}}\" is not embedded"
+msgstr "Tableau de bord avec identifiant \"{{dashboardId}}\" non intégré"
+
+msgid "Embedded provider must be \"SUPERSET\" for dashboard ID \"{{dashboardId}}\""
+msgstr ""
+"Le fournisseur intégré doit être \"SUPERSET\" pour l'identifiant de tableau "
+"de bord \"{{dashboardId}}\"."
+
+msgid "Superset Embed UUID not found for dashboard ID \"{{dashboardId}}\""
+msgstr ""
+"Superset Embed UUID introuvable pour l'identifiant de tableau de bord "
+"\"{{dashboardId}}\""
+
+msgid "Dashboard with ID \"{{dashboardId}}\" not found on the Superset service"
+msgstr ""
+"Tableau de bord avec identifiant \"{{dashboardId}}\" non trouvé sur le "
+"service Superset"
+
+msgid ""
+"Could not get guest token from Superset Gateway for dashboard ID "
+"\"{{dashboardId}}\""
+msgstr ""
+"Impossible d'obtenir le token d'invité de la passerelle Superset pour "
+"l'identifiant de tableau de bord \"{{dashboardId}}\""
+
+msgid "Network error"
+msgstr "Erreur réseau"
+
+msgid "Could not load app data"
+msgstr "Impossible de charger les données de l'application"
+
+msgid "New dashboard: external"
+msgstr "Nouveau tableau de bord : externe"
+
+msgid "Could not create dashboard"
+msgstr "Impossible de créer un tableau de bord"
+
+msgid "An unknown error occurred"
+msgstr "Une erreur inconnue s'est produite."
+
+msgid "Save dashboard"
+msgstr "Sauvegarder le tableau de bord"
+
+msgid "Back"
+msgstr "Précédent"
+
+msgid "Title"
+msgstr "Titre"
+
+msgid "Code"
+msgstr "Code"
+
+msgid ""
+"A unique code to reference this dashboard in other apps and services. Max 50"
+" characters."
+msgstr ""
+"Un code unique pour référencer ce tableau de bord dans d'autres applications"
+" et services. 50 caractères maximum."
+
+msgid "Code can't be longer than 50 characters"
+msgstr "Le code ne doit pas dépasser 50 caractères"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Superset Embed ID"
+msgstr "Superset Embed ID"
+
+msgid "Invalid UUID"
+msgstr "UUID invalide"
+
+msgid "Options"
+msgstr "Options"
+
+msgid "Show chart controls on dashboard items"
+msgstr "Afficher les contrôles graphiques sur les items du tableau de bord"
+
+msgid "Expand filters"
+msgstr "Développer les filtres"
+
+msgid "Delete dashboard"
+msgstr "Supprimer le tableau de bord"
+
+msgid ""
+"Deleting dashboard \"{{ dashboardName }}\" will remove it for all users. "
+"This action cannot be undone. Are you sure you want to permanently delete "
+"this dashboard?"
+msgstr ""
+"La suppression du tableau de bord \"{{ dashboardName }}\" affectera tous les"
+" utilisateurs qui y ont accès. Cette action ne peut pas être annulée. "
+"Voulez-vous vraiment supprimer définitivement ce tableau de bord ?"
+
+msgid ""
+"Note: the source dashboard embedded by this external dashboard will not be "
+"deleted."
+msgstr ""
+"Remarque : le tableau de bord source intégré à ce tableau de bord externe ne"
+" sera pas supprimé."
+
+msgid "Delete"
+msgstr "Supprimer"
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "Edit external dashboard"
+msgstr "Éditer le tableau de bord externe"
+
+msgid "New dashboard: choose type"
+msgstr "Nouveau tableau de bord : choisir le type"
+
+msgid "Internal"
+msgstr "Interne"
+
+msgid "Show data and visualizations from this DHIS2 instance."
+msgstr "Afficher les données et les visualisations de cette instance DHIS2."
+
+msgid "External"
+msgstr "Externe"
+
+msgid "Embed a Superset dashboard"
+msgstr "Intégrer un tableau de bord Superset"
+
+msgid "Continue"
+msgstr "Continuer"
+
+msgid "Not available for embedded dashboards"
+msgstr "Indisponible pour les tableaux de bord intégrés"
+
+msgid "The dashboard couldn't be made available offline. Try again."
+msgstr ""
+"Impossible de rendre le tableau de bord disponible en mode hors ligne. "
+"Essayez à nouveau."
+
+msgid "Remove from offline storage"
+msgstr "Retirer du stockage hors-ligne"
+
+msgid "Make available offline"
+msgstr "Rendre disponible hors ligne"
+
+msgid "Sync offline data now"
+msgstr "Synchroniser les données offline maintenant"
+
+msgid "Unstar dashboard"
+msgstr "Retirer le tableau de bord des favoris"
+
+msgid "Star dashboard"
+msgstr "Ajouter le tableau de bord aux favoris"
+
+msgid "Hide description"
+msgstr "Masquer la description"
+
+msgid "Show description"
+msgstr "Afficher la description"
+
+msgid "Print"
+msgstr "Imprimer"
+
+msgid "Dashboard layout"
+msgstr "Disposition du tableau de bord"
+
+msgid "One item per page"
+msgstr "Un item par page"
+
+msgid "Close dashboard"
+msgstr "Fermer le tableau de bord"
+
+msgid "No dashboard items to show in slideshow"
+msgstr "Aucun item du tableau de bord à afficher dans le diaporama"
+
+msgid "Not available offline"
+msgstr "Non disponible hors ligne"
+
+msgid "Edit"
+msgstr "Modifier"
+
+msgid "Share"
+msgstr "Partager"
+
+msgid "Slideshow"
+msgstr "Diaporama"
+
+msgid "Clear dashboard filters?"
+msgstr "Supprimer les filtres du tableau de bord ?"
+
+msgid ""
+"A dashboard's filters can’t be saved offline. Do you want to remove the "
+"filters and make this dashboard available offline?"
+msgstr ""
+"Impossible de sauvegarder les filtres d'un tableau de bord en mode hors "
+"ligne. Voulez-vous supprimer les filtres et rendre ce tableau de bord "
+"disponible en mode hors ligne ?"
+
+msgid "No, cancel"
+msgstr "Non, annuler"
+
+msgid "Yes, clear filters and sync"
+msgstr "Oui, supprimer les filtres et synchroniser"
+
+msgid "This dashboard is showing data from outside this system"
+msgstr "Ce tableau de bord affiche des données externes à ce système."
+
+msgid "External source"
+msgstr "Source externe"
+
+msgid "Confirm"
+msgstr "Confirmer"
+
+msgid "Filter"
+msgstr "Filtre"
+
+msgid "Failed to unstar the dashboard"
+msgstr "Impossible de retirer le tableau de bord des favoris"
+
+msgid "Failed to star the dashboard"
+msgstr "Impossible d'ajouter le tableau de bord aux favoris"
+
+msgid "Offline data last updated {{timeAgo}}"
+msgstr "Dernière mise à jour des données hors ligne {{timeAgo}}"
+
+msgid "Synced {{timeAgo}}"
+msgstr "Synchronisés {{timeAgo}}"
+
+msgid "Cannot unstar this dashboard while offline"
+msgstr ""
+"Impossible de retirer ce tableau de bord des favoris en mode hors ligne"
+
+msgid "Cannot star this dashboard while offline"
+msgstr ""
+"Impossible d'ajouter ce tableau de bord aux favoris en mode hors ligne"
+
+msgid "No dashboards available."
+msgstr "Aucun tableau de bord n'est disponible."
+
+msgid "Create a new dashboard using the + button."
+msgstr "Créez un nouveau tableau de bord à l'aide du bouton +."
+
+msgid "Search for a dashboard"
+msgstr "Rechercher un tableau de bord"
+
+msgid "No dashboards found for \"{{- filterText}}\""
+msgstr "Aucun tableau de bord trouvé pour \"{{- filterText}}\""
+
+msgid "Dashboards"
+msgstr "Tableaux de bord"
+
+msgid "There was a problem loading this dashboard item"
+msgstr ""
+"Un problème est survenu lors du chargement de cet objet du tableau de bord"
+
+msgid "Open menu"
+msgstr "Ouvrir le menu"
+
+msgid "Open in {{appName}}"
+msgstr "Ouvrir dans {{appName}}"
+
+msgid "View fullscreen"
+msgstr "Afficher en plein écran"
+
+msgid "Remove this item"
+msgstr "Supprimer cet item "
+
+msgid "This item has been shortened to fit on one page"
+msgstr "Cet élément a été réduit pour tenir sur une page"
+
+msgid "The plugin needed to display this item is not available"
+msgstr ""
+"Le module d'extension (plugin) nécessaire pour afficher cet item n'est pas "
+"disponible"
+
+msgid "Install the {{pluginName}} plugin from the App Hub"
+msgstr "Installez le module d'extension {{pluginName}} depuis l'App Hub"
+
+msgid "There was an error loading data for this item"
+msgstr ""
+"Une erreur s'est produite lors du chargement des données pour cet item"
+
+msgid "Open this item in {{appName}}"
+msgstr "Ouvrez cet item dans {{appName}}"
+
+msgid "Remove"
+msgstr "Supprimer"
+
+msgid "Messages"
+msgstr "Messages"
+
+msgid "See all messages"
+msgstr "Voir tous les messages"
+
+msgid "Item type \"{{type}}\" is not supported"
+msgstr "Type d'item \"{{type}}\" non pris en charge"
+
+msgid "The item type is missing"
+msgstr "Le type d'item est manquant"
+
+msgid "Filters applied"
+msgstr "Filtres appliqués"
+
+msgid "Spacer"
+msgstr "Espaceur"
+
+msgid ""
+"Use a spacer to create empty vertical space between other dashboard items."
+msgstr ""
+"Utilisez une espaceur pour créer un espace vertical vide entre les autres "
+"éléments du tableau de bord."
+
+msgid "Text box"
+msgstr "Zone de texte"
+
+msgid "Add text here"
+msgstr "Ajouter du texte ici"
+
+msgid "Filters are not applied to line list dashboard items"
+msgstr ""
+"Les filtres ne sont pas appliqués aux items du tableau de bord de la liste "
+"de lignes"
+
+msgid "Filters not applied"
+msgstr "Filtres non appliqués"
+
+msgid "Only Period and Organisation unit filters can be applied to this item"
+msgstr ""
+"Seuls les filtres de période et d'unité d'organisation peuvent être "
+"appliqués à cet item"
+
+msgid "Some filters not applied"
+msgstr "Certains filtres ne sont pas appliqués"
+
+msgid "Hide details and interpretations"
+msgstr "Masquer les détails et les interprétations"
+
+msgid "Show details and interpretations"
+msgstr "Afficher les détails et les interprétations"
+
+msgid "Open in {{appName}} app"
+msgstr "Ouvrir dans l'application {{appName}}"
+
+msgid "This map can't be displayed as a chart"
+msgstr "Cette carte ne peut pas être affichée sous forme de graphique"
+
+msgid "This map can't be displayed as a pivot table"
+msgstr ""
+"Cette carte ne peut pas être affichée sous forme de tableau croisé dynamique"
+
+msgid "This visualization can't be displayed as a pivot table"
+msgstr ""
+"Cette visualisation ne peut pas être affichée sous forme de tableau croisé "
+"dynamique"
+
+msgid "This visualization can't be displayed as a map"
+msgstr "Cette visualisation ne peut pas être affichée sous forme de carte"
+
+msgid "View as Chart"
+msgstr "Afficher comme graphique"
+
+msgid "View as Pivot table"
+msgstr "Afficher comme tableau croisé dynamique"
+
+msgid "View as Map"
+msgstr "Afficher comme carte"
+
+msgid "There was a problem loading details for this item"
+msgstr "Un problème est survenu lors du chargement des détails pour cet item"
+
+msgid "No data to display"
+msgstr "Aucune donnée à afficher"
+
+msgid ""
+"Install Data Visualizer app ${minDVVersion.join(\n"
+"                            '.'\n"
+"                        )} or higher in order to display this item."
+msgstr ""
+"Installer l'application Visualiseur de données ${minDVVersion.join(\n"
+"                            '.'\n"
+"                        )} ou une version supérieure pour afficher cet item."
+
+msgid "Show without filters"
+msgstr "Afficher sans filtre"
+
+msgid ""
+"Install Line Listing app ${minLLVersion.join(\n"
+"                            '.'\n"
+"                        )} or higher in order to display this item."
+msgstr ""
+"Installer l'application Liste de Lignes ${minLLVersion.join(\n"
+"                            '.'\n"
+"                        )} ou une version supérieure pour afficher cet item."
+
+msgid "Maps with Earth Engine layers cannot be displayed when offline"
+msgstr ""
+"Impossible d'afficher les cartes contenant des couches Earth Engine en mode "
+"hors ligne"
+
+msgid ""
+"Install Maps app ${minMapsVersion.join(\n"
+"                            '.'\n"
+"                        )} or higher in order to display this item."
+msgstr ""
+"Installer l'application Cartes ${minMapsVersion.join(\n"
+"                            '.'\n"
+"                        )} ou une version plus récente pour afficher cet item."
+
+msgid "Unable to load the plugin for this item"
+msgstr "Impossible de charger le plugin pour cet item"
+
+msgid "Resources"
+msgstr "Ressources"
+
+msgid "Reports"
+msgstr "Rapports"
+
+msgid "Visualizations"
+msgstr "Visualisations"
+
+msgid "Pivot tables"
+msgstr "Tableaux croisés dynamiques"
+
+msgid "Charts"
+msgstr "Graphiques"
+
+msgid "Maps"
+msgstr "Cartes"
+
+msgid "Event reports"
+msgstr "Rapports d'événements"
+
+msgid "Event charts"
+msgstr "Tableaux d'événements"
+
+msgid "Line lists"
+msgstr "Listes de lignes"
+
+msgid "Apps"
+msgstr "Applications"
+
+msgid "Users"
+msgstr "Utilisateurs"
+
+msgid "Could not update dashboard {{name}}"
+msgstr "Impossible de mettre à jour le tableau de bord {{name}}"
+
+msgid "Could not delete dashboard {{name}}"
+msgstr "Impossible de supprimer le tableau de bord {{name}}"
+
+msgid "Could not load dashboard details"
+msgstr "Impossible de charger les détails du tableau de bord"
+
+msgid ""
+"Failed to save dashboard. You might be offline or not have access to edit "
+"this dashboard."
+msgstr ""
+"Échec de l'enregistrement du tableau de bord. Vous êtes peut-être hors ligne"
+" ou n'êtes pas autorisé à modifier ce tableau de bord."
+
+msgid ""
+"Failed to save dashboard. This code is already being used on another "
+"dashboard."
+msgstr ""
+"Échec de l'enregistrement du tableau de bord. Ce code est déjà utilisé sur "
+"un autre tableau de bord."
+
+msgid ""
+"Failed to delete dashboard. You might be offline or not have access to edit "
+"this dashboard."
+msgstr ""
+"Échec de la suppression du tableau de bord. Vous êtes peut-être hors ligne "
+"ou n'êtes pas autorisé à modifier ce tableau de bord."
+
+msgid "Cannot save this dashboard while offline"
+msgstr "Impossible de sauvegarder ce tableau de bord en mode hors ligne"
+
+msgid "Save changes"
+msgstr "Enregistrer les modifications"
+
+msgid "Exit print preview"
+msgstr "Quitter l'aperçu avant impression"
+
+msgid "Print preview"
+msgstr "Aperçu avant impression"
+
+msgid "Filter settings"
+msgstr "Paramètres de filtre"
+
+msgid "Translate"
+msgstr "Traduire"
+
+msgid "Cannot delete this dashboard while offline"
+msgstr "Impossible de supprimer ce tableau de bord en mode hors ligne"
+
+msgid "Exit without saving"
+msgstr "Quitter sans sauvegarder"
+
+msgid "Go to dashboards"
+msgstr "Aller aux tableaux de bord"
+
+msgid ""
+"Deleting dashboard \"{{- dashboardName }}\" will remove it for all users. "
+"This action cannot be undone. Are you sure you want to permanently delete "
+"this dashboard?"
+msgstr ""
+"La suppression du tableau de bord \"{{- dashboardName }}\" affectera tous "
+"les utilisateurs qui y ont accès. Cette action ne peut pas être annulée. "
+"Voulez-vous vraiment supprimer définitivement ce tableau de bord ?"
+
+msgid "Discard changes"
+msgstr "Abandonner les modifications"
+
+msgid ""
+"This dashboard has unsaved changes. Are you sure you want to leave and "
+"discard these unsaved changes?"
+msgstr ""
+"Ce tableau de bord contient des modifications non enregistrées. Êtes-vous "
+"sûr de vouloir quitter et abandonner ces modifications ?"
+
+msgid "No, stay here"
+msgstr "Non, continuer ici"
+
+msgid "Yes, discard changes"
+msgstr "Oui, abandonner les modifications"
+
+msgid "No access"
+msgstr "Pas d'accès"
+
+msgid "Not supported"
+msgstr "Non pris en charge"
+
+msgid ""
+"Editing dashboards on small screens is not supported. Resize your screen to "
+"return to edit mode."
+msgstr ""
+"La modification des tableaux de bord sur petit écran n'est pas prise en "
+"charge. Redimensionnez votre écran pour revenir en mode édition."
+
+msgid "Allow filtering by all dimensions"
+msgstr "Autoriser le filtrage par toutes les dimensions"
+
+msgid "Only allow filtering by selected dimensions"
+msgstr "Autoriser uniquement le filtrage selon les dimensions sélectionnées"
+
+msgid "Dashboard filter settings"
+msgstr "Paramètres de filtre du tableau de bord"
+
+msgid ""
+"Dashboards can be filtered by dimensions to change\n"
+"                                         the data shown. By default, all dimensions are available\n"
+"                                         as filters. Alternatively, only selected dimensions can\n"
+"                                         be made available on a dashboard."
+msgstr ""
+"Les tableaux de bord peuvent être filtrés par dimensions pour changer \n"
+"l'affichage des donnée. Par défaut, toutes les dimensions sont disponibles \n"
+"comme filtres. Alternativement, seules les dimensions sélectionnées peuvent \n"
+" être rendues disponibles sur un tableau de bord."
+
+msgid "Available Filters"
+msgstr "Filtres disponibles"
+
+msgid "Selected Filters"
+msgstr "Filtres sélectionnés"
+
+msgid "There are no items on this dashboard"
+msgstr "Il n'y a aucun élément sur ce tableau de bord"
+
+msgid "Show fewer"
+msgstr "Afficher moins"
+
+msgid "Show more"
+msgstr "Afficher plus"
+
+msgid "Open visualization in new tab"
+msgstr "Ouvrir la visualisation dans un nouvel onglet"
+
+msgid "Insert"
+msgstr "Insérer"
+
+msgid "Search for items to add to this dashboard"
+msgstr "Rechercher des éléments à ajouter à ce tableau de bord"
+
+msgid "Search for visualizations, reports and more"
+msgstr "Recherche de visualisations, de rapports et autres"
+
+msgid "Cannot search for dashboard items while offline"
+msgstr ""
+"Impossible de rechercher des items du tableau de bord en mode hors ligne"
+
+msgid "Additional items"
+msgstr "Items additionnels"
+
+msgid "Freeflow"
+msgstr "Freeflow"
+
+msgid "Dashboard items can be placed anywhere, at any size."
+msgstr ""
+"Les items du tableau de bord peuvent être placés n'importe où, quelle que "
+"soit leur taille."
+
+msgid "Fixed columns"
+msgstr "Colonnes fixes"
+
+msgid ""
+"Dashboard items are automatically placed within fixed, horizontal columns. "
+"The number of columns can be adjusted."
+msgstr ""
+"Les items du tableau de bord sont automatiquement placés dans des colonnes "
+"horizontales fixes. Le nombre de colonnes peut être ajusté."
+
+msgid "Number of columns"
+msgstr "Nombre de colonnes"
+
+msgid "Save layout"
+msgstr "Enregistrer la disposition"
+
+msgid "Dashboard title"
+msgstr "Titre du tableau de bord"
+
+msgid "Dashboard code"
+msgstr "Code du tableau de bord"
+
+msgid "Dashboard description"
+msgstr "Description du tableau de bord"
+
+msgid "Layout"
+msgstr "Disposition"
+
+msgid "{{count}} columns"
+msgid_plural "{{count}} columns"
+msgstr[0] "{{count}} colonne"
+msgstr[1] "{{count}} colonne"
+msgstr[2] "{{count}} colonnes"
+
+msgid "Change layout"
+msgstr "Modifier la disposition"
+
+msgid "Add new items to"
+msgstr "Ajouter de nouveaux items à"
+
+msgid "End of dashboard"
+msgstr "Fin du tableau de bord"
+
+msgid "Start of dashboard"
+msgstr "Début du tableau de bord"
+
+msgid "dashboard layout"
+msgstr "disposition du tableau de bord"
+
+msgid "one item per page"
+msgstr "un item par page"
+
+msgid "Print Preview"
+msgstr "Aperçu avant impression"
+
+msgid "For best print results"
+msgstr "Pour de meilleurs résultats d'impression"
+
+msgid "Use Chrome or Edge web browser"
+msgstr "Utiliser le navigateur web Chrome ou Edge"
+
+msgid "Wait for all dashboard items to load before printing"
+msgstr ""
+"Attendez que tous les items du tableau de bord soient chargés avant de les "
+"imprimer"
+
+msgid ""
+"Use A4 landscape paper size, default margin settings and turn on background "
+"graphics in the browser print dialog"
+msgstr ""
+"Utilisez le format de papier A4 paysage, les paramètres de marge par défaut "
+"et activez les graphiques d'arrière-plan dans la boîte de dialogue "
+"d'impression du navigateur."
+
+msgid "Getting started"
+msgstr "Commencer"
+
+msgid "Search for and open saved dashboards from the top bar."
+msgstr ""
+"Recherchez et ouvrez les tableaux de bord enregistrés depuis la barre "
+"supérieure."
+
+msgid ""
+"Click a dashboard chip to open it. Get back to this screen from the \"More\""
+" menu."
+msgstr ""
+"Cliquez sur une vignette du tableau de bord pour l'ouvrir. Revenez à cet "
+"écran à partir du menu \"Plus\"."
+
+msgid "Create a new dashboard with the + button."
+msgstr "Créer un nouveau tableau de bord en cliquant sur le bouton +."
+
+msgid "Your most viewed dashboards"
+msgstr "Vos tableaux de bord les plus consultés"
+
+msgid "No dashboards found. Use the + button to create a new dashboard."
+msgstr ""
+"Aucun tableau de bord trouvé. Utilisez le bouton + pour créer un nouveau "
+"tableau de bord."
+
+msgid "Requested dashboard not found"
+msgstr "Tableau de bord demandé introuvable"
+
+msgid "No description"
+msgstr "Pas de description"
+
+msgid "{{count}} selected"
+msgid_plural "{{count}} selected"
+msgstr[0] "{{count}} choisi"
+msgstr[1] "{{count}} choisi"
+msgstr[2] "{{count}} sélectionné"
+
+msgid "Cannot edit filters while offline"
+msgstr "Impossible de modifier les filtres en mode hors ligne"
+
+msgid "Cannot edit filters on a small screen"
+msgstr "Impossible de modifier les filtres sur un petit écran"
+
+msgid "Removing filters while offline"
+msgstr "Suppression des filtres en mode hors ligne"
+
+msgid ""
+"Removing this filter while offline will remove all other filters. Do you "
+"want to remove all filters on this dashboard?"
+msgstr ""
+"La suppression de ce filtre en mode hors ligne entraîne la suppression de "
+"tous les autres filtres. Voulez-vous supprimer tous les filtres de ce "
+"tableau de bord ?"
+
+msgid "Yes, remove filters"
+msgstr "Oui, supprimer les filtres"
+
+msgid ""
+"There was a problem loading the embedded dashboard content from an external "
+"service"
+msgstr ""
+"Un problème est survenu lors du chargement du contenu du tableau de bord "
+"intégré à partir d'un service externe"
+
+msgid "Fetching external dashboard"
+msgstr "Récupération d'un tableau de bord externe"
+
+msgid "Error"
+msgstr "Erreur"
+
+msgid "Could not load Superset dashboard"
+msgstr "Impossible de charger le tableau de bord Superset"
+
+msgid "Retry"
+msgstr "Réessayer"
+
+msgid "Loading dashboard – {{name}}"
+msgstr "Chargement du tableau de bord - {{name}}"
+
+msgid "Loading dashboard"
+msgstr "Chargement du tableau de bord"
+
+msgid "Load dashboard failed"
+msgstr "Échec du chargement du tableau de bord"
+
+msgid "This dashboard could not be loaded. Please try again later."
+msgstr ""
+"Ce tableau de bord n'a pas pu être chargé. Veuillez réessayer plus tard."
+
+msgid "Offline"
+msgstr "Hors ligne"
+
+msgid "This dashboard cannot be loaded while offline."
+msgstr "Impossible de charger ce tableau de bord en mode hors ligne."
+
+msgid "Go to start page"
+msgstr "Aller à la page d'accueil"
+
+msgid "Slideshow started over 24 hours ago"
+msgstr "Diaporama démarré il y a plus de 24 heures"
+
+msgid "Exit slideshow"
+msgstr "Quitter le diaporama"
+
+msgid "Previous item"
+msgstr "Item précédent"
+
+msgid "Next item"
+msgstr "Item suivant"
+
+msgid "{{name}}: {{filter}}"
+msgstr "{{name}}: {{filter}}"
+
+msgid "{{count}} filters active"
+msgid_plural "{{count}} filters active"
+msgstr[0] "{{count}} filtre actif"
+msgstr[1] "{{count}} filtres actifs"
+msgstr[2] "{{count}} filtres actifs"
+
+msgid "10 seconds per slide"
+msgstr "10 secondes par diapositive"
+
+msgid "20 seconds per slide"
+msgstr "20 secondes par diapositive"
+
+msgid "30 seconds per slide"
+msgstr "30 secondes par diapositive"
+
+msgid "1 minute per slide"
+msgstr "1 minute par diapositive"
+
+msgid "2 minutes per slide"
+msgstr "2 minutes par diapositive"
+
+msgctxt "Application title"
+msgid "__MANIFEST_APP_TITLE"
+msgstr "Tableau de bord"
+
+msgctxt "Application description"
+msgid "__MANIFEST_APP_DESCRIPTION"
+msgstr ""

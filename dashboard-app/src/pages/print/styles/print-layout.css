@@ -1,0 +1,19 @@
+.react-grid-item.layout.PAGEBREAK {
+    margin-inline-start: -25px;
+    min-block-size: 50px !important;
+    block-size: 50px !important;
+}
+
+.react-grid-item.layout.SPACER {
+    visibility: hidden;
+}
+
+@media print {
+    .react-grid-item.layout.PAGEBREAK {
+        visibility: hidden !important;
+    }
+
+    .react-grid-item.layout.PAGEBREAK.removed {
+        display: none !important;
+    }
+}

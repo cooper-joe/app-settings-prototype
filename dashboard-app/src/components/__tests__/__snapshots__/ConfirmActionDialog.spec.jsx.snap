@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmActionDialog does not render dialog if not open 1`] = `<div />`;
+
+exports[`ConfirmActionDialog renders confirm delete dialog 1`] = `
+<div>
+  <div
+    class="ui-Modal"
+  >
+    <div
+      class="ui-ModalTitle"
+    >
+      Delete dashboard
+    </div>
+    <div
+      class="ui-ModalContent"
+    >
+      <span
+        class="content"
+      >
+        Deleting dashboard Twilight Sparkle will remove it for all users. This action cannot be undone. Are you sure you want to permanently delete this dashboard?
+      </span>
+    </div>
+    <div
+      class="ui-ModalActions"
+    >
+      <div
+        class="ui-ButtonStrip"
+      >
+        <div
+          class="ui-Button"
+        >
+          Cancel
+        </div>
+        <div
+          class="ui-Button"
+        >
+          Delete
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ConfirmActionDialog renders discard changes dialog 1`] = `
+<div>
+  <div
+    class="ui-Modal"
+  >
+    <div
+      class="ui-ModalTitle"
+    >
+      Discard changes
+    </div>
+    <div
+      class="ui-ModalContent"
+    >
+      <span
+        class="content"
+      >
+        This dashboard has unsaved changes. Are you sure you want to leave and discard these unsaved changes?
+      </span>
+    </div>
+    <div
+      class="ui-ModalActions"
+    >
+      <div
+        class="ui-ButtonStrip"
+      >
+        <div
+          class="ui-Button"
+        >
+          No, stay here
+        </div>
+        <div
+          class="ui-Button"
+        >
+          Yes, discard changes
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewDashboard renders dashboard 1`] = `
+<div>
+  <header
+    style="height: 48px;"
+  />
+  <div
+    class="container dashboard-scroll-container"
+  >
+    <div>
+      ActionsBar
+    </div>
+    <div
+      class="container dashboard-scroll-container"
+      data-test="inner-scroll-container"
+    >
+      <div
+        class="contentWrap"
+      >
+        <div>
+          TitleBar
+        </div>
+        <div>
+          ItemGrid
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="notice"
+  >
+    <div
+      class="ui-CenteredContent"
+    >
+      <div
+        class="noticeContainer"
+      >
+        <div
+          class="ui-NoticeBox"
+          data-warning="true"
+          title="Not supported"
+        >
+          Editing dashboards on small screens is not supported. Resize your screen to return to edit mode.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NewDashboard renders print preview 1`] = `
+<div>
+  <header
+    style="height: 48px;"
+  />
+  <div
+    class="container dashboard-scroll-container"
+  >
+    <div>
+      ActionsBar
+    </div>
+    <div>
+      LayoutPrintPreview
+    </div>
+  </div>
+  <div
+    class="notice"
+  >
+    <div
+      class="ui-CenteredContent"
+    >
+      <div
+        class="noticeContainer"
+      >
+        <div
+          class="ui-NoticeBox"
+          data-warning="true"
+          title="Not supported"
+        >
+          Editing dashboards on small screens is not supported. Resize your screen to return to edit mode.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

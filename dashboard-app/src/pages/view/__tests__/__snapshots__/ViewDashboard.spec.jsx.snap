@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ViewDashboard renders dashboard 1`] = `
+<div>
+  <header />
+  <div
+    class="container dashboard-scroll-container"
+    data-test="outer-scroll-container"
+  >
+    <div>
+      DashboardsBar
+    </div>
+    <div
+      class="container dashboard-scroll-container"
+      data-test="inner-scroll-container"
+    >
+      <div
+        class="contentWrap"
+      >
+        <div>
+          MockFilterBar
+        </div>
+        <div>
+          MockItemGrid
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

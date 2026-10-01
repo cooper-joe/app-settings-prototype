@@ -1,0 +1,36 @@
+.dashboard {
+    display: flex;
+    align-items: center;
+    margin-block-start: 0;
+    margin-block-end: var(--spacers-dp12);
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding: 0;
+    letter-spacing: 0.1px;
+    line-height: 16px;
+    cursor: pointer;
+    font-size: 14px;
+    color: var(--colors-grey900);
+    text-decoration: none;
+}
+.dashboard :hover {
+    text-decoration: underline;
+}
+.icon {
+    block-size: 16px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    inset-block-start: -1px;
+}
+.icon svg {
+    block-size: 16px;
+    inline-size: 16px;
+    margin-inline-end: var(--spacers-dp8);
+}
+.adornment {
+    margin-inline-start: var(--spacers-dp4);
+    fill: var(--colors-grey600);
+    position: relative;
+    inset-block-start: -2px;
+}

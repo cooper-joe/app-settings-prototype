@@ -1,0 +1,9 @@
+.label {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--colors-grey800);
+    padding-block-start: 5px;
+    padding-block-end: 5px;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+}

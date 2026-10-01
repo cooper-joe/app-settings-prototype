@@ -1,0 +1,831 @@
+# 
+# Translators:
+# Edem Kossi <ekossi@hispwca.org>, 2021
+# Philip Larsen Donnelly, 2021
+# Viktor Varland <viktor@dhis2.org>, 2021
+# Bram Piot <bram.piot@gmail.com>, 2021
+# tx_e2f_frfr r6 <tx_e2f_frfr_r661@ate2f.com>, 2021
+# tx_e2f_fr r25 <tx_e2f_fr_r25@ate2f.com>, 2021
+# Yao Selom SAKA (HISP WCA) <ysaka@hispwca.org>, 2022
+# Sakibou ALASSANI <sakibou.alass@gmail.com>, 2024
+# Yayra Gomado <ygomado@hispwca.org>, 2024
+# Elise Desailly, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"POT-Creation-Date: 2024-02-09T16:13:02.251Z\n"
+"PO-Revision-Date: 2021-03-18 19:32+0000\n"
+"Last-Translator: Elise Desailly, 2024\n"
+"Language-Team: French (https://app.transifex.com/hisp-uio/teams/100509/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+msgid "Failed to load: {{error}}"
+msgstr "Échec du chargement : {{error}}"
+
+msgid "No flag"
+msgstr "Pas de Drapeau"
+
+msgid "Search settings"
+msgstr "Paramètres de recherche"
+
+msgid "Replace image"
+msgstr "Remplacer l'image"
+
+msgid "Preview image"
+msgstr "Aperçu de l'image"
+
+msgid "Preview of image"
+msgstr "Aperçu de l'image"
+
+msgid "Upload image"
+msgstr "Télécharger une image"
+
+msgid "Error uploading file: {{error}}"
+msgstr "Erreur lors de l'importation du fichier : {{error}}"
+
+msgid "Cancel upload"
+msgstr "Annuler le téléchargement"
+
+msgid "System default ({{language}})"
+msgstr ""
+
+msgid "Set the main field value before adding a translation"
+msgstr "Définir la valeur du champ principal avant d'ajouter une traduction"
+
+msgid "Could not fetch localized settings"
+msgstr "Impossible de récupérer les paramètres localisés"
+
+msgid "Select language"
+msgstr "Choisir la langue"
+
+msgid "Version created"
+msgstr "Version créée"
+
+msgid "Failed to create version"
+msgstr "Échec de la création de la version"
+
+msgid "Error fetching settings"
+msgstr "Erreur lors de la récupération des paramètres"
+
+msgid "Create new version"
+msgstr "Créer une nouvelle version"
+
+msgid "Best effort"
+msgstr "Meilleur effort"
+
+msgid "Atomic"
+msgstr "Atomique"
+
+msgid "Master version:"
+msgstr "Version principale:"
+
+msgid "None"
+msgstr "Aucun"
+
+msgid "Last sync attempt"
+msgstr "Dernière tentative de synchronisation"
+
+msgid "Failed"
+msgstr "Echoué"
+
+msgid "No versions exist"
+msgstr "Aucune version n'existe"
+
+msgid "Enable Versioning for metadata sync"
+msgstr ""
+"Activer la gestion des versions pour la synchronisation des métadonnées"
+
+msgid "Don't sync metadata if DHIS versions differ"
+msgstr "Ne pas synchroniser les métadonnées si les versions DHIS diffèrent"
+
+msgid "Metadata Versioning"
+msgstr "Gestion des versions des métadonnées"
+
+msgid "Settings updated"
+msgstr "Paramètres mis à jour"
+
+msgid "General"
+msgstr "Général"
+
+msgid "General settings"
+msgstr "Paramètres généraux"
+
+msgid "Analytics"
+msgstr "Analytiques"
+
+msgid "Analytics settings"
+msgstr "Paramètres d'analyse"
+
+msgid "Server"
+msgstr "Serveur"
+
+msgid "Server settings"
+msgstr "Paramètres du serveur"
+
+msgid "Appearance"
+msgstr "Aspect"
+
+msgid "Appearance settings"
+msgstr "Paramètres d'apparence"
+
+msgid "Email"
+msgstr "Adresse e-mail"
+
+msgid "Email settings"
+msgstr "paramètres e-mail"
+
+msgid "Access"
+msgstr "Accès"
+
+msgid "Access settings"
+msgstr "Paramètres d'accès"
+
+msgid "Calendar"
+msgstr "Calendar"
+
+msgid "Calendar settings"
+msgstr "Paramètres du calendrier"
+
+msgid "Data Import"
+msgstr "Importation de données"
+
+msgid "Data import settings"
+msgstr "Paramètres d'importation de données"
+
+msgid "Synchronization"
+msgstr "Synchronisation"
+
+msgid "Synchronization settings"
+msgstr "Synchronisation"
+
+msgid "OAuth2 Clients"
+msgstr "Clients OAuth2"
+
+msgid "Scheduled jobs"
+msgstr "Tâches planifiées"
+
+msgid "This field is required"
+msgstr "Ce champs est requis"
+
+msgid "This field should be a URL"
+msgstr "Ce champ doit être une URL"
+
+msgid "This field should contain a list of URLs"
+msgstr "Ce champ doit contenir une liste d'URL"
+
+msgid "This field should be a number"
+msgstr "Ce champ doit être un nombre"
+
+msgid "This field should be a positive number"
+msgstr "Ce champ doit être un nombre positif"
+
+msgid "This field should be an email"
+msgstr "Ce champ doit être un e-mail"
+
+msgid ""
+"This setting will be overridden by the current user setting: {{settingName}}"
+msgstr ""
+"Ce paramètre sera remplacé par le paramètre utilisateur actuel : "
+"{{settingName}}"
+
+msgid "This setting can be overridden by user settings"
+msgstr "Ce paramètre peut être remplacé par les paramètres utilisateur"
+
+msgid "No options"
+msgstr "Aucune option"
+
+msgid "No settings matched the search term"
+msgstr "Aucun paramètre ne correspond au terme de la recherche"
+
+msgid "Search results"
+msgstr "Résultats de la recherche"
+
+msgid "Maximum number of analytics records"
+msgstr "Maximum number of analytics records"
+
+msgid "Unlimited"
+msgstr "Unlimited"
+
+msgid "Maximum number of SQL view records"
+msgstr "Nombre maximal d'enregistrements de vue SQL"
+
+msgid "Infrastructural indicators"
+msgstr "Indicateurs d'infrastructure"
+
+msgid "Infrastructural data elements"
+msgstr "Infrastructures éléments de données"
+
+msgid "Infrastructural period type"
+msgstr "Type de période d'infrastructure"
+
+msgid "Daily"
+msgstr "Quotidien"
+
+msgid "Weekly"
+msgstr "Hebdomadaire"
+
+msgid "Monthly"
+msgstr "Mensuel"
+
+msgid "Bi-monthly"
+msgstr "Bimensuel"
+
+msgid "Quarterly"
+msgstr "Trimestriel"
+
+msgid "Six-monthly"
+msgstr "Semestriel"
+
+msgid "Six-monthly April"
+msgstr "Six-mois avril"
+
+msgid "Yearly"
+msgstr "Annuel"
+
+msgid "Financial-April"
+msgstr "Financier-Avril"
+
+msgid "Financial-July"
+msgstr "Financière-Juillet"
+
+msgid "Financial-Oct"
+msgstr "Financière-Oct"
+
+msgid "Feedback recipients"
+msgstr "Commentaires des bénéficiaires"
+
+msgid "No message recipients"
+msgstr "Pas de destinataires du message"
+
+msgid "System update notification recipients"
+msgstr "Destinataires des notifications de mise à jour du système"
+
+msgid "No update notification recipients"
+msgstr "Aucune mise à jour des destinataires des notifications"
+
+msgid "Max offline organisation unit levels"
+msgstr "Niveau maximum d'unité d'organisation en offline"
+
+msgid "Data analysis std dev factor"
+msgstr "L'analyse des données écart facteur standard"
+
+msgid "Phone number area code"
+msgstr "Code zone du numéro de téléphone"
+
+msgid "Enable multi-organisation unit forms"
+msgstr "Activer les formulaires multi-unités d'organisation"
+
+msgid "Acceptance required before approval"
+msgstr "Acceptation requise avant approbation"
+
+msgid "Gather analytical object statistics in dashboard views"
+msgstr ""
+"Recueillir des statistiques d'objets analytiques dans les vues de tableau de"
+" bord"
+
+msgid "Include passive dashboard views in usage analytics statistics"
+msgstr ""
+"Inclure les vues passives du tableau de bord dans les statistiques d'analyse"
+" d'utilisation"
+
+msgid "Default relative period for analysis"
+msgstr "Période relative par défaut pour l'analyse"
+
+msgid "This week"
+msgstr "Cette semaine"
+
+msgid "Last week"
+msgstr "Semaine passée"
+
+msgid "Last 4 weeks"
+msgstr "4 dernières semaines"
+
+msgid "Last 12 weeks"
+msgstr "12 dernières semaines"
+
+msgid "Last 52 weeks"
+msgstr "52 dernières semaines"
+
+msgid "This month"
+msgstr "Ce mois-ci"
+
+msgid "Last month"
+msgstr "Le mois dernier"
+
+msgid "Months this year"
+msgstr "Mois cette année"
+
+msgid "Months last year"
+msgstr "Mois de l'année passée"
+
+msgid "Last 3 months"
+msgstr "3 derniers mois"
+
+msgid "Last 6 months"
+msgstr "6 derniers mois"
+
+msgid "Last 12 months"
+msgstr "12 derniers mois"
+
+msgid "This bi-month"
+msgstr "Ces 2 dernières semaines"
+
+msgid "Last bi-month"
+msgstr "Dernier bi-mestre"
+
+msgid "Last 6 bi-months"
+msgstr "6 derniers bimestres"
+
+msgid "This quarter"
+msgstr "Ce trimestre"
+
+msgid "Last quarter"
+msgstr "Trimestre précédent"
+
+msgid "Quarters this year"
+msgstr "Trimestres cette année"
+
+msgid "Quarters last year"
+msgstr "Trimestres de l'année passée"
+
+msgid "Last 4 quarters"
+msgstr "4 derniers trimestres"
+
+msgid "This six-month"
+msgstr "Ce semestre"
+
+msgid "Last six-month"
+msgstr "Dernier semestre"
+
+msgid "Last 2 six-months"
+msgstr "2 derniers semestres"
+
+msgid "This year"
+msgstr "Année en cours"
+
+msgid "Last year"
+msgstr "L'année passée"
+
+msgid "Last 5 years"
+msgstr "5 dernières années"
+
+msgid "Last 10 years"
+msgstr "10 dernières années"
+
+msgid "This financial year"
+msgstr "Année fiscale en cours"
+
+msgid "Last financial year"
+msgstr "Dernière année financière"
+
+msgid "Last 5 financial years"
+msgstr "5 dernières années financières"
+
+msgid "Hide daily periods"
+msgstr "Masquer les périodes quotidiennes"
+
+msgid "Hidden period types in analytics apps"
+msgstr "Types de périodes masquées dans les applications d'analyses"
+
+msgid "Hide weekly periods"
+msgstr "Masquer les périodes hebdomadaires"
+
+msgid "Hide biweekly periods"
+msgstr "Masquer les périodes bihebdomadaires"
+
+msgid "Hide monthly periods"
+msgstr "Masquer les périodes mensuelles"
+
+msgid "Hide bimonthly periods"
+msgstr "Masquer les périodes bimensuelles"
+
+msgid "Financial year relative period start month"
+msgstr "Mois de départ de la période relative à l'année financière"
+
+msgid "April"
+msgstr "Avril"
+
+msgid "July"
+msgstr "Juillet"
+
+msgid "October"
+msgstr "Octobre"
+
+msgid "Cache strategy"
+msgstr "Stratégie de cache"
+
+msgid "No cache"
+msgstr "Pas de cache"
+
+msgid "Cache for 15 minutes"
+msgstr "Cache pour 15 min"
+
+msgid "Cache for 30 minutes"
+msgstr "Cache pour 30 min"
+
+msgid "Cache for one hour"
+msgstr "Cache pendant 1 heure"
+
+msgid "Cache until 6AM tomorrow"
+msgstr "Cache jusqu'à 6 heures demain matin"
+
+msgid "Cache for two weeks"
+msgstr "Cache pendant 2 semaines"
+
+msgid "Cacheability"
+msgstr "Capacité de mise en cache"
+
+msgid "Public"
+msgstr "Public"
+
+msgid "Private"
+msgstr "Privé"
+
+msgid "Analytics cache mode"
+msgstr "Mode cache pour les analyses"
+
+msgid "Progressive"
+msgstr "Progressif"
+
+msgid "Fixed"
+msgstr "Fixe"
+
+msgid "Max number of years to hide unapproved data in analytics"
+msgstr ""
+"Nombre max. d'années pour masquer des données non approuvées dans des "
+"analyses"
+
+msgid "Never check approval"
+msgstr "Ne jamais vérifier l'approbation"
+
+msgid "Check approval for all data"
+msgstr "Vérifier l'approbation pour toutes les données"
+
+msgid "Current year only"
+msgstr "Année en cours uniquement"
+
+msgid "Last 2 years"
+msgstr "2 dernières années"
+
+msgid "Last 3 years"
+msgstr "3 dernières années"
+
+msgid "Last 4 years"
+msgstr "4 dernières années"
+
+msgid "Last 6 years"
+msgstr "6 dernières années"
+
+msgid "Last 7 years"
+msgstr "7 dernières années"
+
+msgid "Last 8 years"
+msgstr "8 dernières années"
+
+msgid "Last 9 years"
+msgstr "9 dernières années"
+
+msgid "Respect category option start and end date in analytics table export"
+msgstr ""
+"Respecter les dates de début et de fin de l'option de catégorie dans "
+"l'exportation de tables analytiques"
+
+msgid "Include zero data values in analytics tables"
+msgstr "Inclure des valeurs de données nulles dans les tableaux analytiques"
+
+msgid "Caching factor"
+msgstr "Facteur de mise en cache"
+
+msgid "Org unit group set in facility map layers"
+msgstr ""
+"Groupe d'unités d'organisation défini dans les couches cartographiques des "
+"établissements de santé"
+
+msgid "Org unit level in facility map layers"
+msgstr ""
+"Niveau d'unité d'organisation dans les couches cartographiques des "
+"établissements"
+
+msgid "Default basemap"
+msgstr "Basemap par défaut"
+
+msgid "OSM Light (default)"
+msgstr "OSM Light (par défaut)"
+
+msgid "OSM Detailed"
+msgstr "OSM détaillée"
+
+msgid "Bing Road"
+msgstr "Bing Route"
+
+msgid "Bing Dark"
+msgstr "Bing Sombre"
+
+msgid "Bing Aerial"
+msgstr "Bing Satellite"
+
+msgid "Bing Aerial Labels"
+msgstr "Étiquettes Bing Satellite"
+
+msgid "Number of database server CPUs"
+msgstr "Nombre d'UC de serveur de base de données"
+
+msgid "Automatic (detect based on web server)"
+msgstr "Automatique (détection basée sur le serveur Web)"
+
+msgid "System notifications email address"
+msgstr "Adresse e-mail des notifications du système"
+
+msgid "Google Analytics (Universal Analytics) key"
+msgstr "Clé de Google Analytics (Universal Analytics)"
+
+msgid "Google Maps API key"
+msgstr "Clé API Google Maps"
+
+msgid "Bing Maps API key"
+msgstr "Clé API de Bing Maps"
+
+msgid "Application title"
+msgstr "Titre de l'application"
+
+msgid "Application introduction"
+msgstr "Introduction à l'application"
+
+msgid "Application notification"
+msgstr "Notification de l'application"
+
+msgid "Application left-side footer"
+msgstr "Bas de page gauche de l'application"
+
+msgid "Application right-side footer"
+msgstr "Bas de page droit de l'application"
+
+msgid "Style"
+msgstr "Style"
+
+msgid "Start page"
+msgstr "Page d'accueil"
+
+msgid "Enable light-weight start page"
+msgstr "Activer une page de démarrage légère"
+
+msgid "Help page link"
+msgstr "Lien vers la page d'aide"
+
+msgid "Flag"
+msgstr "Drapeau"
+
+msgid "Interface language"
+msgstr "Langue de l'interface"
+
+msgid "Database language"
+msgstr "Langue de la base de données"
+
+msgid "Property to display in analysis modules"
+msgstr "Propriété à afficher dans les modules analytiques"
+
+msgid "Name"
+msgstr "Nom"
+
+msgid "Short name"
+msgstr "Nom court"
+
+msgid "Default digit group separator to display in analysis modules"
+msgstr ""
+"Séparateur de groupes de chiffres par défaut à afficher dans les modules "
+"d'analyse"
+
+msgid "Space"
+msgstr "Espace"
+
+msgid "Comma"
+msgstr "Virgule"
+
+msgid "Require authority to add to view object lists"
+msgstr ""
+"Autorisation requise pour ajouter des éléments aux listes des objets de vue"
+
+msgid "Custom login page logo"
+msgstr "Logo personnalisé de la page de connexion"
+
+msgid "Custom top menu logo"
+msgstr "Logo personnalisé du menu supérieur"
+
+msgid "Allow users to switch dashboard items view type"
+msgstr ""
+"Permettre aux utilisateurs de changer le type de vue des éléments du tableau"
+" de bord"
+
+msgid "Allow users to open dashboard items in relevant app"
+msgstr ""
+"Autoriser les utilisateurs à ouvrir les éléments du tableau de bord dans "
+"l'application appropriée"
+
+msgid "Allow users to show dashboard items interpretations and details"
+msgstr ""
+"Autoriser les utilisateurs à afficher les interprétations et les détails des"
+" éléments du tableau de bord"
+
+msgid "Allow users to view dashboard items in fullscreen"
+msgstr ""
+"Autoriser les utilisateurs à afficher les éléments du tableau de bord en "
+"mode plein écran"
+
+msgid "Host name"
+msgstr "Nom de l'hôte"
+
+msgid "Port"
+msgstr "Port"
+
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+msgid "Password"
+msgstr "Mot de passe"
+
+msgid "TLS"
+msgstr "TLS"
+
+msgid "Email sender"
+msgstr "Expéditeur de l'e-mail"
+
+msgid "The address that outgoing messages are sent from."
+msgstr ""
+
+msgid "Send me a test email"
+msgstr "M'envoyer un e-mail de test"
+
+msgid "Self registration account user role"
+msgstr "Rôle d'utilisateur des des comptes auto-inscrits"
+
+msgid "Disable self registration"
+msgstr "Désactiver l'auto-inscription"
+
+msgid "Self registration account organisation unit"
+msgstr "L'unité d'organisation des comptes auto-inscrits"
+
+msgid "Do not require recaptcha for self registration"
+msgstr "Do not require recaptcha for self registration"
+
+msgid "Enable user account recovery"
+msgstr "Permettre la restauration de compte utilisateur"
+
+msgid "Lock user account temporarily after multiple failed login attempts"
+msgstr ""
+"Verrouiller temporairement le compte de l'utilisateur après plusieurs "
+"tentatives de connexion infructueuses"
+
+msgid "Allow users to grant own user roles"
+msgstr "Allow users to grant own user roles"
+
+msgid "Allow assigning object to related objects during add or update"
+msgstr ""
+"Permet l'attribution d'un objet à des objets liés pendant un ajout ou une "
+"mise à jour"
+
+msgid "Require user account password change"
+msgstr "Require user account password change"
+
+msgid "Never"
+msgstr "Jamais"
+
+msgid "3 months"
+msgstr "3 mois"
+
+msgid "6 months"
+msgstr "6 mois"
+
+msgid "12 months"
+msgstr "12 mois"
+
+msgid "Send reminders to users before their password expires"
+msgstr ""
+"Envoyer des rappels aux utilisateurs avant l'expiration de leur mot de passe"
+
+msgid "Number of days before password expiry to send reminder (1–28)"
+msgstr ""
+"Nombre de jours avant l'expiration du mot de passe pour envoyer un rappel "
+"(1-28)"
+
+msgid "Minimum characters in password"
+msgstr "Nombre min. de caractères dans un mot de passe"
+
+msgid "CORS allowlist"
+msgstr ""
+
+msgid "One URL per line"
+msgstr "Une URL par ligne"
+
+msgid "reCAPTCHA Site Key"
+msgstr "Clé du site reCAPTCHA"
+
+msgid "reCAPTCHA Secret Key"
+msgstr "Clé secrète reCAPTCHA"
+
+msgid "Coptic"
+msgstr "copte"
+
+msgid "Ethiopian"
+msgstr "éthiopien"
+
+msgid "Gregorian"
+msgstr "grégorien"
+
+msgid "Islamic"
+msgstr "islamique"
+
+msgid "ISO 8601"
+msgstr "ISO 8601"
+
+msgid "Julian"
+msgstr "julien"
+
+msgid "Nepali"
+msgstr "népalais"
+
+msgid "Thai"
+msgstr "thaï"
+
+msgid "Persian"
+msgstr "Persan"
+
+msgid "Change calendar setting"
+msgstr "Modifier les paramètres du calendrier"
+
+msgid ""
+"Changing your calendar setting after you have entered data can make your "
+"system unusable. If you have entered data, it is strongly recommended that "
+"you do not change your calendar setting."
+msgstr ""
+"Modifier les paramètres du calendrier après avoir saisi des données peut "
+"rendre votre système inutilisable. Si vous avez saisi des données, il est "
+"fortement recommandé de ne pas modifier vos paramètres de calendrier."
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "Yes, change calendar"
+msgstr "Oui, modifier le calendrier"
+
+msgid "Date format"
+msgstr "Format de date"
+
+msgid "Require periods to match period type of data set"
+msgstr ""
+"Les périodes doivent correspondre au type de période de l'ensemble de "
+"données"
+
+msgid "Require data elements to be part of data set"
+msgstr "Les éléments de données doivent faire partie de l'ensemble de données"
+
+msgid "Require category option combos to match category combo of data element"
+msgstr ""
+"Nécessité de combinaisons d'options de catégorie correspondant à la "
+"combinaison de catégories d'élément de données"
+
+msgid "Require organisation units to match assignment of data set"
+msgstr ""
+"Les unités d'organisation doivent correspondre à l'attribution de l'ensemble"
+" de données"
+
+msgid "Require attribute option combos to match category combo of data set"
+msgstr ""
+"Les combinaisons d'options d'attribut doivent correspondre à la combinaison "
+"de catégories de l'ensemble de données"
+
+msgid "Require category option combo to be specified"
+msgstr "La combinaison d'options de catégorie doit être précisée"
+
+msgid "Require attribute option combo to be specified"
+msgstr "La combinaison d'options d'attribut doit être précisée"
+
+msgid "Remote server URL"
+msgstr "URL de serveur distant"
+
+msgid "Remote server username"
+msgstr "Nom d'utilisateur de serveur distant"
+
+msgid "Remote server password"
+msgstr "Mot de passe de serveur distant"
+
+msgid ""
+"Number of minutes after which a stale job is reset to scheduled state (1-60)"
+msgstr ""
+
+msgid "Number of minutes after which a completed ad-hoc job is deleted (1+)"
+msgstr ""
+
+msgid ""
+"Maximum number of hours a job may trigger after its intended time if job has"
+" not yet run (1-24)"
+msgstr ""
+
+msgid ""
+"Job execution interval (seconds) below which a job will be logged at debug "
+"(rather than info) level (20+)"
+msgstr ""

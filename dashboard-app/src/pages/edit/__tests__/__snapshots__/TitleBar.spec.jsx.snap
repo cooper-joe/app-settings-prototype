@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TitleBar renders correctly when no name or description 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="inputWrapper"
+    >
+      <div
+        class="inputFieldWrapper"
+      >
+        <div
+          class="ui-InputField"
+          label="Dashboard title"
+          name="Dashboard title input"
+          placeholder="Untitled dashboard"
+          type="text"
+          value=""
+        />
+        <div
+          class="ui-InputField"
+          label="Dashboard code"
+          name="Dashboard code input"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="ui-TextAreaField"
+        label="Dashboard description"
+        name="Dashboard description input"
+        rows="5"
+        value=""
+      />
+    </div>
+    <div
+      class="searchContainer"
+    >
+      <div
+        class="layoutWrapper"
+      >
+        <p
+          class="label"
+        >
+          Layout
+        </p>
+        <div
+          class="layoutOption"
+        >
+          <svg
+            height="42"
+            viewBox="0 0 42 42"
+            width="42"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m42 33v9h-42v-9zm-31-12v7h-11v-7zm15 0v7h-11v-7zm16-21v28h-10v-28zm-16 0v16h-26v-16z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <span
+            class="layoutValue"
+          >
+            Freeflow
+          </span>
+          <span
+            class="jsx-3661110597 tooltip"
+          >
+            <div
+              class="ui-Button"
+            >
+              Change layout
+            </div>
+          </span>
+        </div>
+      </div>
+      <div
+        class="positionWrapper"
+      >
+        <p
+          class="label"
+        >
+          Add new items to
+        </p>
+        <div
+          class="positionOptions"
+        >
+          <div
+            class="ui-Radio"
+            label="End of dashboard"
+            name="END"
+          />
+          <div
+            class="ui-Radio"
+            label="Start of dashboard"
+            name="START"
+          />
+        </div>
+      </div>
+      <div
+        class="searchWrapper"
+      >
+        <div
+          class="item-selector"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TitleBar renders correctly with name and description 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="inputWrapper"
+    >
+      <div
+        class="inputFieldWrapper"
+      >
+        <div
+          class="ui-InputField"
+          label="Dashboard title"
+          name="Dashboard title input"
+          placeholder="Untitled dashboard"
+          type="text"
+          value="Rainbow Dash"
+        />
+        <div
+          class="ui-InputField"
+          label="Dashboard code"
+          name="Dashboard code input"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="ui-TextAreaField"
+        label="Dashboard description"
+        name="Dashboard description input"
+        rows="5"
+        value="A very colorful pony"
+      />
+    </div>
+    <div
+      class="searchContainer"
+    >
+      <div
+        class="layoutWrapper"
+      >
+        <p
+          class="label"
+        >
+          Layout
+        </p>
+        <div
+          class="layoutOption"
+        >
+          <svg
+            height="42"
+            viewBox="0 0 42 42"
+            width="42"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m42 33v9h-42v-9zm-31-12v7h-11v-7zm15 0v7h-11v-7zm16-21v28h-10v-28zm-16 0v16h-26v-16z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <span
+            class="layoutValue"
+          >
+            Freeflow
+          </span>
+          <span
+            class="jsx-3661110597 tooltip"
+          >
+            <div
+              class="ui-Button"
+            >
+              Change layout
+            </div>
+          </span>
+        </div>
+      </div>
+      <div
+        class="positionWrapper"
+      >
+        <p
+          class="label"
+        >
+          Add new items to
+        </p>
+        <div
+          class="positionOptions"
+        >
+          <div
+            class="ui-Radio"
+            label="End of dashboard"
+            name="END"
+          />
+          <div
+            class="ui-Radio"
+            label="Start of dashboard"
+            name="START"
+          />
+        </div>
+      </div>
+      <div
+        class="searchWrapper"
+      >
+        <div
+          class="item-selector"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

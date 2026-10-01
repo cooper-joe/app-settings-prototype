@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the app with a dashboard 1`] = `
+<div>
+  <header
+    style="height: 48px;"
+  />
+  <div
+    class="viewdashboard"
+  />
+</div>
+`;
+
+exports[`renders the app with the start page 1`] = `
+<div>
+  <header
+    style="height: 48px;"
+  />
+  <div>
+    DashboardsBar
+  </div>
+  <div
+    class="outer"
+  >
+    <div
+      class="inner"
+    >
+      <div
+        data-test="start-screen"
+      >
+        <div
+          class="section"
+        >
+          <h3
+            class="title"
+          >
+            Getting started
+          </h3>
+          <ul
+            class="guide"
+          >
+            <li
+              class="guideItem"
+            >
+              Search for and open saved dashboards from the top bar.
+            </li>
+            <li
+              class="guideItem"
+            >
+              Click a dashboard chip to open it. Get back to this screen from the "More" menu.
+            </li>
+            <li
+              class="guideItem"
+            >
+              Create a new dashboard with the + button.
+            </li>
+          </ul>
+        </div>
+        <div
+          class="section"
+        >
+          <h3
+            class="title"
+          >
+            Your most viewed dashboards
+          </h3>
+          <p>
+            <a
+              class="dashboard"
+              href="#/rainbowdash"
+            >
+              <span
+                class="icon"
+              >
+                <svg
+                  color="#6C7787"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 2a1 1 0 011 1v10a1 1 0 01-1 1H2a1 1 0 01-1-1V3a1 1 0 011-1zm0 4H2v7h12zM5.5 7A2.5 2.5 0 113 9.5h1A1.5 1.5 0 105.5 8zM11 7v5h-1V7zm2 2v3h-1V9zm1-6H2v2h12z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </span>
+              <span>
+                Rainbow Dash name
+              </span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

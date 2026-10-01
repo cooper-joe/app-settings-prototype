@@ -1,0 +1,867 @@
+# 
+# Translators:
+# Thomas Zemp, 2022
+# Caroline Hesthagen Holen <caroline@devotta.no>, 2024
+# Karoline Tufte Lien <karoline@dhis2.org>, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"POT-Creation-Date: 2024-06-28T11:48:52.681Z\n"
+"PO-Revision-Date: 2021-03-18 19:32+0000\n"
+"Last-Translator: Karoline Tufte Lien <karoline@dhis2.org>, 2024\n"
+"Language-Team: Norwegian Bokmål (https://app.transifex.com/hisp-uio/teams/100509/nb/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nb\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Failed to load: {{error}}"
+msgstr ""
+
+msgid "No flag"
+msgstr "Ingen flagg"
+
+msgid "Search settings"
+msgstr "Søkeinnstillinger"
+
+msgid "Replace image"
+msgstr "Erstatt bilde"
+
+msgid "Preview image"
+msgstr "Forrige bilde"
+
+msgid "Preview of image"
+msgstr "Bildeforhåndsvisning"
+
+msgid "Upload image"
+msgstr "Last opp bilde"
+
+msgid "Error uploading file: {{error}}"
+msgstr ""
+
+msgid "Cancel upload"
+msgstr "Avbryt opplasting"
+
+msgid "System default ({{language}})"
+msgstr ""
+
+msgid "Set the main field value before adding a translation"
+msgstr "Sett hovedfeltverdien før du legger til en oversettelse"
+
+msgid "Could not fetch localized settings"
+msgstr "Kunne ikke hente lokaliserte innstillinger"
+
+msgid "Select language"
+msgstr "Velg språk"
+
+msgid "Version created"
+msgstr ""
+
+msgid "Failed to create version"
+msgstr ""
+
+msgid "Error fetching settings"
+msgstr ""
+
+msgid "Create new version"
+msgstr "Lag en ny versjon"
+
+msgid "Best effort"
+msgstr ""
+
+msgid "Atomic"
+msgstr "Atomisk"
+
+msgid "Master version:"
+msgstr ""
+
+msgid "None"
+msgstr "Ingen"
+
+msgid "Last sync attempt"
+msgstr "Siste synkroniseringsforsøk"
+
+msgid "Failed"
+msgstr "Mislyktes"
+
+msgid "No versions exist"
+msgstr "Ingen versjoner finnes"
+
+msgid "Enable Versioning for metadata sync"
+msgstr "Aktiver versjon for metadatasynkronisering"
+
+msgid "Don't sync metadata if DHIS versions differ"
+msgstr "Ikke synkroniser metadata hvis DHIS-versjoner er forskjellige"
+
+msgid "Metadata Versioning"
+msgstr "Metadataversjon"
+
+msgid "This client ID is already taken"
+msgstr ""
+
+msgid "Name"
+msgstr "Navn"
+
+msgid "Required"
+msgstr ""
+
+msgid "Client ID"
+msgstr ""
+
+msgid "Client Secret"
+msgstr ""
+
+msgid "Grant Types"
+msgstr ""
+
+msgid "Password"
+msgstr "Passord"
+
+msgid "Refresh token"
+msgstr ""
+
+msgid "Authorization code"
+msgstr "Autorisasjonskode"
+
+msgid "One URL per line"
+msgstr "En URL per linje"
+
+msgid "Redirect URIs"
+msgstr ""
+
+msgid "This field should contain a list of URLs"
+msgstr "Dette feltet skal inneholde en liste av URLs"
+
+msgid "Create new OAuth2 Client"
+msgstr ""
+
+msgid "Edit OAuth2 Client"
+msgstr "Edit OAuth2 Klient"
+
+msgid "Save"
+msgstr ""
+
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgid "There are currently no OAuth2 clients registered"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Delete"
+msgstr "Slett"
+
+msgid "OAuth2 client saved"
+msgstr ""
+
+msgid "Failed to save OAuth2 client"
+msgstr "Kunne ikke lagre OAuth2 klient"
+
+msgid "Add OAuth2 client"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "OAuth2 client deleted"
+msgstr ""
+
+msgid "Failed to delete OAuth2 client"
+msgstr ""
+
+msgid "Settings updated"
+msgstr "Innstillinger oppdatert"
+
+msgid "There was a problem updating settings. Changes have not been saved."
+msgstr ""
+
+msgid "General"
+msgstr "Generell"
+
+msgid "General settings"
+msgstr "Generelle innstillinger"
+
+msgid "Analytics"
+msgstr "Analyser"
+
+msgid "Analytics settings"
+msgstr "Analyseinnstillinger"
+
+msgid "Server"
+msgstr "Server"
+
+msgid "Server settings"
+msgstr "Serverinnstillinger"
+
+msgid "Appearance"
+msgstr "Utseende"
+
+msgid "Appearance settings"
+msgstr "Utseendeinnstillinger "
+
+msgid "Email"
+msgstr "E-post"
+
+msgid "Email settings"
+msgstr "E-post innstillinger"
+
+msgid "Access"
+msgstr "Tilgang"
+
+msgid "Access settings"
+msgstr "Innstillinger for tilgang"
+
+msgid "Calendar"
+msgstr "Kalender"
+
+msgid "Calendar settings"
+msgstr "Kalender innstillinger"
+
+msgid "Data Import"
+msgstr "Dataimport"
+
+msgid "Data import settings"
+msgstr "Dataimport innstillinger"
+
+msgid "Synchronization"
+msgstr "Synkronisering"
+
+msgid "Synchronization settings"
+msgstr "Synkroniseringsinnstillinger"
+
+msgid "Scheduled jobs"
+msgstr "Planlagte jobber"
+
+msgid "OAuth2 Clients"
+msgstr "OAuth2 Klienter"
+
+msgid "This field is required"
+msgstr "Dette er et påkrevd felt"
+
+msgid "This field should be a URL"
+msgstr ""
+
+msgid "This field should be a number"
+msgstr "Dette feltet skal være en nummer"
+
+msgid "This field should be a positive number"
+msgstr "Dette feltet skal være et positivt nummer"
+
+msgid "This field should be an email"
+msgstr ""
+
+msgid ""
+"This setting will be overridden by the current user setting: {{settingName}}"
+msgstr ""
+
+msgid "This setting can be overridden by user settings"
+msgstr "Denne innstillingen kan bli overstyrt av brukerinnstillinger"
+
+msgid "No options"
+msgstr "Ingen alternativer"
+
+msgid "No settings matched the search term"
+msgstr "Ingen innstillinger samsvarte med søkeordet"
+
+msgid "Search results"
+msgstr "Søkeresultater"
+
+msgid "Maximum number of analytics records"
+msgstr "Max antall av analyseoppføringer"
+
+msgid "Unlimited"
+msgstr "Ubegrenset"
+
+msgid "Maximum number of SQL view records"
+msgstr "Maksimalt antall SQL-visningsoppføringer"
+
+msgid "Infrastructural indicators"
+msgstr "Infrastrukturelle indikatorer"
+
+msgid "Infrastructural data elements"
+msgstr "Infrastrukturelle dataelementer"
+
+msgid "Infrastructural period type"
+msgstr "Infrastrukturperiodetype"
+
+msgid "Daily"
+msgstr "Daglig"
+
+msgid "Weekly"
+msgstr "Ukentlig"
+
+msgid "Monthly"
+msgstr "Månedlig"
+
+msgid "Bi-monthly"
+msgstr "Tomånedlig"
+
+msgid "Quarterly"
+msgstr "Kvartalsvis"
+
+msgid "Six-monthly"
+msgstr "Halvårlig"
+
+msgid "Six-monthly April"
+msgstr "Halvårig April"
+
+msgid "Yearly"
+msgstr "Årlig"
+
+msgid "Financial-April"
+msgstr "Regnskap-April"
+
+msgid "Financial-July"
+msgstr "Regnskap-Juli"
+
+msgid "Financial-Oct"
+msgstr "Regnskap-Okt"
+
+msgid "Feedback recipients"
+msgstr "Tilbakemelding til mottakere"
+
+msgid "No message recipients"
+msgstr "Ingen meldingsmottakere"
+
+msgid "System update notification recipients"
+msgstr ""
+
+msgid "No update notification recipients"
+msgstr ""
+
+msgid "Max offline organisation unit levels"
+msgstr "Max frakoblet organisasjonsenhetnivåer"
+
+msgid "Data analysis std dev factor"
+msgstr "Data analyse std dev faktor"
+
+msgid "Phone number area code"
+msgstr "Retningsnummer for telefonnummer"
+
+msgid "Enable multi-organisation unit forms"
+msgstr "Aktiver multi-organisasjonsenhetskjema"
+
+msgid "Acceptance required before approval"
+msgstr "Aksept kreves før godkjenning"
+
+msgid "Gather analytical object statistics in dashboard views"
+msgstr "Samle analytisk objektstatistikk i dashbordvisninger"
+
+msgid "Include passive dashboard views in usage analytics statistics"
+msgstr "Inkluder passive dashbordvisninger i statistikk over bruksanalyse"
+
+msgid "Default relative period for analysis"
+msgstr "Standard relativ periode for analyse"
+
+msgid "This week"
+msgstr "Denne uken"
+
+msgid "Last week"
+msgstr "Forrige uke"
+
+msgid "Last 4 weeks"
+msgstr "Siste 4 uker"
+
+msgid "Last 12 weeks"
+msgstr "Siste 12 uker"
+
+msgid "Last 52 weeks"
+msgstr "Siste 52 uker"
+
+msgid "This month"
+msgstr "Denne måneden"
+
+msgid "Last month"
+msgstr "Forrige måned"
+
+msgid "Months this year"
+msgstr "Måneder i år"
+
+msgid "Months last year"
+msgstr "Måneder i fjor"
+
+msgid "Last 3 months"
+msgstr "Siste 3 måneder"
+
+msgid "Last 6 months"
+msgstr "Siste 6 måneder"
+
+msgid "Last 12 months"
+msgstr "Siste 12 måneder"
+
+msgid "This bi-month"
+msgstr "Denne tomåneden"
+
+msgid "Last bi-month"
+msgstr "Siste tomåned"
+
+msgid "Last 6 bi-months"
+msgstr "Siste 6 tomåneder"
+
+msgid "This quarter"
+msgstr "Dette kvartalet"
+
+msgid "Last quarter"
+msgstr "Siste kvartal"
+
+msgid "Quarters this year"
+msgstr "Kvartaler i år"
+
+msgid "Quarters last year"
+msgstr "Kvartal i fjor"
+
+msgid "Last 4 quarters"
+msgstr "Siste 4 kvartaler"
+
+msgid "This six-month"
+msgstr "Dette halvåret"
+
+msgid "Last six-month"
+msgstr "Siste halvår"
+
+msgid "Last 2 six-months"
+msgstr "Siste 2 halvår"
+
+msgid "This year"
+msgstr "Dette året"
+
+msgid "Last year"
+msgstr "Forrige år"
+
+msgid "Last 5 years"
+msgstr "Siste 5 år"
+
+msgid "Last 10 years"
+msgstr "Siste 10 år"
+
+msgid "This financial year"
+msgstr "Dette regnskapsåret"
+
+msgid "Last financial year"
+msgstr "Siste regnskapsår"
+
+msgid "Last 5 financial years"
+msgstr "Siste 5 regnskapsår"
+
+msgid "Hide daily periods"
+msgstr "Skjul daglige perioder"
+
+msgid "Hidden period types in analytics apps"
+msgstr "Skjulte periodetyper i analyseapper"
+
+msgid "Hide weekly periods"
+msgstr "Skjul ukentlige perioder"
+
+msgid "Hide biweekly periods"
+msgstr "Skjul biukentlige perioder"
+
+msgid "Hide monthly periods"
+msgstr "Skjul månedlige perioder"
+
+msgid "Hide bimonthly periods"
+msgstr "Skjul bimånedlige perioder"
+
+msgid "Financial year relative period start month"
+msgstr "Regnskapsår relativ periode startmåned"
+
+msgid "April"
+msgstr "April"
+
+msgid "July"
+msgstr "Juli"
+
+msgid "October"
+msgstr "Oktober"
+
+msgid "Cache strategy"
+msgstr "Bufferstrategi"
+
+msgid "No cache"
+msgstr "Ingen buffer"
+
+msgid "Cache for 15 minutes"
+msgstr "Buffer i 15 minutter"
+
+msgid "Cache for 30 minutes"
+msgstr "Buffer i 30 minutter"
+
+msgid "Cache for one hour"
+msgstr "Buffer i en time"
+
+msgid "Cache until 6AM tomorrow"
+msgstr ""
+
+msgid "Cache for two weeks"
+msgstr "Buffer for to uker"
+
+msgid "Cacheability"
+msgstr "Bufring"
+
+msgid "Public"
+msgstr "Offentlig"
+
+msgid "Private"
+msgstr "Privat"
+
+msgid "Analytics cache mode"
+msgstr "Analysebuffermodus"
+
+msgid "Progressive"
+msgstr "Gradvis"
+
+msgid "Fixed"
+msgstr "Fast"
+
+msgid "Max number of years to hide unapproved data in analytics"
+msgstr "Maks antall år for å skjule ikke godkjente data i analysen"
+
+msgid "Never check approval"
+msgstr "Aldri sjekk godkjenning"
+
+msgid "Check approval for all data"
+msgstr "Sjekk godkjenning for alle data"
+
+msgid "Current year only"
+msgstr "Kun inneværende år"
+
+msgid "Last 2 years"
+msgstr "Siste 2 år"
+
+msgid "Last 3 years"
+msgstr "Siste 3 år"
+
+msgid "Last 4 years"
+msgstr "Siste 4 år"
+
+msgid "Last 6 years"
+msgstr "Siste 6 år"
+
+msgid "Last 7 years"
+msgstr "Siste 7 år"
+
+msgid "Last 8 years"
+msgstr "Siste 8 år"
+
+msgid "Last 9 years"
+msgstr "Siste 9 år"
+
+msgid "Respect category option start and end date in analytics table export"
+msgstr ""
+"Respekter kategori-alternativets start- og sluttdato i eksport av "
+"analysetabeller"
+
+msgid "Include zero data values in analytics tables"
+msgstr ""
+
+msgid "Caching factor"
+msgstr "Bufferfaktor"
+
+msgid "Org unit group set in facility map layers"
+msgstr ""
+
+msgid "Org unit level in facility map layers"
+msgstr ""
+
+msgid "Default basemap"
+msgstr ""
+
+msgid "OSM Light (default)"
+msgstr ""
+
+msgid "OSM Detailed"
+msgstr "OSM Detaljert"
+
+msgid "Bing Road"
+msgstr "Bing Vei"
+
+msgid "Bing Dark"
+msgstr "Bing Mørk"
+
+msgid "Bing Aerial"
+msgstr "Bing Flyfoto"
+
+msgid "Bing Aerial Labels"
+msgstr "Bing Flyfoto Etiketter"
+
+msgid "Number of database server CPUs"
+msgstr "Antall databaseserver CPUs"
+
+msgid "Automatic (detect based on web server)"
+msgstr "Automatisk (gjenkjenn basert på webserver)"
+
+msgid "System notifications email address"
+msgstr "Systemvarsler på e-post"
+
+msgid "Google Analytics (Universal Analytics) key"
+msgstr "Google analyser (universalanalyser) nøkkel"
+
+msgid "Google Maps API key"
+msgstr "Google Maps API nøkkel"
+
+msgid "Bing Maps API key"
+msgstr ""
+
+msgid "Application title"
+msgstr "Applikasjonstittel"
+
+msgid "Application introduction"
+msgstr "Applikasjonintroduksjon"
+
+msgid "Application notification"
+msgstr "Applikasjonsvarsel"
+
+msgid "Application left-side footer"
+msgstr "Bruk bunntekst på venstre side"
+
+msgid "Application right-side footer"
+msgstr "Bruk bunntekst på høyre side"
+
+msgid "Style"
+msgstr "Stil"
+
+msgid "Start page"
+msgstr "Startside"
+
+msgid "Enable light-weight start page"
+msgstr ""
+
+msgid "Help page link"
+msgstr "Link til hjelpeside"
+
+msgid "Flag"
+msgstr "Flagg"
+
+msgid "Interface language"
+msgstr "Grensesnittspråk"
+
+msgid "Database language"
+msgstr "Databasespråk"
+
+msgid "Property to display in analysis modules"
+msgstr "Egenskap å vise i analysemoduler"
+
+msgid "Short name"
+msgstr "Kort navn"
+
+msgid "Default digit group separator to display in analysis modules"
+msgstr "Standard siffergruppeseparator som skal vises i analysemoduler"
+
+msgid "Space"
+msgstr "Mellomrom"
+
+msgid "Comma"
+msgstr "Komma"
+
+msgid "Require authority to add to view object lists"
+msgstr "Krev autoritet for å legge til for å vise objektlister"
+
+msgid "Login page theme"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Sidebar"
+msgstr ""
+
+msgid "Custom"
+msgstr ""
+
+msgid "Login page template"
+msgstr ""
+
+msgid "Custom login page logo"
+msgstr "Tilpasset innloggingsside-logo"
+
+msgid "Custom top menu logo"
+msgstr "Egendefinert toppmeny-logo"
+
+msgid "Allow users to switch dashboard items view type"
+msgstr "Tillatt brukere å endre dashboardelementers visningsmodus"
+
+msgid "Allow users to open dashboard items in relevant app"
+msgstr ""
+
+msgid "Allow users to show dashboard items interpretations and details"
+msgstr ""
+
+msgid "Allow users to view dashboard items in fullscreen"
+msgstr ""
+
+msgid "Host name"
+msgstr "Vertsnavn"
+
+msgid "Port"
+msgstr "Port"
+
+msgid "Username"
+msgstr "Brukernavn"
+
+msgid "TLS"
+msgstr "TLS"
+
+msgid "Email sender"
+msgstr "E-post avsender"
+
+msgid "The address that outgoing messages are sent from."
+msgstr ""
+
+msgid "Send me a test email"
+msgstr "Send meg en test e-post"
+
+msgid "Self registration account user role"
+msgstr "Selvregistrering brukerkontorolle"
+
+msgid "Disable self registration"
+msgstr "Deaktiver selvregistrering"
+
+msgid "Self registration account organisation unit"
+msgstr "Selvregistreringskonto organisasjonsenhet"
+
+msgid "Do not require recaptcha for self registration"
+msgstr "Ikke krev recaptcha for selvregistrering"
+
+msgid "Enable user account recovery"
+msgstr "Aktiver brukerkonto gjenoppretting"
+
+msgid "Lock user account temporarily after multiple failed login attempts"
+msgstr "Lås brukeren midlertidig etter flere mislykkede innloggingsforsøk"
+
+msgid "Allow users to grant own user roles"
+msgstr "Tillat brukere å gi egne brukerroller"
+
+msgid "Allow assigning object to related objects during add or update"
+msgstr ""
+"Tillat å tilordne objekt til relaterte objekter under tillegging eller "
+"oppdatering"
+
+msgid "Require user account password change"
+msgstr "Krev passordbytte på brukerkonto"
+
+msgid "Never"
+msgstr "Aldri"
+
+msgid "3 months"
+msgstr "3 måneder"
+
+msgid "6 months"
+msgstr "6 måneder"
+
+msgid "12 months"
+msgstr "12 måneder"
+
+msgid "Send reminders to users before their password expires"
+msgstr ""
+
+msgid "Number of days before password expiry to send reminder (1–28)"
+msgstr ""
+
+msgid "Minimum characters in password"
+msgstr "Minimum tegn i passord"
+
+msgid "CORS allowlist"
+msgstr ""
+
+msgid "reCAPTCHA Site Key"
+msgstr "reCAPTCHA Site Key"
+
+msgid "reCAPTCHA Secret Key"
+msgstr "reCAPTCHA Secret Key"
+
+msgid "Coptic"
+msgstr "Koptisk"
+
+msgid "Ethiopian"
+msgstr "Etiopisk"
+
+msgid "Gregorian"
+msgstr "Gregoriansk"
+
+msgid "Islamic"
+msgstr "Islamsk"
+
+msgid "ISO 8601"
+msgstr "ISO 8601"
+
+msgid "Julian"
+msgstr "Juliansk"
+
+msgid "Nepali"
+msgstr "Nepalsk"
+
+msgid "Thai"
+msgstr "Thai"
+
+msgid "Persian"
+msgstr "Persisk"
+
+msgid "Change calendar setting"
+msgstr ""
+
+msgid ""
+"Changing your calendar setting after you have entered data can make your "
+"system unusable. If you have entered data, it is strongly recommended that "
+"you do not change your calendar setting."
+msgstr ""
+
+msgid "Yes, change calendar"
+msgstr ""
+
+msgid "Date format"
+msgstr "Datoformat"
+
+msgid "Require periods to match period type of data set"
+msgstr "Krev at perioder skal matche periodetype av datasett"
+
+msgid "Require data elements to be part of data set"
+msgstr "Krev at dataelementer skal være en del av datasett"
+
+msgid "Require category option combos to match category combo of data element"
+msgstr ""
+"Krev kategorialternativkomboer til å matche kategorikombo av dataelement"
+
+msgid "Require organisation units to match assignment of data set"
+msgstr "Krev at organisasjonsenheter skal matche tildeling av datasett"
+
+msgid "Require attribute option combos to match category combo of data set"
+msgstr ""
+"Krev at attributtalternativkomboer skal matche kategorikombo av datasett"
+
+msgid "Require category option combo to be specified"
+msgstr "Krev at kategorialternativkombo skal spesifiseres"
+
+msgid "Require attribute option combo to be specified"
+msgstr "Krev at attributt alternativkombo skal spesifiseres"
+
+msgid "Remote server URL"
+msgstr "URL til ekstern server"
+
+msgid "Remote server username"
+msgstr "Brukernavn for ekstern server"
+
+msgid "Remote server password"
+msgstr "Passord for ekstern server"
+
+msgid ""
+"Number of minutes after which a stale job is reset to scheduled state (1-60)"
+msgstr ""
+
+msgid "Number of minutes after which a completed ad-hoc job is deleted (1+)"
+msgstr ""
+
+msgid ""
+"Maximum number of hours a job may trigger after its intended time if job has"
+" not yet run (1-24)"
+msgstr ""
+
+msgid ""
+"Job execution interval (seconds) below which a job will be logged at debug "
+"(rather than info) level (20+)"
+msgstr ""

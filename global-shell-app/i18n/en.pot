@@ -1,0 +1,250 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2026-10-01T08:41:47.218Z\n"
+"PO-Revision-Date: 2026-10-01T08:41:47.219Z\n"
+
+msgid "This value is not valid"
+msgstr "This value is not valid"
+
+msgid "Choose one of the options"
+msgstr "Choose one of the options"
+
+msgid "Enter a number"
+msgstr "Enter a number"
+
+msgid "Enter a whole number"
+msgstr "Enter a whole number"
+
+msgid "Enter {{min}} or more"
+msgstr "Enter {{min}} or more"
+
+msgid "Enter {{max}} or less"
+msgstr "Enter {{max}} or less"
+
+msgid "This setting is required"
+msgstr "This setting is required"
+
+msgid "Use {{max}} characters or fewer"
+msgstr "Use {{max}} characters or fewer"
+
+msgid "This value cannot be saved"
+msgstr "This value cannot be saved"
+
+msgid "Save your data"
+msgstr "Save your data"
+
+msgid ""
+"Updating will reload all {{n}} open instances of this app, and any unsaved "
+"data will be lost. Save any data you need to, then click 'Reload' when "
+"ready."
+msgstr ""
+"Updating will reload all {{n}} open instances of this app, and any unsaved "
+"data will be lost. Save any data you need to, then click 'Reload' when "
+"ready."
+
+msgid ""
+"Updating will reload all open instances of this app, and any unsaved data "
+"will be lost. Save any data you need to, then click 'Reload' when ready."
+msgstr ""
+"Updating will reload all open instances of this app, and any unsaved data "
+"will be lost. Save any data you need to, then click 'Reload' when ready."
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "Reload"
+msgstr "Reload"
+
+msgid "Unable to find an app for this URL."
+msgstr "Unable to find an app for this URL."
+
+msgid "The requested page is not accessible from DHIS2."
+msgstr "The requested page is not accessible from DHIS2."
+
+msgid "Something went wrong"
+msgstr "Something went wrong"
+
+msgid "Return to home page"
+msgstr "Return to home page"
+
+msgid "Version {{version}}"
+msgstr "Version {{version}}"
+
+msgid "Version unknown"
+msgstr "Version unknown"
+
+msgid "Developer"
+msgstr "Developer"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Core app"
+msgstr "Core app"
+
+msgid "Installed app"
+msgstr "Installed app"
+
+msgid "App Hub"
+msgstr "App Hub"
+
+msgid "View on App Hub"
+msgstr "View on App Hub"
+
+msgid "Close"
+msgstr "Close"
+
+msgid "{{appName}} menu, update available"
+msgstr "{{appName}} menu, update available"
+
+msgid "{{appName}} menu"
+msgstr "{{appName}} menu"
+
+msgid "About"
+msgstr "About"
+
+msgid "Help"
+msgstr "Help"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Command palette"
+msgstr "Command palette"
+
+msgid "Back"
+msgstr "Back"
+
+msgid "Browse apps"
+msgstr "Browse apps"
+
+msgid "Browse commands"
+msgstr "Browse commands"
+
+msgid "Browse shortcuts"
+msgstr "Browse shortcuts"
+
+msgid "Logout"
+msgstr "Logout"
+
+msgid "to navigate"
+msgstr "to navigate"
+
+msgid "to select"
+msgstr "to select"
+
+msgid "to close"
+msgstr "to close"
+
+msgid "to go back one level"
+msgstr "to go back one level"
+
+msgid "Search apps"
+msgstr "Search apps"
+
+msgid "Search commands"
+msgstr "Search commands"
+
+msgid "Search shortcuts"
+msgstr "Search shortcuts"
+
+msgid "Search apps, shortcuts, commands"
+msgstr "Search apps, shortcuts, commands"
+
+msgid "Top apps"
+msgstr "Top apps"
+
+msgid "Actions"
+msgstr "Actions"
+
+msgid "DHIS2 {{dhis2Version}}"
+msgstr "DHIS2 {{dhis2Version}}"
+
+msgid "DHIS2 version unknown"
+msgstr "DHIS2 version unknown"
+
+msgid "{{appName}} version unknown"
+msgstr "{{appName}} version unknown"
+
+msgid "App {{appVersion}}"
+msgstr "App {{appVersion}}"
+
+msgid "App version unknown"
+msgstr "App version unknown"
+
+msgid "Debug info"
+msgstr "Debug info"
+
+msgid "Copy debug info"
+msgstr "Copy debug info"
+
+msgid "Interpretations"
+msgstr "Interpretations"
+
+msgid "Messages"
+msgstr "Messages"
+
+msgid "Online"
+msgstr "Online"
+
+msgid "Offline"
+msgstr "Offline"
+
+msgid "Account security"
+msgstr "Account security"
+
+msgid "My profile"
+msgstr "My profile"
+
+msgid "System info"
+msgstr "System info"
+
+msgid "Log out"
+msgstr "Log out"
+
+msgid "App updates available — Click to reload"
+msgstr "App updates available — Click to reload"
+
+msgid "Profile menu"
+msgstr "Profile menu"
+
+msgid "Session ending"
+msgstr "Session ending"
+
+msgid ""
+"For security, you will be logged out after {{sessionTimeoutInMinutes}} "
+"minutes without any network activity."
+msgstr ""
+"For security, you will be logged out after {{sessionTimeoutInMinutes}} "
+"minutes without any network activity."
+
+msgid "Stay logged in"
+msgstr "Stay logged in"
+
+msgid "You have been logged out"
+msgstr "You have been logged out"
+
+msgid ""
+"Your session ended after {{sessionTimeoutInMinutes}} minutes without "
+"network activity. Log in again to continue."
+msgstr ""
+"Your session ended after {{sessionTimeoutInMinutes}} minutes without "
+"network activity. Log in again to continue."
+
+msgid ""
+"No network connection? Dismiss to continue working in an offline-capable "
+"app."
+msgstr ""
+"No network connection? Dismiss to continue working in an offline-capable "
+"app."
+
+msgid "Dismiss"
+msgstr "Dismiss"
+
+msgid "Log in"
+msgstr "Log in"

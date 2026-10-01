@@ -1,0 +1,13 @@
+.tree {
+    max-height: 320px;
+    overflow: auto;
+    padding: var(--spacers-dp8);
+    border: 1px solid var(--colors-grey400);
+    border-radius: 3px;
+}
+
+.missing {
+    margin: var(--spacers-dp4) 0 0;
+    font-size: 13px;
+    color: var(--colors-red700);
+}

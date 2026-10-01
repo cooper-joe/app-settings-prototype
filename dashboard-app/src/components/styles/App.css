@@ -1,0 +1,53 @@
+:root {
+    /* item variables */
+    --item-header-margin-top: 8px;
+    --item-header-margin-bottom: 8px;
+    --item-content-padding: 4px;
+
+    /* print variables */
+    /* for A4 landscape (297x210mm) */
+    /* (29.7 /2.54) * 96 pixels/inch - 20px print margin */
+    /* changing this number could have consequences for a multipage printout */
+    --a4-landscape-width-px: 1102px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: var(--colors-grey200);
+}
+
+.app-shell-app {
+    overflow: hidden !important;
+    display: flex;
+    flex-direction: column;
+}
+
+/* plugin TODO */
+
+table.pivot * {
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    -o-user-select: none !important;
+    user-select: none !important;
+}
+
+/* temporary workaround for headerbar */
+.secondary-light-bg {
+    background-color: #48a999;
+}
+
+@media print {
+    body {
+        inline-size: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        background-color: white;
+    }
+
+    .app-shell-app {
+        overflow: visible !important;
+    }
+}

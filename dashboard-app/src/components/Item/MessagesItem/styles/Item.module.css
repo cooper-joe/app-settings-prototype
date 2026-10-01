@@ -1,0 +1,31 @@
+.list {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.seeAll {
+    text-align: center;
+    font-size: 13px;
+    margin-block-end: 5px;
+}
+
+.sender {
+    font-size: 13px;
+    line-height: 15px;
+    margin: 0;
+    color: var(--colors-grey800);
+}
+
+.snippet {
+    color: var(--colors-grey800);
+    font-size: 13px;
+    line-height: 15px;
+    max-block-size: 30px;
+    overflow: hidden;
+}
+
+.content {
+    composes: content from '../../styles/Item.module.css';
+    flex: 1;
+    overflow: auto;
+}

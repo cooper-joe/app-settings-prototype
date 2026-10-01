@@ -1,0 +1,889 @@
+# 
+# Translators:
+# Viktor Varland <viktor@dhis2.org>, 2021
+# Wanda <wanda@frontlineaids.org>, 2021
+# Nadiia <semchuk@aph.org.ua>, 2021
+# Philip Larsen Donnelly, 2024
+# Éva Tamási, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"POT-Creation-Date: 2024-06-28T11:48:52.681Z\n"
+"PO-Revision-Date: 2021-03-18 19:32+0000\n"
+"Last-Translator: Éva Tamási, 2024\n"
+"Language-Team: Ukrainian (https://app.transifex.com/hisp-uio/teams/100509/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+msgid "Failed to load: {{error}}"
+msgstr "Не вдалося завантажити: {{error}}"
+
+msgid "No flag"
+msgstr "Без прапорця"
+
+msgid "Search settings"
+msgstr "Налаштування пошуку"
+
+msgid "Replace image"
+msgstr "Замінити зображення"
+
+msgid "Preview image"
+msgstr "Попередній перегляд зображення"
+
+msgid "Preview of image"
+msgstr "Попередній перегляд зображення"
+
+msgid "Upload image"
+msgstr "Вивантажити зображення"
+
+msgid "Error uploading file: {{error}}"
+msgstr "Помилка при вивантаженні зображення: {{error}}"
+
+msgid "Cancel upload"
+msgstr "Скасувати вивантаження"
+
+msgid "System default ({{language}})"
+msgstr ""
+
+msgid "Set the main field value before adding a translation"
+msgstr "Перш ніж додавати переклад, встановіть значення основного поля"
+
+msgid "Could not fetch localized settings"
+msgstr "Не вдалося отримати локалізовані налаштування"
+
+msgid "Select language"
+msgstr "Обрати мову"
+
+msgid "Version created"
+msgstr "Версію створено"
+
+msgid "Failed to create version"
+msgstr "Не вдалося створити версію"
+
+msgid "Error fetching settings"
+msgstr "Помилка під час отримання налаштувань"
+
+msgid "Create new version"
+msgstr "Створити нову версію"
+
+msgid "Best effort"
+msgstr "Максимальні зусилля"
+
+msgid "Atomic"
+msgstr "Атомний"
+
+msgid "Master version:"
+msgstr "Основна версія:"
+
+msgid "None"
+msgstr "Немає"
+
+msgid "Last sync attempt"
+msgstr "Спроба останньої синхронізації"
+
+msgid "Failed"
+msgstr "Помилка"
+
+msgid "No versions exist"
+msgstr "Версій не існує"
+
+msgid "Enable Versioning for metadata sync"
+msgstr "Увімкнення керування версіями для синхронізації метаданих"
+
+msgid "Don't sync metadata if DHIS versions differ"
+msgstr "Не синхронізувати метадані, якщо версії DHIS відрізняються"
+
+msgid "Metadata Versioning"
+msgstr "Керування версіями метаданих"
+
+msgid "This client ID is already taken"
+msgstr "Цей ідентифікатор клієнта вже взято"
+
+msgid "Name"
+msgstr "Ім'я"
+
+msgid "Required"
+msgstr "Обов'язкове поле"
+
+msgid "Client ID"
+msgstr "Ідентифікатор клієнта"
+
+msgid "Client Secret"
+msgstr "Секретний ключ клієнта"
+
+msgid "Grant Types"
+msgstr "Типи грантів"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Refresh token"
+msgstr "Оновити токен"
+
+msgid "Authorization code"
+msgstr "Код авторизації"
+
+msgid "One URL per line"
+msgstr "Одна URL-адреса на рядок"
+
+msgid "Redirect URIs"
+msgstr "URI-адреси перенаправлення"
+
+msgid "This field should contain a list of URLs"
+msgstr "Це поле має містити список URL-адрес"
+
+msgid "Create new OAuth2 Client"
+msgstr "Створити новий клієнт OAuth2"
+
+msgid "Edit OAuth2 Client"
+msgstr "Редагувати клієнт OAuth2"
+
+msgid "Save"
+msgstr "Зберегти"
+
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgid "There are currently no OAuth2 clients registered"
+msgstr "Наразі немає зареєстрованих клієнтів OAuth2"
+
+msgid "Edit"
+msgstr "Редагувати"
+
+msgid "Delete"
+msgstr "Видалити"
+
+msgid "OAuth2 client saved"
+msgstr "Клієнт OAuth2 збережено"
+
+msgid "Failed to save OAuth2 client"
+msgstr "Не вдалося зберегти клієнт OAuth2"
+
+msgid "Add OAuth2 client"
+msgstr "Додати клієнт OAuth2"
+
+msgid "Yes"
+msgstr "Так"
+
+msgid "No"
+msgstr "Ні"
+
+msgid "OAuth2 client deleted"
+msgstr "Клієнт OAuth2 видалено"
+
+msgid "Failed to delete OAuth2 client"
+msgstr "Не вдалося видалити клієнт OAuth2"
+
+msgid "Settings updated"
+msgstr "Налаштування оновлено"
+
+msgid "There was a problem updating settings. Changes have not been saved."
+msgstr ""
+
+msgid "General"
+msgstr "Загальне"
+
+msgid "General settings"
+msgstr "Загальні налаштування"
+
+msgid "Analytics"
+msgstr "Аналітика"
+
+msgid "Analytics settings"
+msgstr "Налаштування аналітики"
+
+msgid "Server"
+msgstr "Сервер"
+
+msgid "Server settings"
+msgstr "Налаштування сервера"
+
+msgid "Appearance"
+msgstr "Зовнішній вигляд"
+
+msgid "Appearance settings"
+msgstr "Налаштування зовнішнього вигляду"
+
+msgid "Email"
+msgstr "Електронна пошта"
+
+msgid "Email settings"
+msgstr "Налаштування електронної пошти"
+
+msgid "Access"
+msgstr "Доступ"
+
+msgid "Access settings"
+msgstr "Налаштування доступу"
+
+msgid "Calendar"
+msgstr "Календар"
+
+msgid "Calendar settings"
+msgstr "Налаштування календаря"
+
+msgid "Data Import"
+msgstr "Імпорт даних"
+
+msgid "Data import settings"
+msgstr "Налаштування імпорту даних"
+
+msgid "Synchronization"
+msgstr "Синхронізація"
+
+msgid "Synchronization settings"
+msgstr "Налаштування синхронізації"
+
+msgid "Scheduled jobs"
+msgstr ""
+
+msgid "OAuth2 Clients"
+msgstr "Клієнти OAuth2"
+
+msgid "This field is required"
+msgstr "Обов'язкове поле"
+
+msgid "This field should be a URL"
+msgstr "Це поле повинно містити веб-адресу"
+
+msgid "This field should be a number"
+msgstr "Це поле повинно включати цифри"
+
+msgid "This field should be a positive number"
+msgstr "Це поле має бути додатним числом"
+
+msgid "This field should be an email"
+msgstr "Це поле повинно включати адресу електронної пошти"
+
+msgid ""
+"This setting will be overridden by the current user setting: {{settingName}}"
+msgstr ""
+"Це налаштування буде перевизначено налаштуваннями поточного користувача: "
+"{{settingName}}"
+
+msgid "This setting can be overridden by user settings"
+msgstr "Це налаштування може бути перевизначено налаштуваннями користувача"
+
+msgid "No options"
+msgstr "Немає параметрів"
+
+msgid "No settings matched the search term"
+msgstr "Немає налаштувань, що відповідають пошуковому слову"
+
+msgid "Search results"
+msgstr "Результати пошуку"
+
+msgid "Maximum number of analytics records"
+msgstr "Максимальна кількість аналітичних записів"
+
+msgid "Unlimited"
+msgstr "Без обмежень"
+
+msgid "Maximum number of SQL view records"
+msgstr "Максимальна кількість записів перегляду SQL"
+
+msgid "Infrastructural indicators"
+msgstr "Інфраструктурні показники"
+
+msgid "Infrastructural data elements"
+msgstr "Елементи інфраструктурних даних"
+
+msgid "Infrastructural period type"
+msgstr "Тип інфраструктурного періоду"
+
+msgid "Daily"
+msgstr "Щодня"
+
+msgid "Weekly"
+msgstr "Щотижня"
+
+msgid "Monthly"
+msgstr "Щомісяця"
+
+msgid "Bi-monthly"
+msgstr "Щодва місяці"
+
+msgid "Quarterly"
+msgstr "Щоквартально"
+
+msgid "Six-monthly"
+msgstr "Раз на півріччя"
+
+msgid "Six-monthly April"
+msgstr "Раз на півріччя квітень"
+
+msgid "Yearly"
+msgstr "Щорічно"
+
+msgid "Financial-April"
+msgstr "Фінансовий - квітень"
+
+msgid "Financial-July"
+msgstr "Фінансовий - липень"
+
+msgid "Financial-Oct"
+msgstr "Фінансовий - жовтень"
+
+msgid "Feedback recipients"
+msgstr "Отримувачі відгуків"
+
+msgid "No message recipients"
+msgstr "Немає отримувачів повідомлень"
+
+msgid "System update notification recipients"
+msgstr "Отримувачі сповіщень про оновлення системи"
+
+msgid "No update notification recipients"
+msgstr "Немає отримувачів сповіщень про оновлення"
+
+msgid "Max offline organisation unit levels"
+msgstr "Макс. рівнів організаційного підрозділу в автономному режимі"
+
+msgid "Data analysis std dev factor"
+msgstr "Аналіз даних, стандартний фактор відхилення"
+
+msgid "Phone number area code"
+msgstr "Міжміський телефонний код"
+
+msgid "Enable multi-organisation unit forms"
+msgstr "Увімкнути форми мультиорганізаційних підрозділів"
+
+msgid "Acceptance required before approval"
+msgstr "Потрібне прийняття перед затвердженням"
+
+msgid "Gather analytical object statistics in dashboard views"
+msgstr "Збирати статистику об'єктів аналітики у вікнах інформаційної панелі"
+
+msgid "Include passive dashboard views in usage analytics statistics"
+msgstr ""
+"Включити пасивні перегляди інформаційної панелі в статистику аналітики "
+"використання"
+
+msgid "Default relative period for analysis"
+msgstr "Відносний період за замовчуванням для аналізу"
+
+msgid "This week"
+msgstr "Поточний тиждень"
+
+msgid "Last week"
+msgstr "Минулий тиждень"
+
+msgid "Last 4 weeks"
+msgstr "Минулі 4 тижні"
+
+msgid "Last 12 weeks"
+msgstr "Минулі 12 тижнів"
+
+msgid "Last 52 weeks"
+msgstr "Останні 52 тижні"
+
+msgid "This month"
+msgstr "Поточний місяць"
+
+msgid "Last month"
+msgstr "Минулий місяць"
+
+msgid "Months this year"
+msgstr "Місяці поточного року"
+
+msgid "Months last year"
+msgstr "Місяців минулого року"
+
+msgid "Last 3 months"
+msgstr "Минулі 3 місяці"
+
+msgid "Last 6 months"
+msgstr "Останні 6 місяців"
+
+msgid "Last 12 months"
+msgstr "Минулі 12 місяців"
+
+msgid "This bi-month"
+msgstr "Поточний двомісячний період"
+
+msgid "Last bi-month"
+msgstr "Останні два місяці"
+
+msgid "Last 6 bi-months"
+msgstr "Останні 6 двомісячних періодів"
+
+msgid "This quarter"
+msgstr "Поточний квартал"
+
+msgid "Last quarter"
+msgstr "Минулий квартал"
+
+msgid "Quarters this year"
+msgstr "Квартали поточного року"
+
+msgid "Quarters last year"
+msgstr "Квартали минулого року"
+
+msgid "Last 4 quarters"
+msgstr "Останні 4 квартали"
+
+msgid "This six-month"
+msgstr "Поточне півріччя"
+
+msgid "Last six-month"
+msgstr "Останні шість місяців"
+
+msgid "Last 2 six-months"
+msgstr "Останні 2 півріччя"
+
+msgid "This year"
+msgstr "Поточний рік"
+
+msgid "Last year"
+msgstr "Минулий рік"
+
+msgid "Last 5 years"
+msgstr "Минулі 5 років"
+
+msgid "Last 10 years"
+msgstr "Останні 10 років"
+
+msgid "This financial year"
+msgstr "Поточний фінансовий рік"
+
+msgid "Last financial year"
+msgstr "Минулий фінансовий рік"
+
+msgid "Last 5 financial years"
+msgstr "Останні 5 фінансових років"
+
+msgid "Hide daily periods"
+msgstr "Приховати щоденні періоди"
+
+msgid "Hidden period types in analytics apps"
+msgstr "Приховані типи періодів у додатках аналітики"
+
+msgid "Hide weekly periods"
+msgstr "Приховати тижневі періоди"
+
+msgid "Hide biweekly periods"
+msgstr "Приховати двотижневі періоди"
+
+msgid "Hide monthly periods"
+msgstr "Приховати місячні періоди"
+
+msgid "Hide bimonthly periods"
+msgstr "Приховати двомісячні періоди"
+
+msgid "Financial year relative period start month"
+msgstr "Початковий місяць відносного періоду фінансового року"
+
+msgid "April"
+msgstr "Квітень"
+
+msgid "July"
+msgstr "Липень"
+
+msgid "October"
+msgstr "Жовтень"
+
+msgid "Cache strategy"
+msgstr "Стратегія кешування"
+
+msgid "No cache"
+msgstr "Немає кеша"
+
+msgid "Cache for 15 minutes"
+msgstr "Кешувати на 15 хвилин"
+
+msgid "Cache for 30 minutes"
+msgstr "Кешувати на 30 хвилин"
+
+msgid "Cache for one hour"
+msgstr "Кешувати на одну годину"
+
+msgid "Cache until 6AM tomorrow"
+msgstr "Кешувати до 6 ранку завтра"
+
+msgid "Cache for two weeks"
+msgstr "Кешувати на два тижні"
+
+msgid "Cacheability"
+msgstr "Кешування"
+
+msgid "Public"
+msgstr "Загальний доступ"
+
+msgid "Private"
+msgstr "Приватний"
+
+msgid "Analytics cache mode"
+msgstr "Режим кешування аналітики"
+
+msgid "Progressive"
+msgstr "Прогресивний"
+
+msgid "Fixed"
+msgstr "Фіксований"
+
+msgid "Max number of years to hide unapproved data in analytics"
+msgstr ""
+"Максимальна кількість років для приховування незатверджених даних в "
+"аналітиці"
+
+msgid "Never check approval"
+msgstr "Ніколи не перевіряти затвердження"
+
+msgid "Check approval for all data"
+msgstr "Перевірити затвердження всіх даних"
+
+msgid "Current year only"
+msgstr "Тільки поточний рік"
+
+msgid "Last 2 years"
+msgstr "Останні 2 роки"
+
+msgid "Last 3 years"
+msgstr "Останні 3 роки"
+
+msgid "Last 4 years"
+msgstr "Останні 4 роки"
+
+msgid "Last 6 years"
+msgstr "Останні 6 років"
+
+msgid "Last 7 years"
+msgstr "Останні 7 років"
+
+msgid "Last 8 years"
+msgstr "Останні 8 років"
+
+msgid "Last 9 years"
+msgstr "Останні 9 років"
+
+msgid "Respect category option start and end date in analytics table export"
+msgstr ""
+"Зважати на дату початку та завершення параметрів категорій під час експорту "
+"аналітичної таблиці"
+
+msgid "Include zero data values in analytics tables"
+msgstr "Включити нульові значення даних в аналітичні таблиці"
+
+msgid "Caching factor"
+msgstr "Коефіцієнт кешування"
+
+msgid "Org unit group set in facility map layers"
+msgstr "Група організаційних підрозділів, встановлена на шарах мапи об'єкта"
+
+msgid "Org unit level in facility map layers"
+msgstr "Рівень організаційного підрозділу на шарах мапи об'єкта"
+
+msgid "Default basemap"
+msgstr "Базова мапа за замовчуванням"
+
+msgid "OSM Light (default)"
+msgstr "OSM - світлий (за замовчуванням)"
+
+msgid "OSM Detailed"
+msgstr "OSM - подробиці"
+
+msgid "Bing Road"
+msgstr "Bing - дорога"
+
+msgid "Bing Dark"
+msgstr "Bing - темний"
+
+msgid "Bing Aerial"
+msgstr "Bing - супутник"
+
+msgid "Bing Aerial Labels"
+msgstr "Bing - супутник з мітками"
+
+msgid "Number of database server CPUs"
+msgstr "Кількість ЦП сервера бази даних"
+
+msgid "Automatic (detect based on web server)"
+msgstr "Автоматично (виявлення на основі веб-сервера)"
+
+msgid "System notifications email address"
+msgstr "Адреса електронної пошти для системних сповіщень"
+
+msgid "Google Analytics (Universal Analytics) key"
+msgstr "Ключ Google Analytics (Universal Analytics)"
+
+msgid "Google Maps API key"
+msgstr "Ключ API Карт Google"
+
+msgid "Bing Maps API key"
+msgstr "Ключ API Карт Bing"
+
+msgid "Application title"
+msgstr "Назва додатка"
+
+msgid "Application introduction"
+msgstr "Вступ до додатка"
+
+msgid "Application notification"
+msgstr "Сповіщення додатка"
+
+msgid "Application left-side footer"
+msgstr "Лівий нижній колонтитул додатка"
+
+msgid "Application right-side footer"
+msgstr "Правий нижній колонтитул додатка"
+
+msgid "Style"
+msgstr "Стиль"
+
+msgid "Start page"
+msgstr "Стартова сторінка"
+
+msgid "Enable light-weight start page"
+msgstr "Увімкнути полегшену стартову сторінку"
+
+msgid "Help page link"
+msgstr "Посилання на сторінку довідки"
+
+msgid "Flag"
+msgstr "Прапорець"
+
+msgid "Interface language"
+msgstr "Мова інтерфейсу"
+
+msgid "Database language"
+msgstr "Мова бази даних"
+
+msgid "Property to display in analysis modules"
+msgstr "Властивість для відображення у модулях аналізу"
+
+msgid "Short name"
+msgstr "Коротке ім'я"
+
+msgid "Default digit group separator to display in analysis modules"
+msgstr ""
+"Роздільник груп цифр за замовчуванням для відображення в модулях аналізу"
+
+msgid "Space"
+msgstr "Пробіл"
+
+msgid "Comma"
+msgstr "Кома"
+
+msgid "Require authority to add to view object lists"
+msgstr "Потрібні повноваження для додавання до перегляду списків об'єктів"
+
+msgid "Login page theme"
+msgstr ""
+
+msgid "Default"
+msgstr "За замовчуванням"
+
+msgid "Sidebar"
+msgstr ""
+
+msgid "Custom"
+msgstr "Налаштовуваний користувачем"
+
+msgid "Login page template"
+msgstr ""
+
+msgid "Custom login page logo"
+msgstr "Користувацький логотип сторінки входу"
+
+msgid "Custom top menu logo"
+msgstr "Користувацький логотип верхнього меню"
+
+msgid "Allow users to switch dashboard items view type"
+msgstr ""
+"Дозволити користувачам перемикати тип перегляду елементів інформаційної "
+"панелі"
+
+msgid "Allow users to open dashboard items in relevant app"
+msgstr ""
+"Дозволити користувачам відкривати елементи інформаційні панелі у "
+"відповідному додатку"
+
+msgid "Allow users to show dashboard items interpretations and details"
+msgstr ""
+"Дозволити користувачам показувати інтерпретації та подробиці елементів "
+"інформаційної панелі"
+
+msgid "Allow users to view dashboard items in fullscreen"
+msgstr ""
+"Дозволити користувачам переглядати елементи інформаційні панелі у "
+"повноекранному режимі"
+
+msgid "Host name"
+msgstr "Ім'я вузла"
+
+msgid "Port"
+msgstr "Порт"
+
+msgid "Username"
+msgstr "Ім'я користувача"
+
+msgid "TLS"
+msgstr "TLS"
+
+msgid "Email sender"
+msgstr "Відправник електронної пошти"
+
+msgid "The address that outgoing messages are sent from."
+msgstr ""
+
+msgid "Send me a test email"
+msgstr "Надіслати мені тестовий електронний лист"
+
+msgid "Self registration account user role"
+msgstr "Роль користувача облікового запису з самостійною реєстрацією"
+
+msgid "Disable self registration"
+msgstr "Вимкнути самостійну реєстрацію"
+
+msgid "Self registration account organisation unit"
+msgstr "Організаційний підрозділ облікового запису з самостійною реєстрацією"
+
+msgid "Do not require recaptcha for self registration"
+msgstr "Не вимагати recaptcha для самостійної реєстрації"
+
+msgid "Enable user account recovery"
+msgstr "Увімкнути відновлення облікового запису користувача"
+
+msgid "Lock user account temporarily after multiple failed login attempts"
+msgstr ""
+"Тимчасово заблокувати обліковий запис користувача після декількох невдалих "
+"спроб входу"
+
+msgid "Allow users to grant own user roles"
+msgstr "Дозволити користувачам надавати власні ролі користувача"
+
+msgid "Allow assigning object to related objects during add or update"
+msgstr ""
+"Дозволити призначення об'єкта пов'язаним об'єктам під час додавання або "
+"оновлення"
+
+msgid "Require user account password change"
+msgstr "Вимагати зміни пароля облікового запису користувача"
+
+msgid "Never"
+msgstr "Ніколи"
+
+msgid "3 months"
+msgstr "3 місяці"
+
+msgid "6 months"
+msgstr "6 місяців"
+
+msgid "12 months"
+msgstr "12 місяців"
+
+msgid "Send reminders to users before their password expires"
+msgstr ""
+
+msgid "Number of days before password expiry to send reminder (1–28)"
+msgstr ""
+
+msgid "Minimum characters in password"
+msgstr "Мінімальна кількість символів у паролі"
+
+msgid "CORS allowlist"
+msgstr ""
+
+msgid "reCAPTCHA Site Key"
+msgstr "Ключ сайту reCAPTCHA"
+
+msgid "reCAPTCHA Secret Key"
+msgstr "Секретний ключ reCAPTCHA"
+
+msgid "Coptic"
+msgstr "Коптська"
+
+msgid "Ethiopian"
+msgstr "Ефіопська"
+
+msgid "Gregorian"
+msgstr "Григоріанський"
+
+msgid "Islamic"
+msgstr "Ісламський"
+
+msgid "ISO 8601"
+msgstr "ISO 8601"
+
+msgid "Julian"
+msgstr "Юліанський"
+
+msgid "Nepali"
+msgstr "Непальська"
+
+msgid "Thai"
+msgstr "Тайська"
+
+msgid "Persian"
+msgstr "Перська"
+
+msgid "Change calendar setting"
+msgstr ""
+
+msgid ""
+"Changing your calendar setting after you have entered data can make your "
+"system unusable. If you have entered data, it is strongly recommended that "
+"you do not change your calendar setting."
+msgstr ""
+
+msgid "Yes, change calendar"
+msgstr ""
+
+msgid "Date format"
+msgstr "Формат дати"
+
+msgid "Require periods to match period type of data set"
+msgstr "Вимагати, щоб періоди відповідали типу періоду набору даних"
+
+msgid "Require data elements to be part of data set"
+msgstr "Вимагати, щоб елементи даних були частиною набору даних"
+
+msgid "Require category option combos to match category combo of data element"
+msgstr ""
+"Вимагати, щоб комбінації параметрів категорій відповідали комбінації "
+"категорій елемента даних"
+
+msgid "Require organisation units to match assignment of data set"
+msgstr ""
+"Вимагати, щоб організаційні підрозділи відповідали призначенню набору даних"
+
+msgid "Require attribute option combos to match category combo of data set"
+msgstr ""
+"Вимагати, щоб комбінації параметрів атрибутів відповідали комбінації "
+"категорій набору даних"
+
+msgid "Require category option combo to be specified"
+msgstr "Вимагати, щоб було вказано комбінацію параметрів категорій"
+
+msgid "Require attribute option combo to be specified"
+msgstr "Вимагати, щоб було вказано комбінацію параметрів атрибутів"
+
+msgid "Remote server URL"
+msgstr "URL-адреса віддаленого сервера"
+
+msgid "Remote server username"
+msgstr "Ім'я користувача віддаленого сервера"
+
+msgid "Remote server password"
+msgstr "Пароль віддаленого сервера"
+
+msgid ""
+"Number of minutes after which a stale job is reset to scheduled state (1-60)"
+msgstr ""
+
+msgid "Number of minutes after which a completed ad-hoc job is deleted (1+)"
+msgstr ""
+
+msgid ""
+"Maximum number of hours a job may trigger after its intended time if job has"
+" not yet run (1-24)"
+msgstr ""
+
+msgid ""
+"Job execution interval (seconds) below which a job will be logged at debug "
+"(rather than info) level (20+)"
+msgstr ""

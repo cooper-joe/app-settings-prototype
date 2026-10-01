@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    block-size: 100%;
+}
+
+.notice {
+    display: none;
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        display: none;
+    }
+
+    .notice {
+        display: block;
+    }
+}
+
+@media only screen and (max-height: 480px) {
+    .container {
+        overflow-y: auto;
+    }
+}

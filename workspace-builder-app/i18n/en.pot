@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2026-09-29T11:32:31.983Z\n"
+"PO-Revision-Date: 2026-09-29T11:32:31.984Z\n"
+
+msgid "Could not load Workspace Builder"
+msgstr "Could not load Workspace Builder"
+
+msgid "Layout saved"
+msgstr "Layout saved"
+
+msgid "Could not save the layout: {{message}}"
+msgstr "Could not save the layout: {{message}}"
+
+msgid "Edit home screen layout"
+msgstr "Edit home screen layout"
+
+msgid "Back to home"
+msgstr "Back to home"
+
+msgid ""
+"This is Workspace Builder's own settings page. System Settings › Apps › Workspace Builder "
+"shows the same editor, and both save the same value."
+msgstr ""
+"This is Workspace Builder's own settings page. System Settings › Apps › Workspace Builder "
+"shows the same editor, and both save the same value."
+
+msgid "You cannot change the layout"
+msgstr "You cannot change the layout"
+
+msgid "This needs the {{authority}} authority."
+msgstr "This needs the {{authority}} authority."
+
+msgid "Workspace Builder"
+msgstr "Workspace Builder"
+
+msgid "Edit layout"
+msgstr "Edit layout"
+
+msgid "Open in {{app}}"
+msgstr "Open in {{app}}"
+
+msgid "Could not load the list"
+msgstr "Could not load the list"
+
+msgid "Could not load organisation units"
+msgstr "Could not load organisation units"
+
+msgid "Not found: {{ids}}"
+msgstr "Not found: {{ids}}"
+
+msgid "Could not load the period types"
+msgstr "Could not load the period types"
+
+msgid "This setting needs a newer version of System Settings."
+msgstr "This setting needs a newer version of System Settings."
+
+msgid "{{id}} (not found)"
+msgstr "{{id}} (not found)"
+
+msgid "This value is not valid"
+msgstr "This value is not valid"
+
+msgid "Choose one of the options"
+msgstr "Choose one of the options"
+
+msgid "Enter a number"
+msgstr "Enter a number"
+
+msgid "Enter a whole number"
+msgstr "Enter a whole number"
+
+msgid "Enter {{min}} or more"
+msgstr "Enter {{min}} or more"
+
+msgid "Enter {{max}} or less"
+msgstr "Enter {{max}} or less"
+
+msgid "This setting is required"
+msgstr "This setting is required"
+
+msgid "Use {{max}} characters or fewer"
+msgstr "Use {{max}} characters or fewer"
+
+msgid "This value cannot be saved"
+msgstr "This value cannot be saved"
+
+msgid "Move {{title}}"
+msgstr "Move {{title}}"
+
+msgid "Make {{title}} normal"
+msgstr "Make {{title}} normal"
+
+msgid "Make {{title}} wide"
+msgstr "Make {{title}} wide"
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Wide"
+msgstr "Wide"
+
+msgid "Hide {{title}}"
+msgstr "Hide {{title}}"
+
+msgid "Hide"
+msgstr "Hide"
+
+msgid "On the home screen"
+msgstr "On the home screen"
+
+msgid "Hidden"
+msgstr "Hidden"
+
+msgid "Every tile is on the home screen."
+msgstr "Every tile is on the home screen."
+
+msgid "Show {{title}}"
+msgstr "Show {{title}}"
+
+msgid "Show"
+msgstr "Show"
+
+msgid "There are no tiles on the home screen."
+msgstr "There are no tiles on the home screen."
+
+msgid "2 unread"
+msgstr "2 unread"
+
+msgid "28°C, light rain later"
+msgstr "28°C, light rain later"
+
+msgid "Map of team locations"
+msgstr "Map of team locations"
+
+msgid "Today's visits"
+msgstr "Today's visits"
+
+msgid "Stock alerts"
+msgstr "Stock alerts"
+
+msgid "Reports due"
+msgstr "Reports due"
+
+msgid "Messages"
+msgstr "Messages"
+
+msgid "Weather"
+msgstr "Weather"
+
+msgid "Team map"
+msgstr "Team map"
+
+msgctxt "Application title"
+msgid "__MANIFEST_APP_TITLE"
+msgstr "Workspace Builder"
+
+msgctxt "Application description"
+msgid "__MANIFEST_APP_DESCRIPTION"
+msgstr "App settings prototype: an app whose setting needs a custom control."

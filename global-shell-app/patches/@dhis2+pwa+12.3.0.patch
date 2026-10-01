@@ -1,0 +1,787 @@
+diff --git a/node_modules/@dhis2/pwa/build/cjs/index.js b/node_modules/@dhis2/pwa/build/cjs/index.js
+index 571bd0e..163b12e 100644
+--- a/node_modules/@dhis2/pwa/build/cjs/index.js
++++ b/node_modules/@dhis2/pwa/build/cjs/index.js
+@@ -9,6 +9,18 @@ Object.defineProperty(exports, "OfflineInterface", {
+     return _offlineInterface.OfflineInterface;
+   }
+ });
++Object.defineProperty(exports, "OfflineInterfaceProvider", {
++  enumerable: true,
++  get: function () {
++    return _OfflineInterfaceContext.OfflineInterfaceProvider;
++  }
++});
++Object.defineProperty(exports, "PWAUpdateOfflineInterface", {
++  enumerable: true,
++  get: function () {
++    return _pwaUpdateOfflineInterface.PWAUpdateOfflineInterface;
++  }
++});
+ Object.defineProperty(exports, "REGISTRATION_STATE_ACTIVE", {
+   enumerable: true,
+   get: function () {
+@@ -69,7 +81,22 @@ Object.defineProperty(exports, "setUpServiceWorker", {
+     return _setUpServiceWorker.setUpServiceWorker;
+   }
+ });
++Object.defineProperty(exports, "useOfflineInterface", {
++  enumerable: true,
++  get: function () {
++    return _OfflineInterfaceContext.useOfflineInterface;
++  }
++});
++Object.defineProperty(exports, "usePWAUpdateState", {
++  enumerable: true,
++  get: function () {
++    return _usePWAUpdateState.usePWAUpdateState;
++  }
++});
+ var _setUpServiceWorker = require("./service-worker/set-up-service-worker.js");
+ var _offlineInterface = require("./offline-interface/offline-interface.js");
++var _pwaUpdateOfflineInterface = require("./offline-interface/pwa-update-offline-interface.js");
+ var _registration = require("./lib/registration.js");
+ var _baseUrlDb = require("./lib/base-url-db.js");
++var _OfflineInterfaceContext = require("./react/OfflineInterfaceContext.js");
++var _usePWAUpdateState = require("./react/usePWAUpdateState.js");
+diff --git a/node_modules/@dhis2/pwa/build/cjs/lib/registration.js b/node_modules/@dhis2/pwa/build/cjs/lib/registration.js
+index 1900021..bb8a03d 100644
+--- a/node_modules/@dhis2/pwa/build/cjs/lib/registration.js
++++ b/node_modules/@dhis2/pwa/build/cjs/lib/registration.js
+@@ -36,16 +36,32 @@ async function getRegistrationState() {
+     return REGISTRATION_STATE_ACTIVE;
+   }
+ }
++
++/**
++ * Can receive a specific SW instance to check for updates on, e.g. for a
++ * plugin window. Defaults to this window's navigator.serviceWorker.
++ * onUpdate is called with `{ registration }`
++ */
+ async function checkForUpdates(_ref) {
+   let {
+-    onUpdate
++    onUpdate,
++    targetServiceWorker
+   } = _ref;
+-  if (!('serviceWorker' in navigator)) {
++  if (!('serviceWorker' in navigator) && !targetServiceWorker) {
+     return;
+   }
+-  const registration = await navigator.serviceWorker.getRegistration();
++  const serviceWorker = targetServiceWorker || navigator.serviceWorker;
++  let registration = await serviceWorker.getRegistration();
+   if (registration === undefined) {
+-    return;
++    // This could have raced before the call to `serviceWorker.register()`;
++    // wait and try again. Testing with a 20x CPU throttling in Chrome,
++    // 500 ms works on an M3 max macbook pro
++    await new Promise(r => setTimeout(r, 500));
++    registration = await serviceWorker.getRegistration();
++    if (registration === undefined) {
++      // Still didn't find it; probably not a PWA app.
++      return;
++    }
+   }
+   function handleWaitingSW() {
+     console.log('New content is available and will be used when all tabs for this page are closed.');
+@@ -76,21 +92,21 @@ async function checkForUpdates(_ref) {
+   // callback doesn't get called in that case. Handle that here:
+   if (registration.waiting) {
+     handleWaitingSW();
+-  } else if (registration.active && navigator.serviceWorker.controller === null) {
++  } else if (registration.active && serviceWorker.controller === null) {
+     handleFirstSWActivation();
+   }
+   function handleInstallingWorker() {
+     const installingWorker = registration.installing;
+     if (installingWorker) {
+-      installingWorker.onstatechange = () => {
+-        if (installingWorker.state === 'installed' && navigator.serviceWorker.controller) {
++      installingWorker.addEventListener('statechange', () => {
++        if (installingWorker.state === 'installed' && serviceWorker.controller) {
+           // SW is waiting to become active
+           handleWaitingSW();
+-        } else if (installingWorker.state === 'activated' && !navigator.serviceWorker.controller) {
++        } else if (installingWorker.state === 'activated' && !serviceWorker.controller) {
+           // First SW is installed and active
+           handleFirstSWActivation();
+         }
+-      };
++      });
+     }
+   }
+ 
+@@ -100,7 +116,7 @@ async function checkForUpdates(_ref) {
+   }
+ 
+   // If a new service worker will be installed:
+-  registration.onupdatefound = handleInstallingWorker;
++  registration.addEventListener('updatefound', handleInstallingWorker);
+ }
+ 
+ /**
+@@ -153,7 +169,7 @@ function register(config) {
+       // serve assets; see https://github.com/facebook/create-react-app/issues/2374
+       return;
+     }
+-    window.addEventListener('load', () => {
++    const handleLoad = () => {
+       // By compiling the dev SW to the 'public' dir, this URL works in
+       // both dev and production modes
+       const swUrl = new URL('service-worker.js', publicUrl);
+@@ -170,7 +186,15 @@ function register(config) {
+         // Is not localhost. Just register service worker
+         registerValidSW(swUrl, config);
+       }
+-    });
++    };
++
++    // Wait until assets have loaded to avoid bogging down network with
++    // precache requests
++    if (document.readyState === 'complete') {
++      handleLoad();
++    } else {
++      window.addEventListener('load', handleLoad);
++    }
+   }
+ }
+ async function registerValidSW(swUrl /* config */) {
+diff --git a/node_modules/@dhis2/pwa/build/cjs/offline-interface/pwa-update-offline-interface.js b/node_modules/@dhis2/pwa/build/cjs/offline-interface/pwa-update-offline-interface.js
+new file mode 100644
+index 0000000..334c888
+--- /dev/null
++++ b/node_modules/@dhis2/pwa/build/cjs/offline-interface/pwa-update-offline-interface.js
+@@ -0,0 +1,140 @@
++"use strict";
++
++Object.defineProperty(exports, "__esModule", {
++  value: true
++});
++exports.PWAUpdateOfflineInterface = void 0;
++var _events = _interopRequireDefault(require("events"));
++var _constants = require("../lib/constants.js");
++var _registration = require("../lib/registration.js");
++function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }
++// todo: this could be used as a base for the other, larger offline interface
++
++/**
++ * This and the following 'test' functions test for PWA features and log errors
++ * if there's an issue so they can be reused in the Offline Interface methods.
++ *
++ * Known situations when navigator.serviceWorker is not available:
++ * 1. Private browsing in firefox
++ * 2. Insecure contexts (e.g. http that's not local host)
++ */
++function testSWAvailable(_ref) {
++  let {
++    targetWindow = window
++  } = _ref;
++  if ('serviceWorker' in targetWindow.navigator) {
++    return true;
++  }
++  const msg = (!targetWindow.isSecureContext ? 'This window is not a secure context -- see https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts.' : '`serviceWorker` is not available on `navigator`.') + ' PWA features will not work.';
++  console.error(new Error(msg));
++  return false;
++}
++
++/** This exposes an interface to check a  */
++class PWAUpdateOfflineInterface {
++  constructor(_ref2) {
++    let {
++      targetWindow = window
++    } = _ref2;
++    if (!testSWAvailable({
++      targetWindow
++    })) {
++      return;
++    }
++    this.targetWindow = targetWindow;
++    this.serviceWorker = targetWindow.navigator.serviceWorker;
++
++    // This event emitter helps coordinate with service worker messages
++    this.offlineEvents = new _events.default();
++    // Receives messages from service worker and forwards to event emitter
++    const handleSWMessage = event => {
++      if (!event.data) {
++        return;
++      }
++      const {
++        type,
++        payload
++      } = event.data;
++      this.offlineEvents.emit(type, payload);
++    };
++    this.serviceWorker.addEventListener('message', handleSWMessage);
++  }
++
++  /** Basically `checkForUpdates` from registration.js exposed here */
++  checkForNewSW(_ref3) {
++    let {
++      onNewSW
++    } = _ref3;
++    // Check for SW updates (or first activation)
++    (0, _registration.checkForUpdates)({
++      onUpdate: onNewSW,
++      targetServiceWorker: this.serviceWorker
++    });
++  }
++
++  /**
++   * Requests clients info from the active service worker.
++   * @returns {Promise}
++   */
++  getClientsInfo() {
++    if (!testSWAvailable({
++      targetWindow: this.targetWindow
++    })) {
++      return Promise.resolve({
++        clientsCount: 0
++      });
++    }
++    return new Promise((resolve, reject) => {
++      this.serviceWorker.getRegistration().then(registration => {
++        const newestSW = (registration === null || registration === void 0 ? void 0 : registration.waiting) || (registration === null || registration === void 0 ? void 0 : registration.active);
++        if (!newestSW) {
++          resolve({
++            clientsCount: 0
++          });
++          return;
++        }
++
++        // Send request message to newest SW
++        newestSW.postMessage({
++          type: _constants.swMsgs.getClientsInfo
++        });
++        // Resolve with payload received from SW `clientsInfo` message
++        this.offlineEvents.once(_constants.swMsgs.clientsInfo, resolve);
++        // Clean up potentially unused listeners eventually
++        setTimeout(() => {
++          reject('Request for clients info timed out');
++          this.offlineEvents.removeAllListeners(_constants.swMsgs.clientsInfo);
++        }, 2000);
++      });
++    });
++  }
++
++  /**
++   * Makes a new SW either skip waiting if it's an update,
++   * or claim clients if it's the first SW activation
++   */
++  useNewSW() {
++    if (!testSWAvailable({
++      targetWindow: this.targetWindow
++    })) {
++      return Promise.resolve();
++    }
++    return this.serviceWorker.getRegistration().then(registration => {
++      if (!registration) {
++        throw new Error('No service worker is registered');
++      }
++      if (registration.waiting) {
++        // Update existing service worker
++        registration.waiting.postMessage({
++          type: _constants.swMsgs.skipWaiting
++        });
++      } else if (registration.active) {
++        // (First SW activation) Have SW take control of clients
++        registration.active.postMessage({
++          type: _constants.swMsgs.claimClients
++        });
++      }
++    });
++  }
++}
++exports.PWAUpdateOfflineInterface = PWAUpdateOfflineInterface;
+diff --git a/node_modules/@dhis2/pwa/build/cjs/react/OfflineInterfaceContext.js b/node_modules/@dhis2/pwa/build/cjs/react/OfflineInterfaceContext.js
+new file mode 100644
+index 0000000..2d465d7
+--- /dev/null
++++ b/node_modules/@dhis2/pwa/build/cjs/react/OfflineInterfaceContext.js
+@@ -0,0 +1,37 @@
++"use strict";
++
++Object.defineProperty(exports, "__esModule", {
++  value: true
++});
++exports.useOfflineInterface = exports.OfflineInterfaceProvider = void 0;
++var _propTypes = _interopRequireDefault(require("prop-types"));
++var _react = _interopRequireWildcard(require("react"));
++var _offlineInterface = require("../offline-interface/offline-interface.js");
++function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
++function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && {}.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
++function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }
++const OfflineInterfaceContext = /*#__PURE__*/(0, _react.createContext)(null);
++
++// nb: instantiating an offline interface here creates a side-effect where
++// it is bundled in the service worker, which causes an error when the `window`
++// API is referenced.
++// It seems like some react and prop types leaks into the SW as well, which is
++// interesting because other exports like from registration.js don't
++let theOfflineInterface = null;
++const OfflineInterfaceProvider = _ref => {
++  let {
++    children
++  } = _ref;
++  if (theOfflineInterface === null) {
++    theOfflineInterface = new _offlineInterface.OfflineInterface();
++  }
++  return /*#__PURE__*/_react.default.createElement(OfflineInterfaceContext.Provider, {
++    value: theOfflineInterface
++  }, children);
++};
++exports.OfflineInterfaceProvider = OfflineInterfaceProvider;
++OfflineInterfaceProvider.propTypes = {
++  children: _propTypes.default.node
++};
++const useOfflineInterface = () => (0, _react.useContext)(OfflineInterfaceContext);
++exports.useOfflineInterface = useOfflineInterface;
+diff --git a/node_modules/@dhis2/pwa/build/cjs/react/usePWAUpdateState.js b/node_modules/@dhis2/pwa/build/cjs/react/usePWAUpdateState.js
+new file mode 100644
+index 0000000..7dea937
+--- /dev/null
++++ b/node_modules/@dhis2/pwa/build/cjs/react/usePWAUpdateState.js
+@@ -0,0 +1,56 @@
++"use strict";
++
++Object.defineProperty(exports, "__esModule", {
++  value: true
++});
++exports.usePWAUpdateState = void 0;
++var _react = require("react");
++var _OfflineInterfaceContext = require("./OfflineInterfaceContext.js");
++const usePWAUpdateState = () => {
++  const offlineInterface = (0, _OfflineInterfaceContext.useOfflineInterface)();
++  const [updateAvailable, setUpdateAvailable] = (0, _react.useState)(false);
++  const [clientsCount, setClientsCount] = (0, _react.useState)(null);
++  const onConfirmUpdate = () => {
++    offlineInterface.useNewSW();
++  };
++  const onCancelUpdate = () => {
++    setClientsCount(null);
++  };
++  const confirmReload = () => {
++    offlineInterface.getClientsInfo().then(_ref => {
++      let {
++        clientsCount
++      } = _ref;
++      if (clientsCount === 1) {
++        // Just one client; go ahead and reload
++        onConfirmUpdate();
++      } else {
++        // Multiple clients; warn about data loss before reloading
++        setClientsCount(clientsCount);
++      }
++    }).catch(reason => {
++      // Didn't get clients info
++      console.warn(reason);
++
++      // Go ahead with confirmation modal with `0` as clientsCount
++      setClientsCount(0);
++    });
++  };
++  (0, _react.useEffect)(() => {
++    offlineInterface.checkForNewSW({
++      onNewSW: () => {
++        setUpdateAvailable(true);
++      }
++    });
++  }, [offlineInterface]);
++  const confirmationRequired = clientsCount !== null;
++  return {
++    updateAvailable,
++    confirmReload,
++    confirmationRequired,
++    clientsCount,
++    onConfirmUpdate,
++    onCancelUpdate
++  };
++};
++exports.usePWAUpdateState = usePWAUpdateState;
+diff --git a/node_modules/@dhis2/pwa/build/cjs/service-worker/set-up-service-worker.js b/node_modules/@dhis2/pwa/build/cjs/service-worker/set-up-service-worker.js
+index 6fbacf8..948b93a 100644
+--- a/node_modules/@dhis2/pwa/build/cjs/service-worker/set-up-service-worker.js
++++ b/node_modules/@dhis2/pwa/build/cjs/service-worker/set-up-service-worker.js
+@@ -56,6 +56,8 @@ function setUpServiceWorker() {
+       } = _ref;
+       return url.endsWith('index.html');
+     });
++    // Make sure that this request doesn't redirect to a global shell
++    indexHtmlManifestEntry.url += '?redirect=false';
+     (0, _workboxPrecaching.precache)([indexHtmlManifestEntry]);
+ 
+     // Custom strategy for handling app navigation, specifically to allow
+@@ -87,7 +89,8 @@ function setUpServiceWorker() {
+       // Return true to signal that we want to use the handler.
+       return true;
+     };
+-    const indexUrl = process.env.PUBLIC_URL + '/index.html';
++    // Above, the index entry had the redirect param added:
++    const indexUrl = process.env.PUBLIC_URL + '/index.html?redirect=false';
+     const navigationRouteHandler = _ref3 => {
+       let {
+         request
+diff --git a/node_modules/@dhis2/pwa/build/es/index.js b/node_modules/@dhis2/pwa/build/es/index.js
+index 960e2b2..bacd6a9 100644
+--- a/node_modules/@dhis2/pwa/build/es/index.js
++++ b/node_modules/@dhis2/pwa/build/es/index.js
+@@ -1,4 +1,7 @@
+ export { setUpServiceWorker } from './service-worker/set-up-service-worker.js';
+ export { OfflineInterface } from './offline-interface/offline-interface.js';
++export { PWAUpdateOfflineInterface } from './offline-interface/pwa-update-offline-interface.js';
+ export { checkForUpdates, checkForSWUpdateAndReload, getRegistrationState, REGISTRATION_STATE_UNREGISTERED, REGISTRATION_STATE_WAITING, REGISTRATION_STATE_ACTIVE, REGISTRATION_STATE_FIRST_ACTIVATION } from './lib/registration.js';
+ export { getBaseUrlByAppName, setBaseUrlByAppName } from './lib/base-url-db.js';
++export { OfflineInterfaceProvider, useOfflineInterface } from './react/OfflineInterfaceContext.js';
++export { usePWAUpdateState } from './react/usePWAUpdateState.js';
+diff --git a/node_modules/@dhis2/pwa/build/es/lib/registration.js b/node_modules/@dhis2/pwa/build/es/lib/registration.js
+index dcbe2e9..f3c9d2c 100644
+--- a/node_modules/@dhis2/pwa/build/es/lib/registration.js
++++ b/node_modules/@dhis2/pwa/build/es/lib/registration.js
+@@ -25,16 +25,32 @@ export async function getRegistrationState() {
+     return REGISTRATION_STATE_ACTIVE;
+   }
+ }
++
++/**
++ * Can receive a specific SW instance to check for updates on, e.g. for a
++ * plugin window. Defaults to this window's navigator.serviceWorker.
++ * onUpdate is called with `{ registration }`
++ */
+ export async function checkForUpdates(_ref) {
+   let {
+-    onUpdate
++    onUpdate,
++    targetServiceWorker
+   } = _ref;
+-  if (!('serviceWorker' in navigator)) {
++  if (!('serviceWorker' in navigator) && !targetServiceWorker) {
+     return;
+   }
+-  const registration = await navigator.serviceWorker.getRegistration();
++  const serviceWorker = targetServiceWorker || navigator.serviceWorker;
++  let registration = await serviceWorker.getRegistration();
+   if (registration === undefined) {
+-    return;
++    // This could have raced before the call to `serviceWorker.register()`;
++    // wait and try again. Testing with a 20x CPU throttling in Chrome,
++    // 500 ms works on an M3 max macbook pro
++    await new Promise(r => setTimeout(r, 500));
++    registration = await serviceWorker.getRegistration();
++    if (registration === undefined) {
++      // Still didn't find it; probably not a PWA app.
++      return;
++    }
+   }
+   function handleWaitingSW() {
+     console.log('New content is available and will be used when all tabs for this page are closed.');
+@@ -65,21 +81,21 @@ export async function checkForUpdates(_ref) {
+   // callback doesn't get called in that case. Handle that here:
+   if (registration.waiting) {
+     handleWaitingSW();
+-  } else if (registration.active && navigator.serviceWorker.controller === null) {
++  } else if (registration.active && serviceWorker.controller === null) {
+     handleFirstSWActivation();
+   }
+   function handleInstallingWorker() {
+     const installingWorker = registration.installing;
+     if (installingWorker) {
+-      installingWorker.onstatechange = () => {
+-        if (installingWorker.state === 'installed' && navigator.serviceWorker.controller) {
++      installingWorker.addEventListener('statechange', () => {
++        if (installingWorker.state === 'installed' && serviceWorker.controller) {
+           // SW is waiting to become active
+           handleWaitingSW();
+-        } else if (installingWorker.state === 'activated' && !navigator.serviceWorker.controller) {
++        } else if (installingWorker.state === 'activated' && !serviceWorker.controller) {
+           // First SW is installed and active
+           handleFirstSWActivation();
+         }
+-      };
++      });
+     }
+   }
+ 
+@@ -89,7 +105,7 @@ export async function checkForUpdates(_ref) {
+   }
+ 
+   // If a new service worker will be installed:
+-  registration.onupdatefound = handleInstallingWorker;
++  registration.addEventListener('updatefound', handleInstallingWorker);
+ }
+ 
+ /**
+@@ -142,7 +158,7 @@ export function register(config) {
+       // serve assets; see https://github.com/facebook/create-react-app/issues/2374
+       return;
+     }
+-    window.addEventListener('load', () => {
++    const handleLoad = () => {
+       // By compiling the dev SW to the 'public' dir, this URL works in
+       // both dev and production modes
+       const swUrl = new URL('service-worker.js', publicUrl);
+@@ -159,7 +175,15 @@ export function register(config) {
+         // Is not localhost. Just register service worker
+         registerValidSW(swUrl, config);
+       }
+-    });
++    };
++
++    // Wait until assets have loaded to avoid bogging down network with
++    // precache requests
++    if (document.readyState === 'complete') {
++      handleLoad();
++    } else {
++      window.addEventListener('load', handleLoad);
++    }
+   }
+ }
+ async function registerValidSW(swUrl /* config */) {
+diff --git a/node_modules/@dhis2/pwa/build/es/offline-interface/pwa-update-offline-interface.js b/node_modules/@dhis2/pwa/build/es/offline-interface/pwa-update-offline-interface.js
+new file mode 100644
+index 0000000..b5e5147
+--- /dev/null
++++ b/node_modules/@dhis2/pwa/build/es/offline-interface/pwa-update-offline-interface.js
+@@ -0,0 +1,133 @@
++import EventEmitter from 'events';
++import { swMsgs } from '../lib/constants.js';
++import { checkForUpdates } from '../lib/registration.js';
++
++// todo: this could be used as a base for the other, larger offline interface
++
++/**
++ * This and the following 'test' functions test for PWA features and log errors
++ * if there's an issue so they can be reused in the Offline Interface methods.
++ *
++ * Known situations when navigator.serviceWorker is not available:
++ * 1. Private browsing in firefox
++ * 2. Insecure contexts (e.g. http that's not local host)
++ */
++function testSWAvailable(_ref) {
++  let {
++    targetWindow = window
++  } = _ref;
++  if ('serviceWorker' in targetWindow.navigator) {
++    return true;
++  }
++  const msg = (!targetWindow.isSecureContext ? 'This window is not a secure context -- see https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts.' : '`serviceWorker` is not available on `navigator`.') + ' PWA features will not work.';
++  console.error(new Error(msg));
++  return false;
++}
++
++/** This exposes an interface to check a  */
++export class PWAUpdateOfflineInterface {
++  constructor(_ref2) {
++    let {
++      targetWindow = window
++    } = _ref2;
++    if (!testSWAvailable({
++      targetWindow
++    })) {
++      return;
++    }
++    this.targetWindow = targetWindow;
++    this.serviceWorker = targetWindow.navigator.serviceWorker;
++
++    // This event emitter helps coordinate with service worker messages
++    this.offlineEvents = new EventEmitter();
++    // Receives messages from service worker and forwards to event emitter
++    const handleSWMessage = event => {
++      if (!event.data) {
++        return;
++      }
++      const {
++        type,
++        payload
++      } = event.data;
++      this.offlineEvents.emit(type, payload);
++    };
++    this.serviceWorker.addEventListener('message', handleSWMessage);
++  }
++
++  /** Basically `checkForUpdates` from registration.js exposed here */
++  checkForNewSW(_ref3) {
++    let {
++      onNewSW
++    } = _ref3;
++    // Check for SW updates (or first activation)
++    checkForUpdates({
++      onUpdate: onNewSW,
++      targetServiceWorker: this.serviceWorker
++    });
++  }
++
++  /**
++   * Requests clients info from the active service worker.
++   * @returns {Promise}
++   */
++  getClientsInfo() {
++    if (!testSWAvailable({
++      targetWindow: this.targetWindow
++    })) {
++      return Promise.resolve({
++        clientsCount: 0
++      });
++    }
++    return new Promise((resolve, reject) => {
++      this.serviceWorker.getRegistration().then(registration => {
++        const newestSW = (registration === null || registration === void 0 ? void 0 : registration.waiting) || (registration === null || registration === void 0 ? void 0 : registration.active);
++        if (!newestSW) {
++          resolve({
++            clientsCount: 0
++          });
++          return;
++        }
++
++        // Send request message to newest SW
++        newestSW.postMessage({
++          type: swMsgs.getClientsInfo
++        });
++        // Resolve with payload received from SW `clientsInfo` message
++        this.offlineEvents.once(swMsgs.clientsInfo, resolve);
++        // Clean up potentially unused listeners eventually
++        setTimeout(() => {
++          reject('Request for clients info timed out');
++          this.offlineEvents.removeAllListeners(swMsgs.clientsInfo);
++        }, 2000);
++      });
++    });
++  }
++
++  /**
++   * Makes a new SW either skip waiting if it's an update,
++   * or claim clients if it's the first SW activation
++   */
++  useNewSW() {
++    if (!testSWAvailable({
++      targetWindow: this.targetWindow
++    })) {
++      return Promise.resolve();
++    }
++    return this.serviceWorker.getRegistration().then(registration => {
++      if (!registration) {
++        throw new Error('No service worker is registered');
++      }
++      if (registration.waiting) {
++        // Update existing service worker
++        registration.waiting.postMessage({
++          type: swMsgs.skipWaiting
++        });
++      } else if (registration.active) {
++        // (First SW activation) Have SW take control of clients
++        registration.active.postMessage({
++          type: swMsgs.claimClients
++        });
++      }
++    });
++  }
++}
+diff --git a/node_modules/@dhis2/pwa/build/es/react/OfflineInterfaceContext.js b/node_modules/@dhis2/pwa/build/es/react/OfflineInterfaceContext.js
+new file mode 100644
+index 0000000..ed7d292
+--- /dev/null
++++ b/node_modules/@dhis2/pwa/build/es/react/OfflineInterfaceContext.js
+@@ -0,0 +1,26 @@
++import PropTypes from 'prop-types';
++import React, { createContext, useContext } from 'react';
++import { OfflineInterface } from '../offline-interface/offline-interface.js';
++const OfflineInterfaceContext = /*#__PURE__*/createContext(null);
++
++// nb: instantiating an offline interface here creates a side-effect where
++// it is bundled in the service worker, which causes an error when the `window`
++// API is referenced.
++// It seems like some react and prop types leaks into the SW as well, which is
++// interesting because other exports like from registration.js don't
++let theOfflineInterface = null;
++export const OfflineInterfaceProvider = _ref => {
++  let {
++    children
++  } = _ref;
++  if (theOfflineInterface === null) {
++    theOfflineInterface = new OfflineInterface();
++  }
++  return /*#__PURE__*/React.createElement(OfflineInterfaceContext.Provider, {
++    value: theOfflineInterface
++  }, children);
++};
++OfflineInterfaceProvider.propTypes = {
++  children: PropTypes.node
++};
++export const useOfflineInterface = () => useContext(OfflineInterfaceContext);
+diff --git a/node_modules/@dhis2/pwa/build/es/react/usePWAUpdateState.js b/node_modules/@dhis2/pwa/build/es/react/usePWAUpdateState.js
+new file mode 100644
+index 0000000..4f11c97
+--- /dev/null
++++ b/node_modules/@dhis2/pwa/build/es/react/usePWAUpdateState.js
+@@ -0,0 +1,49 @@
++import { useEffect, useState } from 'react';
++import { useOfflineInterface } from './OfflineInterfaceContext.js';
++export const usePWAUpdateState = () => {
++  const offlineInterface = useOfflineInterface();
++  const [updateAvailable, setUpdateAvailable] = useState(false);
++  const [clientsCount, setClientsCount] = useState(null);
++  const onConfirmUpdate = () => {
++    offlineInterface.useNewSW();
++  };
++  const onCancelUpdate = () => {
++    setClientsCount(null);
++  };
++  const confirmReload = () => {
++    offlineInterface.getClientsInfo().then(_ref => {
++      let {
++        clientsCount
++      } = _ref;
++      if (clientsCount === 1) {
++        // Just one client; go ahead and reload
++        onConfirmUpdate();
++      } else {
++        // Multiple clients; warn about data loss before reloading
++        setClientsCount(clientsCount);
++      }
++    }).catch(reason => {
++      // Didn't get clients info
++      console.warn(reason);
++
++      // Go ahead with confirmation modal with `0` as clientsCount
++      setClientsCount(0);
++    });
++  };
++  useEffect(() => {
++    offlineInterface.checkForNewSW({
++      onNewSW: () => {
++        setUpdateAvailable(true);
++      }
++    });
++  }, [offlineInterface]);
++  const confirmationRequired = clientsCount !== null;
++  return {
++    updateAvailable,
++    confirmReload,
++    confirmationRequired,
++    clientsCount,
++    onConfirmUpdate,
++    onCancelUpdate
++  };
++};
+diff --git a/node_modules/@dhis2/pwa/build/es/service-worker/set-up-service-worker.js b/node_modules/@dhis2/pwa/build/es/service-worker/set-up-service-worker.js
+index d6cd040..1b82e6d 100644
+--- a/node_modules/@dhis2/pwa/build/es/service-worker/set-up-service-worker.js
++++ b/node_modules/@dhis2/pwa/build/es/service-worker/set-up-service-worker.js
+@@ -50,6 +50,8 @@ export function setUpServiceWorker() {
+       } = _ref;
+       return url.endsWith('index.html');
+     });
++    // Make sure that this request doesn't redirect to a global shell
++    indexHtmlManifestEntry.url += '?redirect=false';
+     precache([indexHtmlManifestEntry]);
+ 
+     // Custom strategy for handling app navigation, specifically to allow
+@@ -81,7 +83,8 @@ export function setUpServiceWorker() {
+       // Return true to signal that we want to use the handler.
+       return true;
+     };
+-    const indexUrl = process.env.PUBLIC_URL + '/index.html';
++    // Above, the index entry had the redirect param added:
++    const indexUrl = process.env.PUBLIC_URL + '/index.html?redirect=false';
+     const navigationRouteHandler = _ref3 => {
+       let {
+         request

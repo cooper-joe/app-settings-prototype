@@ -1,0 +1,15 @@
+.icon {
+    flex-shrink: 0;
+    border-radius: 4px;
+    object-fit: contain;
+}
+
+.fallback {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background: var(--colors-grey300);
+    color: var(--colors-grey700);
+}

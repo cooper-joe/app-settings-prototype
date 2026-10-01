@@ -1,0 +1,46 @@
+.titlePage {
+    margin-inline-start: 30px;
+    padding-inline-start: 10px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--colors-grey700);
+    cursor: default;
+    user-select: text;
+}
+
+.description {
+    margin-inline-end: 10px;
+    font-size: 14px;
+    color: var(--colors-grey700);
+}
+
+.filterTitle {
+    font-size: 14px;
+    color: var(--colors-grey700);
+    margin-block-start: 25px;
+}
+
+.filterList {
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    list-style-position: outside;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: var(--spacers-dp12);
+    margin-inline-end: 0;
+    padding-block-start: 0;
+    padding-block-end: 0;
+    padding-inline-start: var(--spacers-dp12);
+    padding-inline-end: 0;
+}
+
+.filterListItem {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    margin-block-end: var(--spacers-dp12);
+    color: var(--colors-grey700);
+}

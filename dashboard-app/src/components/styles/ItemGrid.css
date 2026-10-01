@@ -1,0 +1,63 @@
+/* react-grid-layout style */
+.react-grid-layout {
+    direction: ltr;
+}
+.react-grid-item {
+    overflow: hidden !important;
+    border: 1px solid var(--colors-grey300);
+    background-color: var(--colors-white);
+    border-radius: 3px;
+    min-block-size: 70px;
+    min-inline-size: 70px;
+}
+
+.react-grid-item.edit,
+.react-grid-item.EVENT_VISUALIZATION,
+.react-grid-item.RESOURCES,
+.react-grid-item.REPORTS,
+.react-grid-item.TEXT,
+.react-grid-item.MESSAGES,
+.react-grid-item.EVENT_REPORT,
+.react-grid-item.APP {
+    display: flex;
+    flex-direction: column;
+}
+
+.react-grid-item.edit:hover {
+    cursor: move;
+    border-color: #bfcad5;
+}
+
+.react-grid-item.edit.react-resizable-hide {
+    cursor: auto;
+}
+
+.react-grid-item.SPACER.view {
+    visibility: hidden;
+}
+
+.react-grid-item.SPACER.edit {
+    background-color: transparent;
+    border: 1px dashed #bfcad5;
+}
+.react-grid-item.SPACER.edit:hover {
+    border-color: var(--colors-grey500);
+}
+
+.react-grid-item.react-grid-placeholder {
+    background: #000;
+    opacity: 0.1;
+    transition-duration: 150ms;
+    z-index: 2;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+/* react-resizable */
+
+.react-resizable-handle {
+    background: none;
+}

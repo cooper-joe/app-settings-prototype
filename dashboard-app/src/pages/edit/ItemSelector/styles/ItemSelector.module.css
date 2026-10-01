@@ -1,0 +1,10 @@
+.menu {
+    block-size: 50vh;
+    inline-size: 700px;
+}
+
+@media only screen and (max-width: 480px) {
+    .popover {
+        display: none;
+    }
+}

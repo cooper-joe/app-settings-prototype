@@ -1,0 +1,872 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2026-09-30T12:14:26.802Z\n"
+"PO-Revision-Date: 2026-09-30T12:14:26.802Z\n"
+
+msgid "Untitled dashboard"
+msgstr "Untitled dashboard"
+
+msgid "Could not get info from Superset gateway endpoint"
+msgstr "Could not get info from Superset gateway endpoint"
+
+msgid "Dashboard with ID \"{{dashboardId}}\" not found or not accessible"
+msgstr "Dashboard with ID \"{{dashboardId}}\" not found or not accessible"
+
+msgid "Dashboard with ID \"{{dashboardId}}\" is not embedded"
+msgstr "Dashboard with ID \"{{dashboardId}}\" is not embedded"
+
+msgid "Embedded provider must be \"SUPERSET\" for dashboard ID \"{{dashboardId}}\""
+msgstr "Embedded provider must be \"SUPERSET\" for dashboard ID \"{{dashboardId}}\""
+
+msgid "Superset Embed UUID not found for dashboard ID \"{{dashboardId}}\""
+msgstr "Superset Embed UUID not found for dashboard ID \"{{dashboardId}}\""
+
+msgid "Dashboard with ID \"{{dashboardId}}\" not found on the Superset service"
+msgstr "Dashboard with ID \"{{dashboardId}}\" not found on the Superset service"
+
+msgid ""
+"Could not get guest token from Superset Gateway for dashboard ID "
+"\"{{dashboardId}}\""
+msgstr ""
+"Could not get guest token from Superset Gateway for dashboard ID "
+"\"{{dashboardId}}\""
+
+msgid "Open in {{app}}"
+msgstr "Open in {{app}}"
+
+msgid "Could not load the list"
+msgstr "Could not load the list"
+
+msgid "Could not load organisation units"
+msgstr "Could not load organisation units"
+
+msgid "Not found: {{ids}}"
+msgstr "Not found: {{ids}}"
+
+msgid "Could not load the period types"
+msgstr "Could not load the period types"
+
+msgid "This setting needs a newer version of System Settings."
+msgstr "This setting needs a newer version of System Settings."
+
+msgid "{{id}} (not found)"
+msgstr "{{id}} (not found)"
+
+msgid "This value is not valid"
+msgstr "This value is not valid"
+
+msgid "Choose one of the options"
+msgstr "Choose one of the options"
+
+msgid "Enter a number"
+msgstr "Enter a number"
+
+msgid "Enter a whole number"
+msgstr "Enter a whole number"
+
+msgid "Enter {{min}} or more"
+msgstr "Enter {{min}} or more"
+
+msgid "Enter {{max}} or less"
+msgstr "Enter {{max}} or less"
+
+msgid "This setting is required"
+msgstr "This setting is required"
+
+msgid "Use {{max}} characters or fewer"
+msgstr "Use {{max}} characters or fewer"
+
+msgid "This value cannot be saved"
+msgstr "This value cannot be saved"
+
+msgid "Network error"
+msgstr "Network error"
+
+msgid "Could not load app data"
+msgstr "Could not load app data"
+
+msgid "New dashboard: external"
+msgstr "New dashboard: external"
+
+msgid "Could not create dashboard"
+msgstr "Could not create dashboard"
+
+msgid "An unknown error occurred"
+msgstr "An unknown error occurred"
+
+msgid "Save dashboard"
+msgstr "Save dashboard"
+
+msgid "Back"
+msgstr "Back"
+
+msgid "Title"
+msgstr "Title"
+
+msgid "Code"
+msgstr "Code"
+
+msgid ""
+"A unique code to reference this dashboard in other apps and services. Max "
+"50 characters."
+msgstr ""
+"A unique code to reference this dashboard in other apps and services. Max "
+"50 characters."
+
+msgid "Code can't be longer than 50 characters"
+msgstr "Code can't be longer than 50 characters"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Superset Embed ID"
+msgstr "Superset Embed ID"
+
+msgid "Invalid UUID"
+msgstr "Invalid UUID"
+
+msgid "Options"
+msgstr "Options"
+
+msgid "Show chart controls on dashboard items"
+msgstr "Show chart controls on dashboard items"
+
+msgid "Expand filters"
+msgstr "Expand filters"
+
+msgid "Security"
+msgstr "Security"
+
+msgid "Restrict data by organisation unit hierarchy"
+msgstr "Restrict data by organisation unit hierarchy"
+
+msgid "Delete dashboard"
+msgstr "Delete dashboard"
+
+msgid ""
+"Deleting dashboard \"{{ dashboardName }}\" will remove it for all users. "
+"This action cannot be undone. Are you sure you want to permanently delete "
+"this dashboard?"
+msgstr ""
+"Deleting dashboard \"{{ dashboardName }}\" will remove it for all users. "
+"This action cannot be undone. Are you sure you want to permanently delete "
+"this dashboard?"
+
+msgid ""
+"Note: the source dashboard embedded by this external dashboard will not be "
+"deleted."
+msgstr ""
+"Note: the source dashboard embedded by this external dashboard will not be "
+"deleted."
+
+msgid "Delete"
+msgstr "Delete"
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "Edit external dashboard"
+msgstr "Edit external dashboard"
+
+msgid "New dashboard: choose type"
+msgstr "New dashboard: choose type"
+
+msgid "Internal"
+msgstr "Internal"
+
+msgid "Show data and visualizations from this DHIS2 instance."
+msgstr "Show data and visualizations from this DHIS2 instance."
+
+msgid "External"
+msgstr "External"
+
+msgid "Embed a Superset dashboard"
+msgstr "Embed a Superset dashboard"
+
+msgid "Continue"
+msgstr "Continue"
+
+msgid "Not available for embedded dashboards"
+msgstr "Not available for embedded dashboards"
+
+msgid "The dashboard couldn't be made available offline. Try again."
+msgstr "The dashboard couldn't be made available offline. Try again."
+
+msgid "No default dashboard is set now"
+msgstr "No default dashboard is set now"
+
+msgid "This is now the default dashboard"
+msgstr "This is now the default dashboard"
+
+msgid "The default dashboard couldn't be changed"
+msgstr "The default dashboard couldn't be changed"
+
+msgid "Remove from offline storage"
+msgstr "Remove from offline storage"
+
+msgid "Make available offline"
+msgstr "Make available offline"
+
+msgid "Sync offline data now"
+msgstr "Sync offline data now"
+
+msgid "Unstar dashboard"
+msgstr "Unstar dashboard"
+
+msgid "Star dashboard"
+msgstr "Star dashboard"
+
+msgid "Remove as default dashboard"
+msgstr "Remove as default dashboard"
+
+msgid "Set as default dashboard"
+msgstr "Set as default dashboard"
+
+msgid "Hide description"
+msgstr "Hide description"
+
+msgid "Show description"
+msgstr "Show description"
+
+msgid "Print"
+msgstr "Print"
+
+msgid "Dashboard layout"
+msgstr "Dashboard layout"
+
+msgid "One item per page"
+msgstr "One item per page"
+
+msgid "Close dashboard"
+msgstr "Close dashboard"
+
+msgid "No dashboard items to show in slideshow"
+msgstr "No dashboard items to show in slideshow"
+
+msgid "Not available offline"
+msgstr "Not available offline"
+
+msgid "Edit"
+msgstr "Edit"
+
+msgid "Share"
+msgstr "Share"
+
+msgid "Slideshow"
+msgstr "Slideshow"
+
+msgid "Clear dashboard filters?"
+msgstr "Clear dashboard filters?"
+
+msgid ""
+"A dashboard's filters can’t be saved offline. Do you want to remove the "
+"filters and make this dashboard available offline?"
+msgstr ""
+"A dashboard's filters can’t be saved offline. Do you want to remove the "
+"filters and make this dashboard available offline?"
+
+msgid "No, cancel"
+msgstr "No, cancel"
+
+msgid "Yes, clear filters and sync"
+msgstr "Yes, clear filters and sync"
+
+msgid ""
+"Opens for people who haven't opened a dashboard before. Set in System "
+"Settings › Apps › Dashboard, or from this dashboard's menu."
+msgstr ""
+"Opens for people who haven't opened a dashboard before. Set in System "
+"Settings › Apps › Dashboard, or from this dashboard's menu."
+
+msgid "Default"
+msgstr "Default"
+
+msgid "This dashboard is showing data from outside this system"
+msgstr "This dashboard is showing data from outside this system"
+
+msgid "External source"
+msgstr "External source"
+
+msgid "Confirm"
+msgstr "Confirm"
+
+msgid "Filter"
+msgstr "Filter"
+
+msgid "Failed to unstar the dashboard"
+msgstr "Failed to unstar the dashboard"
+
+msgid "Failed to star the dashboard"
+msgstr "Failed to star the dashboard"
+
+msgid "Offline data last updated {{timeAgo}}"
+msgstr "Offline data last updated {{timeAgo}}"
+
+msgid "Synced {{timeAgo}}"
+msgstr "Synced {{timeAgo}}"
+
+msgid "Cannot unstar this dashboard while offline"
+msgstr "Cannot unstar this dashboard while offline"
+
+msgid "Cannot star this dashboard while offline"
+msgstr "Cannot star this dashboard while offline"
+
+msgid "No dashboards available."
+msgstr "No dashboards available."
+
+msgid "Create a new dashboard using the + button."
+msgstr "Create a new dashboard using the + button."
+
+msgid "Search for a dashboard"
+msgstr "Search for a dashboard"
+
+msgid "No dashboards found for \"{{- filterText}}\""
+msgstr "No dashboards found for \"{{- filterText}}\""
+
+msgid "Dashboards"
+msgstr "Dashboards"
+
+msgid "There was a problem loading this dashboard item"
+msgstr "There was a problem loading this dashboard item"
+
+msgid "Open menu"
+msgstr "Open menu"
+
+msgid "Open in {{appName}}"
+msgstr "Open in {{appName}}"
+
+msgid "View fullscreen"
+msgstr "View fullscreen"
+
+msgid "Remove this item"
+msgstr "Remove this item"
+
+msgid "This item has been shortened to fit on one page"
+msgstr "This item has been shortened to fit on one page"
+
+msgid "The plugin needed to display this item is not available"
+msgstr "The plugin needed to display this item is not available"
+
+msgid "Install the {{pluginName}} plugin from the App Hub"
+msgstr "Install the {{pluginName}} plugin from the App Hub"
+
+msgid "There was an error loading data for this item"
+msgstr "There was an error loading data for this item"
+
+msgid "Open this item in {{appName}}"
+msgstr "Open this item in {{appName}}"
+
+msgid "Remove"
+msgstr "Remove"
+
+msgid "Messages"
+msgstr "Messages"
+
+msgid "See all messages"
+msgstr "See all messages"
+
+msgid "Item type \"{{type}}\" is not supported"
+msgstr "Item type \"{{type}}\" is not supported"
+
+msgid "The item type is missing"
+msgstr "The item type is missing"
+
+msgid "Filters applied"
+msgstr "Filters applied"
+
+msgid "Spacer"
+msgstr "Spacer"
+
+msgid "Use a spacer to create empty vertical space between other dashboard items."
+msgstr "Use a spacer to create empty vertical space between other dashboard items."
+
+msgid "Text box"
+msgstr "Text box"
+
+msgid "Add text here"
+msgstr "Add text here"
+
+msgid "Filters are not applied to line list dashboard items"
+msgstr "Filters are not applied to line list dashboard items"
+
+msgid "Filters not applied"
+msgstr "Filters not applied"
+
+msgid "Only Period and Organisation unit filters can be applied to this item"
+msgstr "Only Period and Organisation unit filters can be applied to this item"
+
+msgid "Some filters not applied"
+msgstr "Some filters not applied"
+
+msgid "Hide details and interpretations"
+msgstr "Hide details and interpretations"
+
+msgid "Show details and interpretations"
+msgstr "Show details and interpretations"
+
+msgid "Open in {{appName}} app"
+msgstr "Open in {{appName}} app"
+
+msgid "This map can't be displayed as a chart"
+msgstr "This map can't be displayed as a chart"
+
+msgid "This map can't be displayed as a pivot table"
+msgstr "This map can't be displayed as a pivot table"
+
+msgid "This visualization can't be displayed as a pivot table"
+msgstr "This visualization can't be displayed as a pivot table"
+
+msgid "This visualization can't be displayed as a map"
+msgstr "This visualization can't be displayed as a map"
+
+msgid "View as Chart"
+msgstr "View as Chart"
+
+msgid "View as Pivot table"
+msgstr "View as Pivot table"
+
+msgid "View as Map"
+msgstr "View as Map"
+
+msgid "There was a problem loading details for this item"
+msgstr "There was a problem loading details for this item"
+
+msgid "No data to display"
+msgstr "No data to display"
+
+msgid ""
+"Install Data Visualizer app ${minDVVersion.join(\n"
+"                            '.'\n"
+"                        )} or higher in order to display this item."
+msgstr ""
+"Install Data Visualizer app ${minDVVersion.join(\n"
+"                            '.'\n"
+"                        )} or higher in order to display this item."
+
+msgid "Show without filters"
+msgstr "Show without filters"
+
+msgid ""
+"Install Line Listing app ${minLLVersion.join(\n"
+"                            '.'\n"
+"                        )} or higher in order to display this item."
+msgstr ""
+"Install Line Listing app ${minLLVersion.join(\n"
+"                            '.'\n"
+"                        )} or higher in order to display this item."
+
+msgid "Maps with Earth Engine layers cannot be displayed when offline"
+msgstr "Maps with Earth Engine layers cannot be displayed when offline"
+
+msgid ""
+"Install Maps app ${minMapsVersion.join(\n"
+"                            '.'\n"
+"                        )} or higher in order to display this item."
+msgstr ""
+"Install Maps app ${minMapsVersion.join(\n"
+"                            '.'\n"
+"                        )} or higher in order to display this item."
+
+msgid "Unable to load the plugin for this item"
+msgstr "Unable to load the plugin for this item"
+
+msgid "Resources"
+msgstr "Resources"
+
+msgid "Reports"
+msgstr "Reports"
+
+msgid "Visualizations"
+msgstr "Visualizations"
+
+msgid "Pivot tables"
+msgstr "Pivot tables"
+
+msgid "Charts"
+msgstr "Charts"
+
+msgid "Maps"
+msgstr "Maps"
+
+msgid "Event reports"
+msgstr "Event reports"
+
+msgid "Event charts"
+msgstr "Event charts"
+
+msgid "Line lists"
+msgstr "Line lists"
+
+msgid "Apps"
+msgstr "Apps"
+
+msgid "Users"
+msgstr "Users"
+
+msgid "Could not update dashboard {{name}}"
+msgstr "Could not update dashboard {{name}}"
+
+msgid "Could not delete dashboard {{name}}"
+msgstr "Could not delete dashboard {{name}}"
+
+msgid "Could not load dashboard details"
+msgstr "Could not load dashboard details"
+
+msgid ""
+"Failed to save dashboard. You might be offline or not have access to edit "
+"this dashboard."
+msgstr ""
+"Failed to save dashboard. You might be offline or not have access to edit "
+"this dashboard."
+
+msgid ""
+"Failed to save dashboard. This code is already being used on another "
+"dashboard."
+msgstr ""
+"Failed to save dashboard. This code is already being used on another "
+"dashboard."
+
+msgid ""
+"Failed to delete dashboard. You might be offline or not have access to edit "
+"this dashboard."
+msgstr ""
+"Failed to delete dashboard. You might be offline or not have access to edit "
+"this dashboard."
+
+msgid "Cannot save this dashboard while offline"
+msgstr "Cannot save this dashboard while offline"
+
+msgid "Save changes"
+msgstr "Save changes"
+
+msgid "Exit print preview"
+msgstr "Exit print preview"
+
+msgid "Print preview"
+msgstr "Print preview"
+
+msgid "Filter settings"
+msgstr "Filter settings"
+
+msgid "Translate"
+msgstr "Translate"
+
+msgid "Cannot delete this dashboard while offline"
+msgstr "Cannot delete this dashboard while offline"
+
+msgid "Exit without saving"
+msgstr "Exit without saving"
+
+msgid "Go to dashboards"
+msgstr "Go to dashboards"
+
+msgid ""
+"Deleting dashboard \"{{- dashboardName }}\" will remove it for all users. "
+"This action cannot be undone. Are you sure you want to permanently delete "
+"this dashboard?"
+msgstr ""
+"Deleting dashboard \"{{- dashboardName }}\" will remove it for all users. "
+"This action cannot be undone. Are you sure you want to permanently delete "
+"this dashboard?"
+
+msgid "Discard changes"
+msgstr "Discard changes"
+
+msgid ""
+"This dashboard has unsaved changes. Are you sure you want to leave and "
+"discard these unsaved changes?"
+msgstr ""
+"This dashboard has unsaved changes. Are you sure you want to leave and "
+"discard these unsaved changes?"
+
+msgid "No, stay here"
+msgstr "No, stay here"
+
+msgid "Yes, discard changes"
+msgstr "Yes, discard changes"
+
+msgid "No access"
+msgstr "No access"
+
+msgid "Not supported"
+msgstr "Not supported"
+
+msgid ""
+"Editing dashboards on small screens is not supported. Resize your screen to "
+"return to edit mode."
+msgstr ""
+"Editing dashboards on small screens is not supported. Resize your screen to "
+"return to edit mode."
+
+msgid "Allow filtering by all dimensions"
+msgstr "Allow filtering by all dimensions"
+
+msgid "Only allow filtering by selected dimensions"
+msgstr "Only allow filtering by selected dimensions"
+
+msgid "Dashboard filter settings"
+msgstr "Dashboard filter settings"
+
+msgid ""
+"Dashboards can be filtered by dimensions to change\n"
+"                                         the data shown. By default, all "
+"dimensions are available\n"
+"                                         as filters. Alternatively, only "
+"selected dimensions can\n"
+"                                         be made available on a dashboard."
+msgstr ""
+"Dashboards can be filtered by dimensions to change\n"
+"                                         the data shown. By default, all "
+"dimensions are available\n"
+"                                         as filters. Alternatively, only "
+"selected dimensions can\n"
+"                                         be made available on a dashboard."
+
+msgid "Available Filters"
+msgstr "Available Filters"
+
+msgid "Selected Filters"
+msgstr "Selected Filters"
+
+msgid "There are no items on this dashboard"
+msgstr "There are no items on this dashboard"
+
+msgid "Show fewer"
+msgstr "Show fewer"
+
+msgid "Show more"
+msgstr "Show more"
+
+msgid "Open visualization in new tab"
+msgstr "Open visualization in new tab"
+
+msgid "Insert"
+msgstr "Insert"
+
+msgid "Search for items to add to this dashboard"
+msgstr "Search for items to add to this dashboard"
+
+msgid "Search for visualizations, reports and more"
+msgstr "Search for visualizations, reports and more"
+
+msgid "Cannot search for dashboard items while offline"
+msgstr "Cannot search for dashboard items while offline"
+
+msgid "Additional items"
+msgstr "Additional items"
+
+msgid "Freeflow"
+msgstr "Freeflow"
+
+msgid "Dashboard items can be placed anywhere, at any size."
+msgstr "Dashboard items can be placed anywhere, at any size."
+
+msgid "Fixed columns"
+msgstr "Fixed columns"
+
+msgid ""
+"Dashboard items are automatically placed within fixed, horizontal columns. "
+"The number of columns can be adjusted."
+msgstr ""
+"Dashboard items are automatically placed within fixed, horizontal columns. "
+"The number of columns can be adjusted."
+
+msgid "Number of columns"
+msgstr "Number of columns"
+
+msgid "Save layout"
+msgstr "Save layout"
+
+msgid "Dashboard title"
+msgstr "Dashboard title"
+
+msgid "Dashboard code"
+msgstr "Dashboard code"
+
+msgid "Dashboard description"
+msgstr "Dashboard description"
+
+msgid "Layout"
+msgstr "Layout"
+
+msgid "{{count}} columns"
+msgid_plural "{{count}} columns"
+msgstr[0] "{{count}} column"
+msgstr[1] "{{count}} columns"
+
+msgid "Change layout"
+msgstr "Change layout"
+
+msgid "Add new items to"
+msgstr "Add new items to"
+
+msgid "End of dashboard"
+msgstr "End of dashboard"
+
+msgid "Start of dashboard"
+msgstr "Start of dashboard"
+
+msgid "dashboard layout"
+msgstr "dashboard layout"
+
+msgid "one item per page"
+msgstr "one item per page"
+
+msgid "Print Preview"
+msgstr "Print Preview"
+
+msgid "For best print results"
+msgstr "For best print results"
+
+msgid "Use Chrome or Edge web browser"
+msgstr "Use Chrome or Edge web browser"
+
+msgid "Wait for all dashboard items to load before printing"
+msgstr "Wait for all dashboard items to load before printing"
+
+msgid ""
+"Use A4 landscape paper size, default margin settings and turn on background "
+"graphics in the browser print dialog"
+msgstr ""
+"Use A4 landscape paper size, default margin settings and turn on background "
+"graphics in the browser print dialog"
+
+msgid "Getting started"
+msgstr "Getting started"
+
+msgid "Search for and open saved dashboards from the top bar."
+msgstr "Search for and open saved dashboards from the top bar."
+
+msgid ""
+"Click a dashboard chip to open it. Get back to this screen from the "
+"\"More\" menu."
+msgstr ""
+"Click a dashboard chip to open it. Get back to this screen from the "
+"\"More\" menu."
+
+msgid "Create a new dashboard with the + button."
+msgstr "Create a new dashboard with the + button."
+
+msgid "Your most viewed dashboards"
+msgstr "Your most viewed dashboards"
+
+msgid "No dashboards found. Use the + button to create a new dashboard."
+msgstr "No dashboards found. Use the + button to create a new dashboard."
+
+msgid "Requested dashboard not found"
+msgstr "Requested dashboard not found"
+
+msgid "No description"
+msgstr "No description"
+
+msgid "{{count}} selected"
+msgid_plural "{{count}} selected"
+msgstr[0] "{{count}} selected"
+msgstr[1] "{{count}} selected"
+
+msgid "Cannot edit filters while offline"
+msgstr "Cannot edit filters while offline"
+
+msgid "Cannot edit filters on a small screen"
+msgstr "Cannot edit filters on a small screen"
+
+msgid "Removing filters while offline"
+msgstr "Removing filters while offline"
+
+msgid ""
+"Removing this filter while offline will remove all other filters. Do you "
+"want to remove all filters on this dashboard?"
+msgstr ""
+"Removing this filter while offline will remove all other filters. Do you "
+"want to remove all filters on this dashboard?"
+
+msgid "Yes, remove filters"
+msgstr "Yes, remove filters"
+
+msgid ""
+"There was a problem loading the embedded dashboard content from an external "
+"service"
+msgstr ""
+"There was a problem loading the embedded dashboard content from an external "
+"service"
+
+msgid "Fetching external dashboard"
+msgstr "Fetching external dashboard"
+
+msgid "Error"
+msgstr "Error"
+
+msgid "Could not load Superset dashboard"
+msgstr "Could not load Superset dashboard"
+
+msgid "Retry"
+msgstr "Retry"
+
+msgid "Loading dashboard – {{name}}"
+msgstr "Loading dashboard – {{name}}"
+
+msgid "Loading dashboard"
+msgstr "Loading dashboard"
+
+msgid "Load dashboard failed"
+msgstr "Load dashboard failed"
+
+msgid "This dashboard could not be loaded. Please try again later."
+msgstr "This dashboard could not be loaded. Please try again later."
+
+msgid "Offline"
+msgstr "Offline"
+
+msgid "This dashboard cannot be loaded while offline."
+msgstr "This dashboard cannot be loaded while offline."
+
+msgid "Go to start page"
+msgstr "Go to start page"
+
+msgid "Slideshow started over 24 hours ago"
+msgstr "Slideshow started over 24 hours ago"
+
+msgid "Exit slideshow"
+msgstr "Exit slideshow"
+
+msgid "Previous item"
+msgstr "Previous item"
+
+msgid "Next item"
+msgstr "Next item"
+
+msgid "{{name}}: {{filter}}"
+msgstr "{{name}}: {{filter}}"
+
+msgid "{{count}} filters active"
+msgid_plural "{{count}} filters active"
+msgstr[0] "{{count}} filter active"
+msgstr[1] "{{count}} filters active"
+
+msgid "10 seconds per slide"
+msgstr "10 seconds per slide"
+
+msgid "20 seconds per slide"
+msgstr "20 seconds per slide"
+
+msgid "30 seconds per slide"
+msgstr "30 seconds per slide"
+
+msgid "1 minute per slide"
+msgstr "1 minute per slide"
+
+msgid "2 minutes per slide"
+msgstr "2 minutes per slide"
+
+msgctxt "Application title"
+msgid "__MANIFEST_APP_TITLE"
+msgstr "Dashboard"
+
+msgctxt "Application description"
+msgid "__MANIFEST_APP_DESCRIPTION"
+msgstr "DHIS2 Dashboard app"

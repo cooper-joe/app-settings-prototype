@@ -1,0 +1,1174 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2026-09-30T08:46:58.890Z\n"
+"PO-Revision-Date: 2026-09-30T08:46:58.890Z\n"
+
+msgid "Failed to load: {{error}}"
+msgstr "Failed to load: {{error}}"
+
+msgid "DHIS2"
+msgstr "DHIS2"
+
+msgid "No flag"
+msgstr "No flag"
+
+msgid "App settings"
+msgstr "App settings"
+
+msgid "Setting saved"
+msgstr "Setting saved"
+
+msgid "Could not save the setting: {{message}}"
+msgstr "Could not save the setting: {{message}}"
+
+msgid "Could not load app settings"
+msgstr "Could not load app settings"
+
+msgid "No app settings you can change"
+msgstr "No app settings you can change"
+
+msgid ""
+"Apps appear here when they ship a settings description and you have the "
+"app's admin authority."
+msgstr ""
+"Apps appear here when they ship a settings description and you have the "
+"app's admin authority."
+
+msgid "You cannot change these settings"
+msgstr "You cannot change these settings"
+
+msgid "This needs the {{authority}} authority."
+msgstr "This needs the {{authority}} authority."
+
+msgid "Could not load the values"
+msgstr "Could not load the values"
+
+msgid "{{app}} settings"
+msgstr "{{app}} settings"
+
+msgid "Open in {{app}}"
+msgstr "Open in {{app}}"
+
+msgid "Could not load the list"
+msgstr "Could not load the list"
+
+msgid "Could not load organisation units"
+msgstr "Could not load organisation units"
+
+msgid "Not found: {{ids}}"
+msgstr "Not found: {{ids}}"
+
+msgid "Could not load the period types"
+msgstr "Could not load the period types"
+
+msgid "This setting needs a newer version of System Settings."
+msgstr "This setting needs a newer version of System Settings."
+
+msgid "{{id}} (not found)"
+msgstr "{{id}} (not found)"
+
+msgid "This value is not valid"
+msgstr "This value is not valid"
+
+msgid "Choose one of the options"
+msgstr "Choose one of the options"
+
+msgid "Enter a number"
+msgstr "Enter a number"
+
+msgid "Enter a whole number"
+msgstr "Enter a whole number"
+
+msgid "Enter {{min}} or more"
+msgstr "Enter {{min}} or more"
+
+msgid "Enter {{max}} or less"
+msgstr "Enter {{max}} or less"
+
+msgid "This setting is required"
+msgstr "This setting is required"
+
+msgid "Use {{max}} characters or fewer"
+msgstr "Use {{max}} characters or fewer"
+
+msgid "This value cannot be saved"
+msgstr "This value cannot be saved"
+
+msgid "Search settings"
+msgstr "Search settings"
+
+msgid "No color selected"
+msgstr "No color selected"
+
+msgid "Remove color"
+msgstr "Remove color"
+
+msgid "Replace image"
+msgstr "Replace image"
+
+msgid "Preview image"
+msgstr "Preview image"
+
+msgid "Preview of image"
+msgstr "Preview of image"
+
+msgid "Upload image"
+msgstr "Upload image"
+
+msgid "Error uploading file: {{error}}"
+msgstr "Error uploading file: {{error}}"
+
+msgid "Cancel upload"
+msgstr "Cancel upload"
+
+msgid "System default ({{language}})"
+msgstr "System default ({{language}})"
+
+msgid "Set the main field value before adding a translation"
+msgstr "Set the main field value before adding a translation"
+
+msgid "Could not fetch localized settings"
+msgstr "Could not fetch localized settings"
+
+msgid "Select language"
+msgstr "Select language"
+
+msgid "Version created"
+msgstr "Version created"
+
+msgid "Failed to create version"
+msgstr "Failed to create version"
+
+msgid "Error fetching settings"
+msgstr "Error fetching settings"
+
+msgid "Create new version"
+msgstr "Create new version"
+
+msgid "Best effort"
+msgstr "Best effort"
+
+msgid "Atomic"
+msgstr "Atomic"
+
+msgid "Master version:"
+msgstr "Master version:"
+
+msgid "None"
+msgstr "None"
+
+msgid "Last sync attempt"
+msgstr "Last sync attempt"
+
+msgid "Failed"
+msgstr "Failed"
+
+msgid "No versions exist"
+msgstr "No versions exist"
+
+msgid "Enable Versioning for metadata sync"
+msgstr "Enable Versioning for metadata sync"
+
+msgid "Don't sync metadata if DHIS versions differ"
+msgstr "Don't sync metadata if DHIS versions differ"
+
+msgid "Metadata Versioning"
+msgstr "Metadata Versioning"
+
+msgid "This client ID is already taken"
+msgstr "This client ID is already taken"
+
+msgid "Client ID"
+msgstr "Client ID"
+
+msgid "Required"
+msgstr "Required"
+
+msgid "Client Secret"
+msgstr "Client Secret"
+
+msgid "Grant Types"
+msgstr "Grant Types"
+
+msgid "Refresh token"
+msgstr "Refresh token"
+
+msgid "Authorization code"
+msgstr "Authorization code"
+
+msgid "One URL per line"
+msgstr "One URL per line"
+
+msgid "Redirect URIs"
+msgstr "Redirect URIs"
+
+msgid "This field should contain a list of URLs"
+msgstr "This field should contain a list of URLs"
+
+msgid "Create new OAuth2 Client"
+msgstr "Create new OAuth2 Client"
+
+msgid "Edit OAuth2 Client"
+msgstr "Edit OAuth2 Client"
+
+msgid "Save"
+msgstr "Save"
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "There are currently no OAuth2 clients registered"
+msgstr "There are currently no OAuth2 clients registered"
+
+msgid "Edit"
+msgstr "Edit"
+
+msgid "Delete"
+msgstr "Delete"
+
+msgid "OAuth2 client saved"
+msgstr "OAuth2 client saved"
+
+msgid "Failed to save OAuth2 client"
+msgstr "Failed to save OAuth2 client"
+
+msgid "Add OAuth2 client"
+msgstr "Add OAuth2 client"
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "No"
+msgstr "No"
+
+msgid "OAuth2 client deleted"
+msgstr "OAuth2 client deleted"
+
+msgid "Failed to delete OAuth2 client"
+msgstr "Failed to delete OAuth2 client"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Password"
+msgstr "Password"
+
+msgid "January"
+msgstr "January"
+
+msgid "February"
+msgstr "February"
+
+msgid "March"
+msgstr "March"
+
+msgid "April"
+msgstr "April"
+
+msgid "May"
+msgstr "May"
+
+msgid "June"
+msgstr "June"
+
+msgid "July"
+msgstr "July"
+
+msgid "August"
+msgstr "August"
+
+msgid "September"
+msgstr "September"
+
+msgid "October"
+msgstr "October"
+
+msgid "November"
+msgstr "November"
+
+msgid "December"
+msgstr "December"
+
+msgid "Monday"
+msgstr "Monday"
+
+msgid "Tuesday"
+msgstr "Tuesday"
+
+msgid "Wednesday"
+msgstr "Wednesday"
+
+msgid "Thursday"
+msgstr "Thursday"
+
+msgid "Friday"
+msgstr "Friday"
+
+msgid "Saturday"
+msgstr "Saturday"
+
+msgid "Sunday"
+msgstr "Sunday"
+
+msgid "Daily"
+msgstr "Daily"
+
+msgid "Weekly"
+msgstr "Weekly"
+
+msgid "Monthly"
+msgstr "Monthly"
+
+msgid "Bi-monthly"
+msgstr "Bi-monthly"
+
+msgid "Yearly"
+msgstr "Yearly"
+
+msgid "Bi-weekly"
+msgstr "Bi-weekly"
+
+msgid "Quarterly"
+msgstr "Quarterly"
+
+msgid "Six-monthly"
+msgstr "Six-monthly"
+
+msgid "Weekly (start {{day}})"
+msgstr "Weekly (start {{day}})"
+
+msgid "Financial year (start {{month}})"
+msgstr "Financial year (start {{month}})"
+
+msgid "Days"
+msgstr "Days"
+
+msgid "Weeks"
+msgstr "Weeks"
+
+msgid "Bi-weeks"
+msgstr "Bi-weeks"
+
+msgid "Months"
+msgstr "Months"
+
+msgid "Bi-months"
+msgstr "Bi-months"
+
+msgid "Quarters"
+msgstr "Quarters"
+
+msgid "Six months"
+msgstr "Six months"
+
+msgid "Years"
+msgstr "Years"
+
+msgid "Other"
+msgstr "Other"
+
+msgid "Settings updated"
+msgstr "Settings updated"
+
+msgid "There was a problem updating settings. Changes have not been saved."
+msgstr "There was a problem updating settings. Changes have not been saved."
+
+msgid "Period types available in analytics apps"
+msgstr "Period types available in analytics apps"
+
+msgid "This period type is always enabled and cannot be disabled"
+msgstr "This period type is always enabled and cannot be disabled"
+
+msgid "This field is required"
+msgstr "This field is required"
+
+msgid "This field should be a URL"
+msgstr "This field should be a URL"
+
+msgid "This field should be a number"
+msgstr "This field should be a number"
+
+msgid "This field should be a positive number"
+msgstr "This field should be a positive number"
+
+msgid "This field should be an email"
+msgstr "This field should be an email"
+
+msgid "Please enter a number from {{min}} to {{max}}"
+msgstr "Please enter a number from {{min}} to {{max}}"
+
+msgid "General"
+msgstr "General"
+
+msgid "General settings"
+msgstr "General settings"
+
+msgid "Analytics"
+msgstr "Analytics"
+
+msgid "Analytics settings"
+msgstr "Analytics settings"
+
+msgid "Server"
+msgstr "Server"
+
+msgid "Server settings"
+msgstr "Server settings"
+
+msgid "Appearance"
+msgstr "Appearance"
+
+msgid "Appearance settings"
+msgstr "Appearance settings"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Email settings"
+msgstr "Email settings"
+
+msgid "Access"
+msgstr "Access"
+
+msgid "Access settings"
+msgstr "Access settings"
+
+msgid "Calendar"
+msgstr "Calendar"
+
+msgid "Calendar settings"
+msgstr "Calendar settings"
+
+msgid "Data Import"
+msgstr "Data Import"
+
+msgid "Data import settings"
+msgstr "Data import settings"
+
+msgid "Synchronization"
+msgstr "Synchronization"
+
+msgid "Synchronization settings"
+msgstr "Synchronization settings"
+
+msgid "Scheduled jobs"
+msgstr "Scheduled jobs"
+
+msgid "Notification settings"
+msgstr "Notification settings"
+
+msgid "OAuth2 Clients"
+msgstr "OAuth2 Clients"
+
+msgid "Apps"
+msgstr "Apps"
+
+msgid "This setting will be overridden by the current user setting: {{settingName}}"
+msgstr "This setting will be overridden by the current user setting: {{settingName}}"
+
+msgid "This setting can be overridden by user settings"
+msgstr "This setting can be overridden by user settings"
+
+msgid "No options"
+msgstr "No options"
+
+msgid "Settings must be configured to send emails to enforce verified emails"
+msgstr "Settings must be configured to send emails to enforce verified emails"
+
+msgid ""
+"You cannot enable \"Enforce Verified Email\" until email settings are "
+"configured."
+msgstr ""
+"You cannot enable \"Enforce Verified Email\" until email settings are "
+"configured."
+
+msgid "No settings matched the search term"
+msgstr "No settings matched the search term"
+
+msgid "Search results"
+msgstr "Search results"
+
+msgid "This period type is currently disabled in the period type settings above"
+msgstr "This period type is currently disabled in the period type settings above"
+
+msgid "Maximum number of analytics records"
+msgstr "Maximum number of analytics records"
+
+msgid "Unlimited"
+msgstr "Unlimited"
+
+msgid "Maximum number of SQL view records"
+msgstr "Maximum number of SQL view records"
+
+msgid ""
+"Maximum number of tracked entity records to fetch from database (enter 0 "
+"for unlimited)"
+msgstr ""
+"Maximum number of tracked entity records to fetch from database (enter 0 "
+"for unlimited)"
+
+msgid "Infrastructural indicators"
+msgstr "Infrastructural indicators"
+
+msgid "Infrastructural data elements"
+msgstr "Infrastructural data elements"
+
+msgid "Infrastructural period type"
+msgstr "Infrastructural period type"
+
+msgid "Six-monthly April"
+msgstr "Six-monthly April"
+
+msgid "Financial-April"
+msgstr "Financial-April"
+
+msgid "Financial-July"
+msgstr "Financial-July"
+
+msgid "Financial-Oct"
+msgstr "Financial-Oct"
+
+msgid "Feedback recipients"
+msgstr "Feedback recipients"
+
+msgid "No message recipients"
+msgstr "No message recipients"
+
+msgid "System update notification recipients"
+msgstr "System update notification recipients"
+
+msgid "No update notification recipients"
+msgstr "No update notification recipients"
+
+msgid "Max offline organisation unit levels"
+msgstr "Max offline organisation unit levels"
+
+msgid "Data analysis std dev factor"
+msgstr "Data analysis std dev factor"
+
+msgid "Phone number area code"
+msgstr "Phone number area code"
+
+msgid "Enable multi-organisation unit forms"
+msgstr "Enable multi-organisation unit forms"
+
+msgid "Acceptance required before approval"
+msgstr "Acceptance required before approval"
+
+msgid "Gather analytical object statistics in dashboard views"
+msgstr "Gather analytical object statistics in dashboard views"
+
+msgid "Include passive dashboard views in usage analytics statistics"
+msgstr "Include passive dashboard views in usage analytics statistics"
+
+msgid "Hide daily periods"
+msgstr "Hide daily periods"
+
+msgid "Hidden period types in analytics apps"
+msgstr "Hidden period types in analytics apps"
+
+msgid "Hide weekly periods"
+msgstr "Hide weekly periods"
+
+msgid "Hide biweekly periods"
+msgstr "Hide biweekly periods"
+
+msgid "Hide monthly periods"
+msgstr "Hide monthly periods"
+
+msgid "Hide bimonthly periods"
+msgstr "Hide bimonthly periods"
+
+msgid "Period types"
+msgstr "Period types"
+
+msgid "Allowed period types"
+msgstr "Allowed period types"
+
+msgid "Default relative period for analysis"
+msgstr "Default relative period for analysis"
+
+msgid "This week"
+msgstr "This week"
+
+msgid "Last week"
+msgstr "Last week"
+
+msgid "Last 4 weeks"
+msgstr "Last 4 weeks"
+
+msgid "Last 12 weeks"
+msgstr "Last 12 weeks"
+
+msgid "Last 52 weeks"
+msgstr "Last 52 weeks"
+
+msgid "This month"
+msgstr "This month"
+
+msgid "Last month"
+msgstr "Last month"
+
+msgid "Months this year"
+msgstr "Months this year"
+
+msgid "Months last year"
+msgstr "Months last year"
+
+msgid "Last 3 months"
+msgstr "Last 3 months"
+
+msgid "Last 6 months"
+msgstr "Last 6 months"
+
+msgid "Last 12 months"
+msgstr "Last 12 months"
+
+msgid "This bi-month"
+msgstr "This bi-month"
+
+msgid "Last bi-month"
+msgstr "Last bi-month"
+
+msgid "Last 6 bi-months"
+msgstr "Last 6 bi-months"
+
+msgid "This quarter"
+msgstr "This quarter"
+
+msgid "Last quarter"
+msgstr "Last quarter"
+
+msgid "Quarters this year"
+msgstr "Quarters this year"
+
+msgid "Quarters last year"
+msgstr "Quarters last year"
+
+msgid "Last 4 quarters"
+msgstr "Last 4 quarters"
+
+msgid "This six-month"
+msgstr "This six-month"
+
+msgid "Last six-month"
+msgstr "Last six-month"
+
+msgid "Last 2 six-months"
+msgstr "Last 2 six-months"
+
+msgid "This year"
+msgstr "This year"
+
+msgid "Last year"
+msgstr "Last year"
+
+msgid "Last 5 years"
+msgstr "Last 5 years"
+
+msgid "Last 10 years"
+msgstr "Last 10 years"
+
+msgid "This financial year"
+msgstr "This financial year"
+
+msgid "Last financial year"
+msgstr "Last financial year"
+
+msgid "Last 5 financial years"
+msgstr "Last 5 financial years"
+
+msgid "Financial year relative period start month"
+msgstr "Financial year relative period start month"
+
+msgid "Weekly relative period start day"
+msgstr "Weekly relative period start day"
+
+msgid "Cache strategy"
+msgstr "Cache strategy"
+
+msgid "No cache"
+msgstr "No cache"
+
+msgid "Cache for 15 minutes"
+msgstr "Cache for 15 minutes"
+
+msgid "Cache for 30 minutes"
+msgstr "Cache for 30 minutes"
+
+msgid "Cache for one hour"
+msgstr "Cache for one hour"
+
+msgid "Cache until 6AM tomorrow"
+msgstr "Cache until 6AM tomorrow"
+
+msgid "Cache for two weeks"
+msgstr "Cache for two weeks"
+
+msgid "Cacheability"
+msgstr "Cacheability"
+
+msgid "Public"
+msgstr "Public"
+
+msgid "Private"
+msgstr "Private"
+
+msgid "Analytics cache mode"
+msgstr "Analytics cache mode"
+
+msgid "Progressive"
+msgstr "Progressive"
+
+msgid "Fixed"
+msgstr "Fixed"
+
+msgid "Max number of years to hide unapproved data in analytics"
+msgstr "Max number of years to hide unapproved data in analytics"
+
+msgid "Never check approval"
+msgstr "Never check approval"
+
+msgid "Check approval for all data"
+msgstr "Check approval for all data"
+
+msgid "Current year only"
+msgstr "Current year only"
+
+msgid "Last 2 years"
+msgstr "Last 2 years"
+
+msgid "Last 3 years"
+msgstr "Last 3 years"
+
+msgid "Last 4 years"
+msgstr "Last 4 years"
+
+msgid "Last 6 years"
+msgstr "Last 6 years"
+
+msgid "Last 7 years"
+msgstr "Last 7 years"
+
+msgid "Last 8 years"
+msgstr "Last 8 years"
+
+msgid "Last 9 years"
+msgstr "Last 9 years"
+
+msgid "Respect category option start and end date in analytics table export"
+msgstr "Respect category option start and end date in analytics table export"
+
+msgid "Include zero data values in analytics tables"
+msgstr "Include zero data values in analytics tables"
+
+msgid "Caching factor"
+msgstr "Caching factor"
+
+msgid "Org unit group set in facility map layers"
+msgstr "Org unit group set in facility map layers"
+
+msgid "Org unit level in facility map layers"
+msgstr "Org unit level in facility map layers"
+
+msgid "Default basemap"
+msgstr "Default basemap"
+
+msgid "OSM Light (default)"
+msgstr "OSM Light (default)"
+
+msgid "OSM Detailed"
+msgstr "OSM Detailed"
+
+msgid "Bing Road"
+msgstr "Bing Road"
+
+msgid "Bing Dark"
+msgstr "Bing Dark"
+
+msgid "Bing Aerial"
+msgstr "Bing Aerial"
+
+msgid "Bing Aerial Labels"
+msgstr "Bing Aerial Labels"
+
+msgid "Number of database server CPUs"
+msgstr "Number of database server CPUs"
+
+msgid "Automatic (detect based on web server)"
+msgstr "Automatic (detect based on web server)"
+
+msgid "System notifications email address"
+msgstr "System notifications email address"
+
+msgid "Google Analytics (Universal Analytics) key"
+msgstr "Google Analytics (Universal Analytics) key"
+
+msgid "Google Maps API key"
+msgstr "Google Maps API key"
+
+msgid "Bing Maps API key"
+msgstr "Bing Maps API key"
+
+msgid "Azure Maps API key"
+msgstr "Azure Maps API key"
+
+msgid "Application title"
+msgstr "Application title"
+
+msgid "Application introduction"
+msgstr "Application introduction"
+
+msgid "Application notification"
+msgstr "Application notification"
+
+msgid "Application left-side footer"
+msgstr "Application left-side footer"
+
+msgid "Application right-side footer"
+msgstr "Application right-side footer"
+
+msgid "Style (android)"
+msgstr "Style (android)"
+
+msgid "Style"
+msgstr "Style"
+
+msgid "Theme color"
+msgstr "Theme color"
+
+msgid "Start page"
+msgstr "Start page"
+
+msgid "Enable light-weight start page"
+msgstr "Enable light-weight start page"
+
+msgid "Help page link"
+msgstr "Help page link"
+
+msgid "Flag"
+msgstr "Flag"
+
+msgid "Interface language"
+msgstr "Interface language"
+
+msgid "Database language"
+msgstr "Database language"
+
+msgid "Property to display in analysis modules"
+msgstr "Property to display in analysis modules"
+
+msgid "Short name"
+msgstr "Short name"
+
+msgid "Default digit group separator to display in analysis modules"
+msgstr "Default digit group separator to display in analysis modules"
+
+msgid "Space"
+msgstr "Space"
+
+msgid "Comma"
+msgstr "Comma"
+
+msgid "Require authority to add to view object lists"
+msgstr "Require authority to add to view object lists"
+
+msgid "Login page theme"
+msgstr "Login page theme"
+
+msgid "Default"
+msgstr "Default"
+
+msgid "Sidebar"
+msgstr "Sidebar"
+
+msgid "Custom"
+msgstr "Custom"
+
+msgid "Login page template"
+msgstr "Login page template"
+
+msgid "Enable Global Shell"
+msgstr "Enable Global Shell"
+
+msgid "Enable custom translations"
+msgstr "Enable custom translations"
+
+msgid "Custom login page logo"
+msgstr "Custom login page logo"
+
+msgid "Custom top menu logo"
+msgstr "Custom top menu logo"
+
+msgid "Allow users to switch dashboard items view type"
+msgstr "Allow users to switch dashboard items view type"
+
+msgid "Allow users to open dashboard items in relevant app"
+msgstr "Allow users to open dashboard items in relevant app"
+
+msgid "Allow users to show dashboard items interpretations and details"
+msgstr "Allow users to show dashboard items interpretations and details"
+
+msgid "Allow users to view dashboard items in fullscreen"
+msgstr "Allow users to view dashboard items in fullscreen"
+
+msgid "Host name"
+msgstr "Host name"
+
+msgid "Port"
+msgstr "Port"
+
+msgid "Username"
+msgstr "Username"
+
+msgid "TLS"
+msgstr "TLS"
+
+msgid "Email sender"
+msgstr "Email sender"
+
+msgid "The address that outgoing messages are sent from."
+msgstr "The address that outgoing messages are sent from."
+
+msgid "Send me a test email"
+msgstr "Send me a test email"
+
+msgid "Self registration account user role"
+msgstr "Self registration account user role"
+
+msgid "Disable self registration"
+msgstr "Disable self registration"
+
+msgid "Self registration account organisation unit"
+msgstr "Self registration account organisation unit"
+
+msgid "Do not require recaptcha for self registration"
+msgstr "Do not require recaptcha for self registration"
+
+msgid "Enable user account recovery"
+msgstr "Enable user account recovery"
+
+msgid "Lock user account temporarily after multiple failed login attempts"
+msgstr "Lock user account temporarily after multiple failed login attempts"
+
+msgid "Enable embedded dashboards"
+msgstr "Enable embedded dashboards"
+
+msgid "Enforce verified emails"
+msgstr "Enforce verified emails"
+
+msgid "Allow users to grant own user roles"
+msgstr "Allow users to grant own user roles"
+
+msgid "Allow assigning object to related objects during add or update"
+msgstr "Allow assigning object to related objects during add or update"
+
+msgid "Require user account password change"
+msgstr "Require user account password change"
+
+msgid "Never"
+msgstr "Never"
+
+msgid "3 months"
+msgstr "3 months"
+
+msgid "6 months"
+msgstr "6 months"
+
+msgid "12 months"
+msgstr "12 months"
+
+msgid "Send reminders to users before their password expires"
+msgstr "Send reminders to users before their password expires"
+
+msgid "Number of days before password expiry to send reminder (1–28)"
+msgstr "Number of days before password expiry to send reminder (1–28)"
+
+msgid "Minimum characters in password"
+msgstr "Minimum characters in password"
+
+msgid "CORS allowlist"
+msgstr "CORS allowlist"
+
+msgid "reCAPTCHA Site Key"
+msgstr "reCAPTCHA Site Key"
+
+msgid "reCAPTCHA Secret Key"
+msgstr "reCAPTCHA Secret Key"
+
+msgid "Coptic"
+msgstr "Coptic"
+
+msgid "Ethiopian"
+msgstr "Ethiopian"
+
+msgid "Gregorian"
+msgstr "Gregorian"
+
+msgid "Islamic"
+msgstr "Islamic"
+
+msgid "ISO 8601"
+msgstr "ISO 8601"
+
+msgid "Julian"
+msgstr "Julian"
+
+msgid "Nepali"
+msgstr "Nepali"
+
+msgid "Thai"
+msgstr "Thai"
+
+msgid "Persian"
+msgstr "Persian"
+
+msgid "Change calendar setting"
+msgstr "Change calendar setting"
+
+msgid ""
+"Changing your calendar setting after you have entered data can make your "
+"system unusable. If you have entered data, it is strongly recommended that "
+"you do not change your calendar setting."
+msgstr ""
+"Changing your calendar setting after you have entered data can make your "
+"system unusable. If you have entered data, it is strongly recommended that "
+"you do not change your calendar setting."
+
+msgid "Yes, change calendar"
+msgstr "Yes, change calendar"
+
+msgid "Date format"
+msgstr "Date format"
+
+msgid "Require periods to match period type of data set"
+msgstr "Require periods to match period type of data set"
+
+msgid "Require data elements to be part of data set"
+msgstr "Require data elements to be part of data set"
+
+msgid "Require category option combos to match category combo of data element"
+msgstr "Require category option combos to match category combo of data element"
+
+msgid "Require organisation units to match assignment of data set"
+msgstr "Require organisation units to match assignment of data set"
+
+msgid "Require attribute option combos to match category combo of data set"
+msgstr "Require attribute option combos to match category combo of data set"
+
+msgid "Require category option combo to be specified"
+msgstr "Require category option combo to be specified"
+
+msgid "Require attribute option combo to be specified"
+msgstr "Require attribute option combo to be specified"
+
+msgid "Remote server URL"
+msgstr "Remote server URL"
+
+msgid "Remote server username"
+msgstr "Remote server username"
+
+msgid "Remote server password"
+msgstr "Remote server password"
+
+msgid "Number of minutes after which a stale job is reset to scheduled state (1-60)"
+msgstr "Number of minutes after which a stale job is reset to scheduled state (1-60)"
+
+msgid "Number of minutes after which a completed ad-hoc job is deleted (1+)"
+msgstr "Number of minutes after which a completed ad-hoc job is deleted (1+)"
+
+msgid ""
+"Maximum number of hours a job may trigger after its intended time if job "
+"has not yet run (1-24)"
+msgstr ""
+"Maximum number of hours a job may trigger after its intended time if job "
+"has not yet run (1-24)"
+
+msgid ""
+"Job execution interval (seconds) below which a job will be logged at debug "
+"(rather than info) level (20+)"
+msgstr ""
+"Job execution interval (seconds) below which a job will be logged at debug "
+"(rather than info) level (20+)"
+
+msgid "Log level"
+msgstr "Log level"
+
+msgid "Max messages per job"
+msgstr "Max messages per job"
+
+msgid "Max age in days"
+msgstr "Max age in days"
+
+msgid "Max jobs per type"
+msgstr "Max jobs per type"
+
+msgid "Enable Gist Overview"
+msgstr "Enable Gist Overview"
+
+msgid "Clean idle jobs after (in milliseconds)"
+msgstr "Clean idle jobs after (in milliseconds)"
+
+msgid "Use centroids for organisation unit polygons in event analytics"
+msgstr "Use centroids for organisation unit polygons in event analytics"
+
+msgctxt "Application title"
+msgid "__MANIFEST_APP_TITLE"
+msgstr "System Settings"
+
+msgctxt "Application description"
+msgid "__MANIFEST_APP_DESCRIPTION"
+msgstr ""
+
+msgctxt "Title for shortcut used by command palette"
+msgid "__MANIFEST_SHORTCUT_General"
+msgstr "General"
+
+msgctxt "Title for shortcut used by command palette"
+msgid "__MANIFEST_SHORTCUT_Analytics"
+msgstr "Analytics"
+
+msgctxt "Title for shortcut used by command palette"
+msgid "__MANIFEST_SHORTCUT_Server"
+msgstr "Server"
+
+msgctxt "Title for shortcut used by command palette"
+msgid "__MANIFEST_SHORTCUT_Appearance"
+msgstr "Appearance"
+
+msgctxt "Title for shortcut used by command palette"
+msgid "__MANIFEST_SHORTCUT_Email"
+msgstr "Email"
+
+msgctxt "Title for shortcut used by command palette"
+msgid "__MANIFEST_SHORTCUT_Access"
+msgstr "Access"
+
+msgctxt "Title for shortcut used by command palette"
+msgid "__MANIFEST_SHORTCUT_Calendar"
+msgstr "Calendar"
+
+msgctxt "Title for shortcut used by command palette"
+msgid "__MANIFEST_SHORTCUT_Data import settings"
+msgstr "Data import settings"
+
+msgctxt "Title for shortcut used by command palette"
+msgid "__MANIFEST_SHORTCUT_Synchronization"
+msgstr "Synchronization"
+
+msgctxt "Title for shortcut used by command palette"
+msgid "__MANIFEST_SHORTCUT_Scheduled job settings"
+msgstr "Scheduled job settings"
+
+msgctxt "Title for shortcut used by command palette"
+msgid "__MANIFEST_SHORTCUT_Notification settings"
+msgstr "Notification settings"
+
+msgctxt "Title for shortcut used by command palette"
+msgid "__MANIFEST_SHORTCUT_OAuth2 clients"
+msgstr "OAuth2 clients"

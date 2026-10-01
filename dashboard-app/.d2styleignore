@@ -1,0 +1,8 @@
+/node_modules/*
+/i18n/*
+/public/*
+/src/locales/*
+/cypress/assets
+/cypress/fixtures
+cypress.env.json
+.vscode/settings.json

@@ -1,0 +1,28 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacers-dp24);
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacers-dp12);
+}
+
+.heading {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--colors-grey900);
+}
+
+.description {
+    margin: 0;
+    font-size: 14px;
+    color: var(--colors-grey700);
+}
+
+.field {
+    max-width: 640px;
+}

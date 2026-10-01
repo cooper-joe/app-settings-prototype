@@ -1,0 +1,12 @@
+.contentWrap {
+    display: flex;
+    background: var(--colors-grey200);
+    min-height: calc(100vh - 48px); /* subtract header bar height */
+    align-items: flex-start;
+}
+
+.contentArea {
+    flex-grow: 1;
+    margin-bottom: 64px;
+    padding-left: var(--spacers-dp24);
+}

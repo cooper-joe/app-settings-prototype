@@ -1,0 +1,13 @@
+diff --git a/node_modules/@dhis2/app-shell/index.html b/node_modules/@dhis2/app-shell/index.html
+index dd10d7d..78be0e9 100644
+--- a/node_modules/@dhis2/app-shell/index.html
++++ b/node_modules/@dhis2/app-shell/index.html
+@@ -48,7 +48,7 @@
+         />
+         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#235b8b" />
+ 
+-        <title>%DHIS2_APP_NAME% | DHIS2</title>
++        <title>DHIS2</title>
+     </head>
+     <body>
+         <noscript>You need to enable JavaScript to run this app.</noscript>

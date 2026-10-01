@@ -1,0 +1,61 @@
+{
+    "version": 1,
+    "app": "dashboard",
+    "title": "Dashboard",
+    "namespace": "dashboard-settings",
+    "adminAuthority": "DASHBOARD_SETTINGS_ADMIN",
+    "sections": [
+        {
+            "id": "start",
+            "label": "Starting dashboard",
+            "description": "The dashboard that opens for someone who hasn't opened one before on this device. When none is set, their first starred dashboard opens. Admins can also set this from the menu on any dashboard."
+        },
+        {
+            "id": "itemMenu",
+            "label": "Dashboard item menu",
+            "description": "Choose which actions users get in the menu on each dashboard item."
+        }
+    ],
+    "settings": [
+        {
+            "key": "defaultDashboard",
+            "section": "start",
+            "type": "metadata",
+            "resource": "dashboards",
+            "default": null,
+            "label": "Default dashboard"
+        },
+        {
+            "key": "allowVisViewAs",
+            "section": "itemMenu",
+            "type": "boolean",
+            "default": true,
+            "label": "Allow users to switch dashboard items view type",
+            "legacySystemSetting": "keyDashboardContextMenuItemSwitchViewType"
+        },
+        {
+            "key": "allowVisOpenInApp",
+            "section": "itemMenu",
+            "type": "boolean",
+            "default": true,
+            "label": "Allow users to open dashboard items in relevant app",
+            "legacySystemSetting": "keyDashboardContextMenuItemOpenInRelevantApp"
+        },
+        {
+            "key": "allowVisShowInterpretations",
+            "section": "itemMenu",
+            "type": "boolean",
+            "default": true,
+            "label": "Allow users to show dashboard items interpretations and details",
+            "legacySystemSetting": "keyDashboardContextMenuItemShowInterpretationsAndDetails"
+        },
+        {
+            "key": "allowVisFullscreen",
+            "section": "itemMenu",
+            "type": "boolean",
+            "default": true,
+            "label": "Allow users to view dashboard items in fullscreen",
+            "legacySystemSetting": "keyDashboardContextMenuItemViewFullscreen"
+        }
+    ]
+}
